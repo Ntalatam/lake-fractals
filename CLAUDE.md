@@ -40,6 +40,7 @@ question: how do box-counting dimensions of natural lake shorelines relate to la
 - the kruskal-wallis test was run in the primary window only. this was set in code (src/primary_analysis.py), not in the protocol.
 - the 3 null-geometry records were removed in step 1 (not Lake or Pond: their wb_class is blank), so step 3 logs 0 (results/filter_log.csv).
 - the area measure is the DNR acres attribute.
+- the 20-100 m primary window was chosen after the pilot and before the full run. lower bound 20 m: 1:24,000-era shoreline digitizing is accurate to about 10 m, so smaller boxes mostly measure digitizing error. upper bound 100 m: keeps the largest box well under the width of the smallest primary lake (718 m equivalent diameter, results/feasibility/feasibility_summary.txt), the same finite-size reason as the 100-acre switch.
 
 # mapping source groups (delineat_1)
 - values with 1,000+ lakes in the 10-acre sample stand alone: ORIG DLG (4,094), 2004 FSA (3,378), DNR 24k POLYS (3,182), PWI (1,461). (counts before the shoreline and outside_mn steps.)
