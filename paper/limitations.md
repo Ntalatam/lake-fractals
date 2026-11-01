@@ -31,3 +31,7 @@ Lakes cluster in space (Figure 4), share regional geology, and were mapped in re
 ## 6. No multiple-comparison correction
 
 The primary sample alone gives six correlations, two measures in three windows <!-- results/primary/rho_primary.csv: one row per measure and window -->. The within-source, pilot-excluded, exploratory and post-hoc checks and the Kruskal–Wallis test add more. Every p-value is unadjusted. The decision rule uses only the sign of rho, so it is unaffected, but any statement of significance should allow for the number of tests.
+
+## 7. The 20 m lower bound assumes map-based digitizing <!-- results/primary/rho_primary.csv: window 20_100, window_min_m -->
+
+Of the 3,274 primary lakes <!-- results/primary/sample_log.csv: primary -->, 1,543 (the 2004 FSA group) <!-- results/primary/source_groups.csv: 2004 FSA, n --> were digitized from 2004 aerial imagery, not 1:24,000 maps <!-- the year is in the delineat_1 value "2004 FSA"; that these shorelines were digitized from aerial imagery is the author's statement, best cited to the DNR layer metadata; 1:24,000 is the map scale in Methods (US National Map Accuracy Standards); not in results/ -->. The rationale for the primary window's 20 m lower bound <!-- results/primary/rho_primary.csv: window 20_100, window_min_m --> rests on the accuracy of digitizing from those maps (Methods), so it fits these lakes less exactly.
