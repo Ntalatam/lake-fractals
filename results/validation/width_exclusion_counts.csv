@@ -1,0 +1,2 @@
+min_inscribed_diameter_m,n_lakes,n_excluded,n_kept,percent_excluded,diameter_tolerance_m,n_excluded_within_tolerance
+400.0,3274,420,2854,12.828344532681735,2.0,18

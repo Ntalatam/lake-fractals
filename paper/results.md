@@ -305,6 +305,31 @@ Rebuilding the rings with vertices every 25 m dropped 1,959 of 10,836 rings, fro
 
 The columns for points at the planned spacing (0.1 of the smallest box) start from the planned estimates, and the spacing 0.01 columns from the spacing 0.01 estimates <!-- results/validation/equalized_parameters.csv: densify_fraction_1, densify_fraction_2 -->. The largest p-value of these six tests is 1.72e-22 <!-- results/validation/equalized_kruskal_wallis.csv: p_value -->.
 
+### Width-based exclusion
+
+Set by the author after the narrow-shore results and before this check's results. The narrow-shore share has a Spearman rho above 0.86 with the estimate in every window, for both sets of estimates (Table 14) <!-- results/validation/width_rho.csv: rho -->, so excluding lakes on it selects them on a near-proxy of the estimate. This check excludes lakes by their widest point instead: every lake whose inscribed-circle diameter (Table 13) is below 400 m, twice the largest box of the 20–200 m window <!-- results/validation/width_exclusion_parameters.csv: min_inscribed_diameter_m; window: results/validation/width_exclusion_rho.csv, window_min_m, window_max_m -->, is dropped, and the same lakes are dropped in all three windows. It drops 420 of the 3,274 primary lakes (12.8%) and keeps 2,854 <!-- results/validation/width_exclusion_counts.csv: n_excluded, n_lakes, percent_excluded, n_kept -->. The diameters were computed with a tolerance of 1 m on the radius <!-- results/validation/width_exclusion_parameters.csv: inscribed_tolerance_m -->, so a computed diameter can be up to 2 m short of the true one; 18 of the dropped lakes are within 2 m below the cutoff <!-- results/validation/width_exclusion_counts.csv: diameter_tolerance_m, n_excluded_within_tolerance -->.
+
+**Table 23. Width-based exclusion: Spearman rho without the lakes whose inscribed-circle diameter is below 400 m, n = 2,854.** <!-- results/validation/width_exclusion_rho.csv: columns dims, window, measure, n, rho, ci_low, ci_high; cutoff: results/validation/width_exclusion_parameters.csv, min_inscribed_diameter_m -->
+
+| relationship | window | rho, planned | 95% CI, planned | rho, spacing 0.01 | 95% CI, spacing 0.01 |
+|---|---|---|---|---|---|
+| shoreline length | 20–100 m (primary) | 0.4108 | 0.3794 to 0.4403 | 0.4116 | 0.3804 to 0.4409 <!-- results/validation/width_exclusion_rho.csv: 20_100, shoreline --> |
+| shoreline length | 10–100 m | 0.4295 | 0.3989 to 0.4590 | 0.4301 | 0.3997 to 0.4595 <!-- results/validation/width_exclusion_rho.csv: 10_100, shoreline --> |
+| shoreline length | 20–200 m | 0.4368 | 0.4071 to 0.4658 | 0.4381 | 0.4089 to 0.4667 <!-- results/validation/width_exclusion_rho.csv: 20_200, shoreline --> |
+| area | 20–100 m (primary) | 0.0991 | 0.0630 to 0.1353 | 0.0978 | 0.0619 to 0.1336 <!-- results/validation/width_exclusion_rho.csv: 20_100, area --> |
+| area | 10–100 m | 0.1266 | 0.0906 to 0.1635 | 0.1275 | 0.0923 to 0.1640 <!-- results/validation/width_exclusion_rho.csv: 10_100, area --> |
+| area | 20–200 m | 0.0757 | 0.0400 to 0.1120 | 0.0766 | 0.0404 to 0.1124 <!-- results/validation/width_exclusion_rho.csv: 20_200, area --> |
+
+With the planned decision rule applied to the kept lakes, both relationships are supported, with rho positive in all three windows, for the planned estimates and for spacing 0.01 (area: supported; shoreline length: supported) <!-- results/validation/width_exclusion_decision_rule.csv: dims, measure, direction, outcome -->. With all lakes, the area relationship is window-dependent <!-- results/validation/width_exclusion_decision_rule.csv: outcome_all_lakes -->.
+
+**Table 24. Spearman rho of the inscribed-circle diameter against the estimate, all primary lakes, n = 3,274.** <!-- results/validation/width_exclusion_diameter_rho.csv: columns dims, window, n, rho, ci_low, ci_high -->
+
+| window | rho, planned | 95% CI, planned | rho, spacing 0.01 | 95% CI, spacing 0.01 |
+|---|---|---|---|---|
+| 20–100 m (primary) | -0.2689 | -0.3001 to -0.2370 | -0.2726 | -0.3036 to -0.2405 <!-- results/validation/width_exclusion_diameter_rho.csv: 20_100 --> |
+| 10–100 m | -0.2441 | -0.2764 to -0.2125 | -0.2433 | -0.2752 to -0.2120 <!-- results/validation/width_exclusion_diameter_rho.csv: 10_100 --> |
+| 20–200 m | -0.3735 | -0.4029 to -0.3434 | -0.3748 | -0.4047 to -0.3446 <!-- results/validation/width_exclusion_diameter_rho.csv: 20_200 --> |
+
 ## Figures
 
 All four figures are drawn by src/paper_figures.py from the files named below. Numbers printed on a figure are read from those files. In Figures 1 to 3 a gray line marks dimension 1, the dimension of a smooth curve.

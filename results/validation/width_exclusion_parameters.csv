@@ -1,0 +1,6 @@
+parameter,value
+min_inscribed_diameter_m,400.0
+inscribed_tolerance_m,1.0
+bootstrap_resamples,2000.0
+bootstrap_seed,0.0
+ci_level_percent,95.0
