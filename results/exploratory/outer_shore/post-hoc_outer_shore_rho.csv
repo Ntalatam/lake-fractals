@@ -1,0 +1,4 @@
+# post-hoc exploratory check, not pre-registered: spearman rho of outer-shore dimension vs outer-shore length and vs acres. percentile bootstrap 95% interval, 2,000 resamples, seed 0. no decision rule applied.
+window,window_min_m,window_max_m,measure,n,rho,p_value,ci_low,ci_high,ci_method
+20_100,20.0,100.0,exterior_length,3274,0.36458810458838764,1.7496901610087187e-103,0.3341779095852799,0.39418182616724534,percentile
+20_100,20.0,100.0,area,3274,-0.024363682445837666,0.16339700841568,-0.05886368547925735,0.009037129378117032,percentile
