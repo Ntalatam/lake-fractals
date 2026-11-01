@@ -27,10 +27,16 @@ question: how do box-counting dimensions of natural lake shorelines relate to la
 - the rule is applied separately to two relationships: dimension vs area, and dimension vs shoreline length. each is reported on its own as supported or window-dependent (author's decision, 2026-11-01).
 - the 10-acre analysis is exploratory.
 - disclosure: before this design was recorded, a 200-lake pilot (results/pilot/, commit d5a7e1d) computed dimensions and spearman correlations with log(acres) under the 10-100 m and 20-200 m windows, on a sample stratified across 10-acre-plus lakes.
+- the design was informed by the pilot results. the methods must state this.
+- pilot overlap: the 200-lake pilot (commit d5a7e1d) overlaps the primary sample (100 of its lakes are in it). the primary run uses all lakes, and a sensitivity analysis excludes the pilot lakes (author's decision, 2026-11-01).
+- confidence intervals: a 95% bootstrap confidence interval for every spearman rho, 2,000 resamples, seed 0. reported alongside the decision rule, not part of it (author's decision, 2026-11-01).
+- within-source check: spearman rho within the 2004 FSA group only (author's decision, 2026-11-01).
 
 # mapping source groups (delineat_1)
 - values with 1,000+ lakes in the 10-acre sample stand alone: ORIG DLG (4,094), 2004 FSA (3,378), DNR 24k POLYS (3,182), PWI (1,461). (counts before the shoreline and outside_mn steps.)
 - all other values pool into "other".
+- the groups were set on the 10-acre sample and are kept unchanged for the primary sample: 2004 FSA, ORIG DLG, DNR 24k POLYS and PWI stand alone, and every other value, including 2010 FSA, goes to "other". do not re-derive groups from 100-acre counts (author's decision, 2026-11-01).
+- missing delineat_1 (51 lakes in the primary sample): kept in the area and shoreline tests, excluded from the source comparison. log the count (author's decision, 2026-11-01).
 
 # tests
 - kruskal-wallis: dimension across mapping source groups.
@@ -59,5 +65,4 @@ paper      manuscript drafts
 - git: never add co-author or "generated with" lines to commits. commits use the author's git identity only.
 
 # open decisions (pending the author)
-- missing delineat_1: 51 lakes in the primary sample have no delineat_1 value. pool into "other", keep as their own group, or drop?
-- source groups in the primary sample: the four stand-alone groups were set by 10-acre counts. in the primary sample (3,274) they hold 2004 FSA 1,543, ORIG DLG 293, DNR 24k POLYS 223, PWI 54, while 2010 FSA (322, now in "other") outnumbers three of them. keep these groups, or regroup?
+- none.
