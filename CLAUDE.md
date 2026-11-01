@@ -32,6 +32,9 @@ question: how do box-counting dimensions of natural lake shorelines relate to la
 - confidence intervals: a 95% bootstrap confidence interval for every spearman rho, 2,000 resamples, seed 0. reported alongside the decision rule, not part of it (author's decision, 2026-11-01).
 - within-source check: spearman rho within the 2004 FSA group only (author's decision, 2026-11-01).
 
+## addendum (2026-11-01, written after the primary results in commit 9ecfa25)
+- percentile bootstrap, 2,000 resamples, seed 0. the protocol did not specify a method. BCa was considered after the primary results were reviewed and not used.
+
 # mapping source groups (delineat_1)
 - values with 1,000+ lakes in the 10-acre sample stand alone: ORIG DLG (4,094), 2004 FSA (3,378), DNR 24k POLYS (3,182), PWI (1,461). (counts before the shoreline and outside_mn steps.)
 - all other values pool into "other".
