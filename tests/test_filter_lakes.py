@@ -8,6 +8,27 @@ from filter_lakes import filter_lakes
 
 CRS = "EPSG:26915"
 
+# Expected results, worked out by hand from the fixture rows below.
+#
+# row  wb_class      acres  geometry        outside_mn  dropped by
+#  1   Lake or Pond   50    big (2,000 m)   N           kept
+#  2   Reservoir      50    big (2,000 m)   N           step 1 (not Lake or Pond)
+#  3   Lake or Pond    5    big (2,000 m)   N           step 2 (5 < 10 acres)
+#  4   Lake or Pond   10    big (2,000 m)   blank       kept (10 >= 10; blank is not Y/B)
+#  5   Lake or Pond   50    none            N           step 3 (null geometry)
+#  6   Lake or Pond   50    small (800 m)   N           step 4 (800 < 1,000 m)
+#  7   Lake or Pond   50    big (2,000 m)   Y           step 5 (outside Minnesota)
+#  8   Lake or Pond   50    big (2,000 m)   B           step 5 (on the border)
+#
+# step  before  after  dropped  rows dropped
+#  1      8       7       1     2
+#  2      7       6       1     3
+#  3      6       5       1     5
+#  4      5       4       1     6
+#  5      4       2       2     7, 8
+#
+# kept rows: 1, 4
+
 
 def lakes():
     big = box(0, 0, 500, 500)  # 2,000 m shoreline

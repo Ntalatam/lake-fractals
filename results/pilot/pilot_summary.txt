@@ -1,0 +1,20 @@
+lakes: 200 (50 per bin, seed 0)
+
+median dimension by acreage bin:
+               dim_A   dim_B
+acreage_bin                 
+under 25      1.0377  1.1068
+25 to 100     1.0225  1.0658
+100 to 1,000  1.0144  1.0338
+over 1,000    1.0220  1.0453
+
+spearman correlation with log(acres):
+  window A: rho = -0.2360, p = 0.000766
+  window B: rho = -0.4295, p = 2.21e-10
+
+lakes with r2 < 0.98 under either window: 0
+  under window A: 0
+  under window B: 0
+
+runtime per lake, both windows (s): median 0.080, mean 0.455, max 10.783, total 90.9
+slowest lake: objectid 196702, 103443.8 acres, 313621 m shoreline, 10.78 s
