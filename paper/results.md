@@ -22,7 +22,7 @@ No primary lake has r² below 0.98 <!-- results/primary/r2_below_threshold.csv: 
 
 **Table 3. Spearman rho of dimension against shoreline length and area, primary sample, n = 3,274.** <!-- results/primary/rho_primary.csv: columns measure, window_min_m, window_max_m, n, rho, ci_low, ci_high, p_value -->
 
-| relationship | window | rho | 95% CI | p |
+| relationship | window | rho | 95% CI <!-- level: results/primary/parameters.csv, ci_level_percent --> | p |
 |---|---|---|---|---|
 | shoreline length | 20–100 m (primary) | 0.4099 | 0.3806 to 0.4381 | 7.14e-133 <!-- results/primary/rho_primary.csv: 20_100, shoreline --> |
 | shoreline length | 10–100 m | 0.4261 | 0.3975 to 0.4537 | 1.43e-144 <!-- results/primary/rho_primary.csv: 10_100, shoreline --> |
@@ -34,7 +34,7 @@ No primary lake has r² below 0.98 <!-- results/primary/r2_below_threshold.csv: 
 The outcome of the decision rule, as pre-registered <!-- results/primary/decision_rule.csv: direction, direction_holds, outcome -->:
 
 - **Dimension vs shoreline length: supported.** rho is positive in all three windows.
-- **Dimension vs area: window-dependent.** rho is negative in the 20–100 m and 20–200 m windows and positive in the 10–100 m window. Two of the three 95% confidence intervals, in the 20–100 m and 10–100 m windows, include zero; only the 20–200 m interval excludes it <!-- results/primary/rho_primary.csv: ci_low, ci_high -->.
+- **Dimension vs area: window-dependent.** rho is negative in the 20–100 m and 20–200 m windows and positive in the 10–100 m window <!-- results/primary/rho_primary.csv: rho, window_min_m, window_max_m -->. Two of the three 95% <!-- results/primary/parameters.csv: ci_level_percent --> confidence intervals include zero, in the 20–100 m and 10–100 m windows <!-- results/primary/rho_primary.csv: ci_low, ci_high, window_min_m, window_max_m -->; only the 20–200 m interval excludes it <!-- results/primary/rho_primary.csv: ci_low, ci_high, window_min_m, window_max_m -->.
 
 Figures 1 and 2 show dimension against shoreline length and against area in the primary window.
 
@@ -44,7 +44,7 @@ Reported alongside the decision rule, not as part of it.
 
 **Table 4. Spearman rho within the 2004 FSA group, n = 1,543.** <!-- results/primary/rho_within_2004_fsa.csv: columns measure, window_min_m, window_max_m, n, rho, ci_low, ci_high, p_value -->
 
-| relationship | window | rho | 95% CI | p |
+| relationship | window | rho | 95% CI <!-- level: results/primary/parameters.csv, ci_level_percent --> | p |
 |---|---|---|---|---|
 | shoreline length | 20–100 m (primary) | 0.4030 | 0.3589 to 0.4456 | 2.42e-61 <!-- results/primary/rho_within_2004_fsa.csv: 20_100, shoreline --> |
 | shoreline length | 10–100 m | 0.4101 | 0.3660 to 0.4524 | 1.23e-63 <!-- results/primary/rho_within_2004_fsa.csv: 10_100, shoreline --> |
@@ -59,7 +59,7 @@ Within 2004 FSA, rho with area is negative in all three windows and none of the 
 
 **Table 5. Median primary-window dimension by mapping source group.** <!-- results/primary/source_groups.csv: columns group, n, median_dim -->
 
-| group | lakes | median dimension, 20–100 m |
+| group | lakes | median dimension, 20–100 m <!-- window bounds: results/primary/rho_primary.csv, window 20_100 --> |
 |---|---|---|
 | 2004 FSA | 1,543 | 1.0289 <!-- results/primary/source_groups.csv: 2004 FSA --> |
 | ORIG DLG | 293 | 1.0122 <!-- results/primary/source_groups.csv: ORIG DLG --> |
@@ -73,7 +73,7 @@ A Kruskal–Wallis test across the five groups gives H = 170.90 and p = 6.71e-36
 
 **Table 6. Spearman rho without the pilot lakes, n = 3,174.** <!-- results/primary/rho_sensitivity_no_pilot.csv: columns measure, window_min_m, window_max_m, n, rho, ci_low, ci_high, p_value -->
 
-| relationship | window | rho | 95% CI | p |
+| relationship | window | rho | 95% CI <!-- level: results/primary/parameters.csv, ci_level_percent --> | p |
 |---|---|---|---|---|
 | shoreline length | 20–100 m (primary) | 0.4182 | 0.3881 to 0.4480 | 1.23e-134 <!-- results/primary/rho_sensitivity_no_pilot.csv: 20_100, shoreline --> |
 | shoreline length | 10–100 m | 0.4331 | 0.4042 to 0.4626 | 2.77e-145 <!-- results/primary/rho_sensitivity_no_pilot.csv: 10_100, shoreline --> |
@@ -82,20 +82,20 @@ A Kruskal–Wallis test across the five groups gives H = 170.90 and p = 6.71e-36
 | area | 10–100 m | 0.0187 | -0.0139 to 0.0544 | 0.293 <!-- results/primary/rho_sensitivity_no_pilot.csv: 10_100, area --> |
 | area | 20–200 m | -0.0565 | -0.0898 to -0.0201 | 0.00144 <!-- results/primary/rho_sensitivity_no_pilot.csv: 20_200, area --> |
 
-Every rho has the same sign as in the primary sample. For area, as in the primary sample, the 20–100 m and 10–100 m intervals include zero and the 20–200 m interval excludes it.
+Every rho has the same sign as in the primary sample. For area, as in the primary sample, the 20–100 m and 10–100 m intervals include zero and the 20–200 m interval excludes it <!-- results/primary/rho_sensitivity_no_pilot.csv: ci_low, ci_high, window_min_m, window_max_m -->.
 
-## Exploratory: 10-acre sample, primary window only
+## Exploratory: 10-acre sample, primary window only <!-- results/primary/exploratory_10acre_r2_below_threshold.csv: min_acres -->
 
 Exploratory. No decision rule is applied.
 
 **Table 7. Spearman rho in the 10-acre sample, 20–100 m window, n = 13,269.** <!-- results/primary/exploratory_10acre_rho.csv: columns measure, window_min_m, window_max_m, n, rho, ci_low, ci_high, p_value -->
 
-| relationship | rho | 95% CI | p |
+| relationship | rho | 95% CI <!-- level: results/primary/parameters.csv, ci_level_percent --> | p |
 |---|---|---|---|
 | shoreline length | 0.0711 | 0.0549 to 0.0874 | 2.45e-16 <!-- results/primary/exploratory_10acre_rho.csv: shoreline --> |
 | area | -0.2831 | -0.2988 to -0.2676 | 6.29e-243 <!-- results/primary/exploratory_10acre_rho.csv: area --> |
 
-One lake has r² below 0.98; the lowest r² is 0.9799 <!-- results/primary/exploratory_10acre_r2_below_threshold.csv: n_r2_below, min_r2 -->. This sample passed the 1,000 m shoreline filter <!-- results/filter_log.csv: step 4, description -->, which removes compact small lakes (see Limitations).
+One lake has r² below 0.98 <!-- results/primary/parameters.csv: r2_threshold -->; the lowest r² is 0.9799 <!-- results/primary/exploratory_10acre_r2_below_threshold.csv: n_r2_below, min_r2 -->. This sample passed the 1,000 m shoreline filter <!-- results/filter_log.csv: step 4, description -->, which removes compact small lakes (see Limitations).
 
 ## Post-hoc: outer shore only
 
@@ -105,7 +105,7 @@ Of the 3,274 primary lakes, 1,135 have at least one island ring, and for 1,094 t
 
 **Table 8. Spearman rho of the outer-shore dimension, island rings removed, 20–100 m window, n = 3,274.** <!-- results/exploratory/outer_shore/post-hoc_outer_shore_rho.csv: columns measure, window_min_m, window_max_m, n, rho, ci_low, ci_high, p_value -->
 
-| relationship | rho | 95% CI | p |
+| relationship | rho | 95% CI <!-- level: results/primary/parameters.csv, ci_level_percent --> | p |
 |---|---|---|---|
 | outer-shore dimension vs outer-shore length | 0.3646 | 0.3342 to 0.3942 | 1.75e-103 <!-- results/exploratory/outer_shore/post-hoc_outer_shore_rho.csv: exterior_length --> |
 | outer-shore dimension vs area | -0.0244 | -0.0589 to 0.0090 | 0.163 <!-- results/exploratory/outer_shore/post-hoc_outer_shore_rho.csv: area --> |
