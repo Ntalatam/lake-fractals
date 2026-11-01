@@ -1,0 +1,18 @@
+# virtual environment
+.venv/
+
+# raw data is too large for github; keep it local
+data/raw/
+data/**/*.gpkg
+data/**/*.zip
+data/**/*.geojson
+
+# macos folder metadata
+.DS_Store
+
+# personal claude code settings (shared settings.json stays tracked)
+.claude/settings.local.json
+
+# python caches
+__pycache__/
+.pytest_cache/
