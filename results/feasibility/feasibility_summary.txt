@@ -1,0 +1,8 @@
+primary sample (acres >= 100): 3274 lakes
+
+equivalent diameter, 2 * sqrt(area / pi), from polygon area (m):
+  median 1065.9, min 717.8, max 39456.5
+median ratio of diameter to 100 m: 10.66
+
+r squared under the primary window (20-100 m, 8 sizes, 8 offsets, seed 0), random subset of 200 (seed 0):
+  median 0.9990

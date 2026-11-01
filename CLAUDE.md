@@ -14,13 +14,20 @@ question: how do box-counting dimensions of natural lake shorelines relate to la
 - never modify or overwrite anything in data/raw
 
 # sample
-- main sample: wb_class 'Lake or Pond', acres >= 10 (14,640 lakes).
-- robustness check: wb_class 'Lake or Pond', acres >= 100 (3,356 lakes).
+- primary sample: wb_class 'Lake or Pond', acres >= 100, shoreline_m >= 1,000, after the other filter steps in src/filter_lakes.py (non-null geometry, outside_mn not 'Y' or 'B'): 3,274 lakes. (3,356 without the outside_mn step. shoreline_m >= 1,000 drops none at >= 100 acres.)
+- exploratory sample: the same filters at acres >= 10 (13,269 lakes, results/filter_log.csv). label every 10-acre result as exploratory.
 - reservoirs: wb_class 'Reservoir' (37 at >= 10 acres). descriptive only, no hypothesis test.
 - do not pool man-made classes (sewage, tailings, mine pits, artificial basins) into one group.
 
+# pre-registered design (recorded 2026-11-01, before any full-sample dimension was computed)
+- primary window: 8 log-spaced box sizes from 20 m to 100 m, 8 grid offsets from seed 0, median dimension across offsets.
+- sensitivity windows, on the same lakes: 10 to 100 m, and 20 to 200 m (each 8 log-spaced sizes, 8 offsets from seed 0, median).
+- decision rule: the size-dimension relationship is supported only if its direction holds in all three windows. otherwise report it as window-dependent.
+- the 10-acre analysis is exploratory.
+- disclosure: before this design was recorded, a 200-lake pilot (results/pilot/, commit d5a7e1d) computed dimensions and spearman correlations with log(acres) under the 10-100 m and 20-200 m windows, on a sample stratified across 10-acre-plus lakes.
+
 # mapping source groups (delineat_1)
-- values with 1,000+ lakes in the main sample stand alone: ORIG DLG (4,094), 2004 FSA (3,378), DNR 24k POLYS (3,182), PWI (1,461).
+- values with 1,000+ lakes in the 10-acre sample stand alone: ORIG DLG (4,094), 2004 FSA (3,378), DNR 24k POLYS (3,182), PWI (1,461). (counts before the shoreline and outside_mn steps.)
 - all other values pool into "other".
 
 # tests
@@ -50,5 +57,6 @@ paper      manuscript drafts
 - git: never add co-author or "generated with" lines to commits. commits use the author's git identity only.
 
 # open decisions (pending the author)
-- missing delineat_1: 58 lakes in the main sample (51 at >= 100 acres) have no delineat_1 value. pool into "other", keep as their own group, or drop?
-- source groups at >= 100 acres: the four stand-alone groups were set by main-sample counts. at >= 100 acres, PWI has only 60 lakes and 2010 FSA (327) outnumbers ORIG DLG (295). keep the main-sample groups for the robustness check, or regroup?
+- missing delineat_1: 51 lakes in the primary sample have no delineat_1 value. pool into "other", keep as their own group, or drop?
+- source groups in the primary sample: the four stand-alone groups were set by 10-acre counts. in the primary sample (3,274) they hold 2004 FSA 1,543, ORIG DLG 293, DNR 24k POLYS 223, PWI 54, while 2010 FSA (322, now in "other") outnumbers three of them. keep these groups, or regroup?
+- decision rule wording: "direction holds" needs a definition before the full run. same sign of spearman rho in all three windows, or same sign and p < 0.05 in each? and does "size" mean area, shoreline length, or both?
