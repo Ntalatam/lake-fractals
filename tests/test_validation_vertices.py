@@ -13,7 +13,9 @@ from validation_vertices import (
     INTERVALS_M,
     MAX_WALL_SECONDS,
     MIN_RING_VERTICES,
+    PARTS,
     WORKERS,
+    parse_parts,
     resample_lake,
     resample_ring,
     spacing_by_group,
@@ -27,6 +29,17 @@ def test_settings():
     assert EQUALIZED_FRACTIONS == [0.1, 0.01]
     assert WORKERS == 4
     assert MAX_WALL_SECONDS == 3 * 60 * 60
+
+
+def test_parts_can_be_run_alone():
+    # the vertex spacing tables take seconds and the equalized resampling
+    # about half an hour, so each can be run without the other
+    assert PARTS == ["vertices", "equalized"]
+    assert parse_parts([]) == PARTS
+    assert parse_parts(["vertices"]) == ["vertices"]
+    assert parse_parts(["equalized", "vertices"]) == PARTS
+    with pytest.raises(SystemExit):
+        parse_parts(["calibration"])
 
 
 def test_vertex_spacing_of_a_square():

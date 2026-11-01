@@ -1,4 +1,4 @@
-"""Post-hoc validation, not pre-registered: checks of the box-counting estimator.
+"""Post-hoc validation, not in the analysis plan: checks of the box-counting estimator.
 
 Everything here was added after review and after the planned results. It
 does not change the planned analysis or any file in results/primary/ or

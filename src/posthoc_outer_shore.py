@@ -1,4 +1,4 @@
-"""Post-hoc exploratory check, not pre-registered: outer shore only.
+"""Post-hoc exploratory check, not in the analysis plan: outer shore only.
 
 shoreline_m (src/filter_lakes.py) includes island shorelines. This check
 removes every interior ring, so only the outer shore of each primary-sample

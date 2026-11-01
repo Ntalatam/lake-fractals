@@ -29,8 +29,10 @@ Writes to results/validation/: vertices*.csv and equalized*.csv.
 results/primary/ is only read.
 
 Run from the project root: .venv/bin/python src/validation_vertices.py
+(or name the parts to run: vertices, equalized)
 """
 
+import argparse
 import math
 import signal
 import sys
@@ -78,6 +80,10 @@ MAX_WALL_SECONDS = 3 * 60 * 60
 
 GROUP_ORDER = STANDALONE_SOURCES + [OTHER]
 ALL_LAKES = "all lakes"
+
+# the vertex spacing tables take seconds and the equalized resampling about
+# half an hour, so either can be run alone
+PARTS = ["vertices", "equalized"]
 
 
 class RunTooLong(RuntimeError):
@@ -210,7 +216,18 @@ def over_time(signum, frame):
     raise RunTooLong(f"the whole run passed {MAX_WALL_SECONDS / 3600:g} hours")
 
 
+def parse_parts(argv=None):
+    """The parts named on the command line, in PARTS order; all of them if none is named."""
+    parser = argparse.ArgumentParser(description="post-hoc check of digitizing density")
+    parser.add_argument("parts", nargs="*", help=f"any of {PARTS} (default: all)")
+    parts = parser.parse_args(argv).parts or PARTS
+    if unknown := set(parts) - set(PARTS):
+        sys.exit(f"unknown parts {sorted(unknown)}; choose from {PARTS}")
+    return [part for part in PARTS if part in parts]
+
+
 def main():
+    parts = parse_parts()
     lakes = gpd.read_file(LAKES)
     primary = lakes[lakes["acres"] >= PRIMARY_MIN_ACRES].reset_index(drop=True)
     if len(primary) != EXPECTED_PRIMARY_N:
@@ -220,112 +237,114 @@ def main():
     if planned["objectid"].tolist() != primary["objectid"].tolist():
         sys.exit("stopped: results/primary/dims.csv does not hold the primary lakes in order")
 
-    # vertex spacing, as digitized
-    spacing = pd.DataFrame([vertex_spacing(g) for g in primary.geometry])
-    spacing.insert(0, "objectid", primary["objectid"])
-    spacing.insert(1, "source_group", planned["source_group"])
-    spacing.to_csv(OUT_DIR / "vertices.csv", index=False)
-    spacing_by_group(spacing).to_csv(OUT_DIR / "vertices_by_group.csv", index=False)
-    spacing_kruskal_wallis(spacing).to_csv(OUT_DIR / "vertices_kruskal_wallis.csv", index=False)
-    spacing_rho(spacing, versions).to_csv(OUT_DIR / "vertices_rho.csv", index=False)
-    print("wrote vertex spacing tables", flush=True)
+    if "vertices" in parts:
+        # vertex spacing, as digitized
+        spacing = pd.DataFrame([vertex_spacing(g) for g in primary.geometry])
+        spacing.insert(0, "objectid", primary["objectid"])
+        spacing.insert(1, "source_group", planned["source_group"])
+        spacing.to_csv(OUT_DIR / "vertices.csv", index=False)
+        spacing_by_group(spacing).to_csv(OUT_DIR / "vertices_by_group.csv", index=False)
+        spacing_kruskal_wallis(spacing).to_csv(OUT_DIR / "vertices_kruskal_wallis.csv", index=False)
+        spacing_rho(spacing, versions).to_csv(OUT_DIR / "vertices_rho.csv", index=False)
+        print("wrote vertex spacing tables", flush=True)
 
-    # equalized resampling
-    resampled, ring_logs = {}, []
-    for interval in INTERVALS_M:
-        rebuilt = [resample_lake(g, interval) for g in primary.geometry]
-        resampled[interval] = gpd.GeoDataFrame(
-            {"objectid": primary["objectid"]}, geometry=[g for g, _ in rebuilt], crs=primary.crs
-        )
-        logs = pd.DataFrame([log for _, log in rebuilt])
-        ring_logs.append(
-            {
-                "interval_m": interval,
-                "n_lakes": len(logs),
-                "n_rings": int(logs["n_rings"].sum()),
-                "n_rings_dropped": int(logs["n_rings_dropped"].sum()),
-                "n_rings_dropped_3_vertices": int(logs["n_rings_dropped_3_vertices"].sum()),
-                "dropped_length_m": float(logs["dropped_length_m"].sum()),
-                "n_lakes_with_dropped_rings": int((logs["n_rings_dropped"] > 0).sum()),
-                "n_lakes_invalid_after_resampling": int((~logs["is_valid"]).sum()),
-            }
-        )
-    pd.DataFrame(ring_logs).to_csv(OUT_DIR / "equalized_rings.csv", index=False)
-    print(pd.DataFrame(ring_logs).to_string(index=False), flush=True)
-
-    window = {PRIMARY_WINDOW: WINDOWS[PRIMARY_WINDOW]}
-    equalized = pd.DataFrame({"objectid": primary["objectid"], "source_group": planned["source_group"]})
-    runtimes = []
-    signal.signal(signal.SIGALRM, over_time)
-    signal.alarm(MAX_WALL_SECONDS)
-    try:
-        # the author's 0.01 first, then the planned 0.1
-        for fraction in sorted(EQUALIZED_FRACTIONS):
-            for interval in INTERVALS_M:
-                name = label(interval, fraction)
-                print(f"equalized {name}: {len(primary):,} lakes with {WORKERS} workers", flush=True)
-                start = time.perf_counter()
-                computed = compute_dimensions(
-                    resampled[interval],
-                    window,
-                    workers=WORKERS,
-                    max_seconds=math.inf,
-                    progress_every=500,
-                    densify_fraction=fraction,
-                )
-                wall_s = time.perf_counter() - start
-                equalized[f"dim_{name}"] = computed[f"dim_{PRIMARY_WINDOW}"].to_numpy()
-                equalized[f"r2_{name}"] = computed[f"r2_{PRIMARY_WINDOW}"].to_numpy()
-                runtimes.append(
-                    {
-                        "run": name,
-                        "interval_m": interval,
-                        "densify_fraction": fraction,
-                        "n_lakes": len(computed),
-                        "workers": WORKERS,
-                        "median_s": computed["runtime_s"].median(),
-                        "max_s": computed["runtime_s"].max(),
-                        "wall_s": wall_s,
-                    }
-                )
-    except (RunTooLong, LakeTooSlow) as error:
-        sys.exit(f"stopped: {error}")
-    finally:
-        signal.alarm(0)
-    equalized.to_csv(OUT_DIR / "equalized_dims.csv", index=False)
-    pd.DataFrame(runtimes).to_csv(OUT_DIR / "equalized_runtime.csv", index=False)
-
-    # group medians and kruskal-wallis, as digitized (the two sets of lake
-    # estimates) and for each resampling
-    group_rows, test_rows = [], []
-    for fraction in EQUALIZED_FRACTIONS:
-        baseline = versions[VERSION_OF_FRACTION[fraction]]
-        runs = [("as digitized", np.nan, baseline[["source_group", f"dim_{PRIMARY_WINDOW}"]])]
+    if "equalized" in parts:
+        # equalized resampling
+        resampled, ring_logs = {}, []
         for interval in INTERVALS_M:
-            column = equalized[["source_group", f"dim_{label(interval, fraction)}"]]
-            runs.append((f"every {interval:g} m", interval, column.set_axis(["source_group", f"dim_{PRIMARY_WINDOW}"], axis=1)))
-        for vertices, interval, dims in runs:
-            groups, test = source_comparison(dims, PRIMARY_WINDOW)
-            keys = {"vertices": vertices, "interval_m": interval, "densify_fraction": fraction}
-            group_rows += [{**keys, **row} for row in groups.drop(columns="window").to_dict("records")]
-            test_rows.append({**keys, **test})
-    pd.DataFrame(group_rows).to_csv(OUT_DIR / "equalized_source_groups.csv", index=False)
-    pd.DataFrame(test_rows).to_csv(OUT_DIR / "equalized_kruskal_wallis.csv", index=False)
+            rebuilt = [resample_lake(g, interval) for g in primary.geometry]
+            resampled[interval] = gpd.GeoDataFrame(
+                {"objectid": primary["objectid"]}, geometry=[g for g, _ in rebuilt], crs=primary.crs
+            )
+            logs = pd.DataFrame([log for _, log in rebuilt])
+            ring_logs.append(
+                {
+                    "interval_m": interval,
+                    "n_lakes": len(logs),
+                    "n_rings": int(logs["n_rings"].sum()),
+                    "n_rings_dropped": int(logs["n_rings_dropped"].sum()),
+                    "n_rings_dropped_3_vertices": int(logs["n_rings_dropped_3_vertices"].sum()),
+                    "dropped_length_m": float(logs["dropped_length_m"].sum()),
+                    "n_lakes_with_dropped_rings": int((logs["n_rings_dropped"] > 0).sum()),
+                    "n_lakes_invalid_after_resampling": int((~logs["is_valid"]).sum()),
+                }
+            )
+        pd.DataFrame(ring_logs).to_csv(OUT_DIR / "equalized_rings.csv", index=False)
+        print(pd.DataFrame(ring_logs).to_string(index=False), flush=True)
 
-    pd.DataFrame(
-        [
-            *[(f"interval_m_{i + 1}", interval) for i, interval in enumerate(INTERVALS_M)],
-            ("min_ring_vertices", MIN_RING_VERTICES),
-            *[(f"densify_fraction_{i + 1}", f) for i, f in enumerate(EQUALIZED_FRACTIONS)],
-            ("window_min_m", WINDOWS[PRIMARY_WINDOW][0]),
-            ("window_max_m", WINDOWS[PRIMARY_WINDOW][-1]),
-            ("workers", WORKERS),
-            ("max_wall_seconds", MAX_WALL_SECONDS),
-            ("max_seconds_per_lake", math.inf),
-        ],
-        columns=["parameter", "value"],
-    ).to_csv(OUT_DIR / "equalized_parameters.csv", index=False)
-    print(f"wrote results to {OUT_DIR.relative_to(ROOT)}", flush=True)
+        window = {PRIMARY_WINDOW: WINDOWS[PRIMARY_WINDOW]}
+        equalized = pd.DataFrame({"objectid": primary["objectid"], "source_group": planned["source_group"]})
+        runtimes = []
+        signal.signal(signal.SIGALRM, over_time)
+        signal.alarm(MAX_WALL_SECONDS)
+        try:
+            # the author's 0.01 first, then the planned 0.1
+            for fraction in sorted(EQUALIZED_FRACTIONS):
+                for interval in INTERVALS_M:
+                    name = label(interval, fraction)
+                    print(f"equalized {name}: {len(primary):,} lakes with {WORKERS} workers", flush=True)
+                    start = time.perf_counter()
+                    computed = compute_dimensions(
+                        resampled[interval],
+                        window,
+                        workers=WORKERS,
+                        max_seconds=math.inf,
+                        progress_every=500,
+                        densify_fraction=fraction,
+                    )
+                    wall_s = time.perf_counter() - start
+                    equalized[f"dim_{name}"] = computed[f"dim_{PRIMARY_WINDOW}"].to_numpy()
+                    equalized[f"r2_{name}"] = computed[f"r2_{PRIMARY_WINDOW}"].to_numpy()
+                    runtimes.append(
+                        {
+                            "run": name,
+                            "interval_m": interval,
+                            "densify_fraction": fraction,
+                            "n_lakes": len(computed),
+                            "workers": WORKERS,
+                            "median_s": computed["runtime_s"].median(),
+                            "max_s": computed["runtime_s"].max(),
+                            "wall_s": wall_s,
+                        }
+                    )
+        except (RunTooLong, LakeTooSlow) as error:
+            sys.exit(f"stopped: {error}")
+        finally:
+            signal.alarm(0)
+        equalized.to_csv(OUT_DIR / "equalized_dims.csv", index=False)
+        pd.DataFrame(runtimes).to_csv(OUT_DIR / "equalized_runtime.csv", index=False)
+
+        # group medians and kruskal-wallis, as digitized (the two sets of lake
+        # estimates) and for each resampling
+        group_rows, test_rows = [], []
+        for fraction in EQUALIZED_FRACTIONS:
+            baseline = versions[VERSION_OF_FRACTION[fraction]]
+            runs = [("as digitized", np.nan, baseline[["source_group", f"dim_{PRIMARY_WINDOW}"]])]
+            for interval in INTERVALS_M:
+                column = equalized[["source_group", f"dim_{label(interval, fraction)}"]]
+                runs.append((f"every {interval:g} m", interval, column.set_axis(["source_group", f"dim_{PRIMARY_WINDOW}"], axis=1)))
+            for vertices, interval, dims in runs:
+                groups, test = source_comparison(dims, PRIMARY_WINDOW)
+                keys = {"vertices": vertices, "interval_m": interval, "densify_fraction": fraction}
+                group_rows += [{**keys, **row} for row in groups.drop(columns="window").to_dict("records")]
+                test_rows.append({**keys, **test})
+        pd.DataFrame(group_rows).to_csv(OUT_DIR / "equalized_source_groups.csv", index=False)
+        pd.DataFrame(test_rows).to_csv(OUT_DIR / "equalized_kruskal_wallis.csv", index=False)
+
+        pd.DataFrame(
+            [
+                *[(f"interval_m_{i + 1}", interval) for i, interval in enumerate(INTERVALS_M)],
+                ("min_ring_vertices", MIN_RING_VERTICES),
+                *[(f"densify_fraction_{i + 1}", f) for i, f in enumerate(EQUALIZED_FRACTIONS)],
+                ("window_min_m", WINDOWS[PRIMARY_WINDOW][0]),
+                ("window_max_m", WINDOWS[PRIMARY_WINDOW][-1]),
+                ("workers", WORKERS),
+                ("max_wall_seconds", MAX_WALL_SECONDS),
+                ("max_seconds_per_lake", math.inf),
+            ],
+            columns=["parameter", "value"],
+        ).to_csv(OUT_DIR / "equalized_parameters.csv", index=False)
+        print(f"wrote results to {OUT_DIR.relative_to(ROOT)}", flush=True)
 
 
 if __name__ == "__main__":

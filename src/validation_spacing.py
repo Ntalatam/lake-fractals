@@ -1,4 +1,4 @@
-"""Post-hoc validation, not pre-registered: the primary analysis at a finer point spacing.
+"""Post-hoc validation, not in the analysis plan: the primary analysis at a finer point spacing.
 
 The planned analysis places boundary points at most 1/10 of the smallest box
 apart (DENSIFY_FRACTION in src/boxcount.py). This rerun places them at most
