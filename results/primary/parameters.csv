@@ -1,0 +1,10 @@
+parameter,value
+primary_min_acres,100.0
+box_sizes_per_window,8.0
+grid_offsets,8.0
+grid_seed,0.0
+bootstrap_resamples,2000.0
+bootstrap_seed,0.0
+ci_level_percent,95.0
+r2_threshold,0.98
+max_seconds_per_lake,60.0
