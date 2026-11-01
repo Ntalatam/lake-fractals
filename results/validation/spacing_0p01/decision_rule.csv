@@ -1,0 +1,3 @@
+measure,rho_20_100,rho_10_100,rho_20_200,direction_holds,direction,outcome
+area,-0.006612605366106658,0.02026309463678349,-0.05851988762682011,False,mixed,window-dependent
+shoreline,0.4106444330593395,0.4266867212240165,0.4249726319537225,True,positive,supported

@@ -27,7 +27,8 @@ DEFAULT_SEED = 0
 # points along the boundary are placed at most (smallest box / 10) apart.
 # a box is counted when a point lands in it, so a gap this small can only
 # skip a box that the boundary clips across one corner; the undercount is
-# small and similar at every box size.
+# small and similar at every box size. this is the planned spacing; other
+# values are for the post-hoc spacing checks in src/validation.py only.
 DENSIFY_FRACTION = 0.1
 
 
@@ -45,6 +46,7 @@ def box_count_dimension(
     box_sizes=DEFAULT_BOX_SIZES,
     n_offsets=DEFAULT_N_OFFSETS,
     seed=DEFAULT_SEED,
+    densify_fraction=DENSIFY_FRACTION,
 ):
     """Box-counting dimension of the boundary of a polygon or polygons.
 
@@ -52,13 +54,15 @@ def box_count_dimension(
     box_sizes: box side lengths in meters.
     n_offsets: number of random grid origins to count with.
     seed: seed for the grid origins.
+    densify_fraction: boundary points are at most this fraction of the
+        smallest box apart. the default is the planned 0.1.
     """
     box_sizes = np.asarray(box_sizes, dtype=float)
     if isinstance(polygons, (list, tuple)):
         polygons = shapely.GeometryCollection(list(polygons))
     boundary = shapely.boundary(polygons) if polygons.geom_type != "GeometryCollection" \
         else shapely.GeometryCollection([g.boundary for g in polygons.geoms])
-    dense = shapely.segmentize(boundary, box_sizes.min() * DENSIFY_FRACTION)
+    dense = shapely.segmentize(boundary, box_sizes.min() * densify_fraction)
     points = shapely.get_coordinates(dense)
     corner = points.min(axis=0)
 

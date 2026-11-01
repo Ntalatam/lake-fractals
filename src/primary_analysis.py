@@ -32,7 +32,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import kruskal, spearmanr
 
-from boxcount import DEFAULT_N_OFFSETS, DEFAULT_SEED, box_count_dimension
+from boxcount import DEFAULT_N_OFFSETS, DEFAULT_SEED, DENSIFY_FRACTION, box_count_dimension
 
 ROOT = Path(__file__).resolve().parent.parent
 LAKES = ROOT / "data" / "processed" / "lakes_filtered.gpkg"
@@ -176,12 +176,15 @@ def source_comparison(dims, window=PRIMARY_WINDOW):
     return groups, test
 
 
-def lake_dimensions(geometry, windows=WINDOWS):
-    """Dimension and r squared of one lake in each window, plus the runtime."""
+def lake_dimensions(geometry, windows=WINDOWS, densify_fraction=DENSIFY_FRACTION):
+    """Dimension and r squared of one lake in each window, plus the runtime.
+
+    densify_fraction is the planned 0.1 unless a post-hoc check sets it.
+    """
     start = time.perf_counter()
     row = {}
     for name, sizes in windows.items():
-        result = box_count_dimension(geometry, sizes, DEFAULT_N_OFFSETS, DEFAULT_SEED)
+        result = box_count_dimension(geometry, sizes, DEFAULT_N_OFFSETS, DEFAULT_SEED, densify_fraction)
         row[f"dim_{name}"] = result.dimension
         row[f"r2_{name}"] = result.r_squared
     row["runtime_s"] = time.perf_counter() - start
@@ -204,7 +207,14 @@ def default_workers():
         return os.cpu_count() or 1
 
 
-def compute_dimensions(lakes, windows=WINDOWS, workers=1, max_seconds=MAX_SECONDS_PER_LAKE, progress_every=0):
+def compute_dimensions(
+    lakes,
+    windows=WINDOWS,
+    workers=1,
+    max_seconds=MAX_SECONDS_PER_LAKE,
+    progress_every=0,
+    densify_fraction=DENSIFY_FRACTION,
+):
     """lake_dimensions for every lake, one row per lake in input order.
 
     Raises LakeTooSlow as soon as a finished lake took longer than max_seconds,
@@ -229,12 +239,12 @@ def compute_dimensions(lakes, windows=WINDOWS, workers=1, max_seconds=MAX_SECOND
 
     if workers == 1:
         for i, geometry in enumerate(geometries):
-            record(i, lake_dimensions(geometry, windows))
+            record(i, lake_dimensions(geometry, windows, densify_fraction))
     else:
         # longest shorelines first, so the slowest lakes do not finish last
         order = np.argsort(-lakes.geometry.length.to_numpy(), kind="stable")
         with ProcessPoolExecutor(max_workers=workers) as pool:
-            futures = {pool.submit(lake_dimensions, geometries[i], windows): i for i in order}
+            futures = {pool.submit(lake_dimensions, geometries[i], windows, densify_fraction): i for i in order}
             try:
                 for future in as_completed(futures):
                     record(futures[future], future.result())

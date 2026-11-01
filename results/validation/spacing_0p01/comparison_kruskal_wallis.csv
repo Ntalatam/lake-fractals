@@ -1,0 +1,2 @@
+window,n_groups,n_lakes,n_excluded_missing,H_planned,H_rerun,p_value_planned,p_value_rerun
+20_100,5,3223,51,170.89671307091533,164.98330482188473,6.714396910780736e-36,1.2473077226052517e-34

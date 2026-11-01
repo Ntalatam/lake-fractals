@@ -1,0 +1,17 @@
+parameter,value
+primary_min_acres,100.0
+box_sizes_per_window,8.0
+grid_offsets,8.0
+grid_seed,0.0
+densify_fraction,0.01
+planned_densify_fraction,0.1
+point_spacing_m_20_100,0.2
+point_spacing_m_10_100,0.1
+point_spacing_m_20_200,0.2
+bootstrap_resamples,2000.0
+bootstrap_seed,0.0
+ci_level_percent,95.0
+r2_threshold,0.98
+workers,4.0
+max_wall_seconds,10800.0
+max_seconds_per_lake,inf

@@ -154,3 +154,20 @@ def test_compute_dimensions_keeps_input_order_in_parallel():
 def test_compute_dimensions_stops_when_a_lake_exceeds_the_time_limit(workers):
     with pytest.raises(LakeTooSlow):
         compute_dimensions(two_lakes(), workers=workers, max_seconds=0.0)
+
+
+def test_lake_dimensions_default_point_spacing_is_the_planned_0_1():
+    default = lake_dimensions(circle())
+    explicit = lake_dimensions(circle(), densify_fraction=0.1)
+    for name in WINDOWS:
+        assert (default[f"dim_{name}"], default[f"r2_{name}"]) == (explicit[f"dim_{name}"], explicit[f"r2_{name}"])
+
+
+@pytest.mark.parametrize("workers", [1, 2])
+def test_compute_dimensions_passes_the_point_spacing_to_every_lake(workers):
+    columns = [f"{kind}_{name}" for name in WINDOWS for kind in ("dim", "r2")]
+    fine = compute_dimensions(two_lakes(), workers=workers, densify_fraction=0.01)
+    expected = pd.DataFrame([lake_dimensions(g, densify_fraction=0.01) for g in two_lakes().geometry])
+    pd.testing.assert_frame_equal(fine[columns], expected[columns])
+    planned = compute_dimensions(two_lakes(), workers=workers)
+    assert not planned[columns].equals(fine[columns])

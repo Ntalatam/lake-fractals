@@ -1,0 +1,3 @@
+measure,direction_planned,direction_rerun,outcome_planned,outcome_rerun,same_outcome
+area,mixed,mixed,window-dependent,window-dependent,True
+shoreline,positive,positive,supported,supported,True

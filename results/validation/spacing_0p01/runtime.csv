@@ -1,0 +1,2 @@
+run,n_lakes,workers,median_s,max_s,slowest_objectid,slowest_shoreline_m,wall_s
+"primary, densify_fraction 0.01",3274,4,2.551261958491523,310.57930345798377,162704,549570.0364610389,3790.3757329579676
