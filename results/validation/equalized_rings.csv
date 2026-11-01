@@ -1,0 +1,3 @@
+interval_m,n_lakes,n_rings,n_rings_dropped,n_rings_dropped_3_vertices,dropped_length_m,n_lakes_with_dropped_rings,n_lakes_invalid_after_resampling
+25.0,3274,10836,1959,573,74775.05318025425,350,9
+50.0,3274,10836,3373,863,230851.76198829105,603,24

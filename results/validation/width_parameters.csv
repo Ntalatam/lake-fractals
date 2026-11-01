@@ -1,0 +1,7 @@
+parameter,value
+narrow_radius_m_20_100,50.0
+narrow_radius_m_10_100,50.0
+narrow_radius_m_20_200,100.0
+shore_gap_m,1.0
+max_narrow_share,0.1
+inscribed_tolerance_m,1.0

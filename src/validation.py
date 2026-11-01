@@ -38,6 +38,24 @@ from primary_analysis import ROOT, WINDOWS, default_workers
 OUT_DIR = ROOT / "results" / "validation"
 PRIMARY_DIMS = ROOT / "results" / "primary" / "dims.csv"
 
+# the two sets of lake estimates (author's request for the post-review checks):
+# every check that uses lake estimates is run on both. the planned estimates
+# are the main results; the spacing-0.01 rerun is a sensitivity check.
+DIMS_VERSIONS = {
+    "planned": PRIMARY_DIMS,
+    "spacing_0p01": OUT_DIR / "spacing_0p01" / "dims.csv",
+}
+
+
+def read_dims_versions():
+    """{version: dims table} for DIMS_VERSIONS, checked to hold the same lakes in the same order."""
+    versions = {name: pd.read_csv(path) for name, path in DIMS_VERSIONS.items()}
+    first = versions["planned"]["objectid"].tolist()
+    for name, dims in versions.items():
+        if dims["objectid"].tolist() != first:
+            raise ValueError(f"{name} dims do not hold the planned lakes in the planned order")
+    return versions
+
 # square meters in one international acre
 M2_PER_ACRE = 4046.8564224
 

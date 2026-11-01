@@ -1,0 +1,11 @@
+parameter,value
+interval_m_1,25.0
+interval_m_2,50.0
+min_ring_vertices,4.0
+densify_fraction_1,0.1
+densify_fraction_2,0.01
+window_min_m,20.0
+window_max_m,100.0
+workers,4.0
+max_wall_seconds,10800.0
+max_seconds_per_lake,inf

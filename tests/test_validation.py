@@ -225,3 +225,16 @@ def test_benchmarks_table_has_the_requested_columns():
     assert list(table["window"]) == list(WINDOWS)
     assert (table["bias"] == table["estimate"] - 1.0).all()
     assert (table["densify_fraction"] == 0.1).all()
+
+
+def test_dims_versions_are_the_planned_and_the_spacing_0p01_estimates():
+    from primary_analysis import ROOT
+    from validation import DIMS_VERSIONS, read_dims_versions
+
+    assert DIMS_VERSIONS == {
+        "planned": ROOT / "results" / "primary" / "dims.csv",
+        "spacing_0p01": ROOT / "results" / "validation" / "spacing_0p01" / "dims.csv",
+    }
+    versions = read_dims_versions()
+    assert list(versions) == ["planned", "spacing_0p01"]
+    assert list(versions["planned"]["objectid"]) == list(versions["spacing_0p01"]["objectid"])

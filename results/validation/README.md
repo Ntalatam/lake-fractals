@@ -1,6 +1,8 @@
-# results/validation: post-hoc, not pre-registered
+# results/validation: post-hoc, not in the analysis plan
 
-Post-review validation, added after the planned results. Nothing here changes the planned analysis or any file in results/primary/ or results/exploratory/; those are only read.
+Post-review validation, added after the planned results. Nothing here changes the planned analysis or any file in results/primary/ or results/exploratory/; those are only read. The planned results stay the main results.
+
+Every check that uses lake estimates is run on both sets: the planned estimates (results/primary/dims.csv) and the spacing 0.01 estimates (spacing_0p01/dims.csv, a sensitivity check). Those files have a `dims` column, `planned` or `spacing_0p01`.
 
 | file | written by | contents |
 |---|---|---|
@@ -9,7 +11,20 @@ Post-review validation, added after the planned results. Nothing here changes th
 | calibration_summary.csv | src/validation.py | calibration.csv per shape, size, window and point spacing: mean estimate, bias (mean minus known dimension), sd, count and share below 1, lowest and highest estimate |
 | below_one.csv | src/validation.py | estimates below 1 in results/primary/dims.csv, per window: count, share, percent, lowest |
 | spacing_0p01/ | src/validation_spacing.py | the primary analysis rerun on the same lakes with boundary points at most 0.01 of the smallest box apart (planned: 0.1). Files with a planned counterpart keep its name and columns; below_one.csv counts estimates below 1; comparison_*.csv put each planned result beside the rerun's |
+| width.csv | src/validation_width.py | one row per primary lake: largest inscribed circle diameter, minimum rotated rectangle sides, narrow-shore share for the 100 m box (r = 50 m) and the 200 m box (r = 100 m) |
+| width_summary.csv, width_counts.csv | src/validation_width.py | distribution of each width measure; lakes with inscribed diameter below 200 and 400 m, and with narrow-shore share above 0.10 |
+| width_rho.csv, width_rho_acres.csv | src/validation_width.py | spearman rho of the narrow-shore share against the estimate in each window (both sets) and against acres |
+| width_sensitivity_rho.csv, width_sensitivity_decision_rule.csv | src/validation_width.py | the six primary rhos without lakes whose narrow-shore share for the window's largest box is above 0.10, and the planned decision rule on them (both sets) |
+| blocks_counts.csv | src/validation_blocks.py | blocks and lakes per block for 25, 50 and 100 km blocks, per sample and source group |
+| blocks_rho.csv, blocks_medians.csv | src/validation_blocks.py | lake-level and block-level 95% intervals for the six primary rhos, the six within-2004-FSA rhos and each source group's primary-window median (both sets) |
+| vertices.csv, vertices_by_group.csv, vertices_kruskal_wallis.csv | src/validation_vertices.py | vertex spacing as digitized: per lake (median, 90th percentile), by source group (median, quartiles), and a kruskal-wallis test of the per-lake median across groups |
+| vertices_rho.csv | src/validation_vertices.py | spearman rho of per-lake median vertex spacing against the primary-window estimate, over all lakes and within each group (both sets) |
+| equalized_dims.csv, equalized_rings.csv | src/validation_vertices.py | primary-window estimates with every ring rebuilt at 25 m and 50 m vertex intervals, at point spacings 0.01 and 0.1; rings dropped and lakes left invalid by the rebuilding |
+| equalized_source_groups.csv, equalized_kruskal_wallis.csv | src/validation_vertices.py | group medians and kruskal-wallis H as digitized (the two sets of estimates) and after each rebuilding |
+| *_parameters.csv, equalized_runtime.csv | the scripts above | settings and runtimes |
 
-Settings for these runs are in the scripts, each with the reason it was chosen. Two were not set by the author: the ellipse rotations are uniform on [0, 180°) and the shifts uniform on [0, 200 m) in x and y (src/validation.py). The box-counting grid is placed relative to the lower-left corner of the boundary points, so a shift leaves the box counts unchanged up to floating-point rounding.
+Settings for these runs are in the scripts, each with the reason it was chosen and whether the author set it. Not set by the author: the ellipse rotations (uniform on [0, 180°)) and shifts (uniform on [0, 200 m)) in src/validation.py, the 1 m tolerance of the inscribed circle in src/validation_width.py, and the origin of the block grid (the origin of EPSG:26915) in src/validation_blocks.py. The box-counting grid is placed relative to the lower-left corner of the boundary points, so a shift leaves the box counts unchanged up to floating-point rounding.
 
-The spacing rerun used 4 worker processes and the author's stop rule for that run: stop only if the whole run passes 3 hours. The planned 60 s per-lake limit was not applied (spacing_0p01/parameters.csv).
+The narrow-shore definition was chosen by the author on 2026-11-01, before the width results: shoreline more than 1 m from the lake opened with a disk of radius r. It replaced shoreline within 1 m of the lake minus the opened lake, which counted much of a circle's shore as narrow because of buffer slivers.
+
+The spacing rerun and the equalized resampling each used 4 worker processes and the author's stop rule for those runs: stop only if the whole run passes 3 hours. The planned 60 s per-lake limit was not applied (spacing_0p01/parameters.csv, equalized_parameters.csv).

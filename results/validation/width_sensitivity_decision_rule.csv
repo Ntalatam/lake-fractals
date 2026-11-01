@@ -1,0 +1,5 @@
+dims,measure,rho_20_100,rho_10_100,rho_20_200,direction_holds,direction,outcome,outcome_all_lakes
+planned,area,0.1808087410957413,0.20552664228017622,0.1950219637995779,True,positive,supported,window-dependent
+planned,shoreline,0.30266995604862584,0.32899785837663553,0.23494571211802429,True,positive,supported,supported
+spacing_0p01,area,0.17543891699570133,0.21222307690845474,0.16569439397127173,True,positive,supported,window-dependent
+spacing_0p01,shoreline,0.2942195468161804,0.3289819258166949,0.203922243686603,True,positive,supported,supported

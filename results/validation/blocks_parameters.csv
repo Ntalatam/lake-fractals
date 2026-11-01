@@ -1,0 +1,9 @@
+parameter,value
+block_km_1,25.0
+block_km_2,50.0
+block_km_3,100.0
+block_resamples,2000.0
+block_seed,0.0
+ci_level_percent,95.0
+grid_origin_x_m,0.0
+grid_origin_y_m,0.0
