@@ -3,6 +3,7 @@
 
 # raw data is too large for github; keep it local
 data/raw/
+data/processed/
 data/**/*.gpkg
 data/**/*.zip
 data/**/*.geojson

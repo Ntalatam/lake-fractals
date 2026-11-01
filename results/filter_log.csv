@@ -1,0 +1,6 @@
+step,description,count_before,count_after,dropped
+1,wb_class == 'Lake or Pond',130912,117235,13677
+2,acres >= 10,117235,14640,102595
+3,geometry is not null,14640,14640,0
+4,shoreline_m >= 1000 (EPSG:26915),14640,13382,1258
+5,outside_mn not 'Y' or 'B',13382,13269,113

@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# lets tests import analysis modules from src/ by name (e.g. `import boxcount`)
+pythonpath = ["src"]
+testpaths = ["tests"]
