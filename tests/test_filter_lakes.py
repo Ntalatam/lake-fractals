@@ -4,7 +4,7 @@ import geopandas as gpd
 import pytest
 from shapely.geometry import box
 
-from filter_lakes import filter_lakes
+from filter_lakes import check_expected_counts, filter_lakes
 
 CRS = "EPSG:26915"
 
@@ -72,3 +72,14 @@ def test_keeps_delineat_1_acres_and_shoreline_in_meters():
 def test_shoreline_is_measured_in_utm_meters_even_if_input_is_not():
     result, _ = filter_lakes(lakes().to_crs("EPSG:4326"))
     assert result["shoreline_m"].iloc[0] == pytest.approx(2000.0, rel=1e-3)
+
+
+def test_count_check_passes_when_every_expected_count_matches():
+    _, log = filter_lakes(lakes())
+    check_expected_counts(log, {1: 7, 2: 6})
+
+
+def test_count_check_raises_on_a_mismatch_instead_of_warning():
+    _, log = filter_lakes(lakes())
+    with pytest.raises(RuntimeError, match="step 2 kept 6, expected 5"):
+        check_expected_counts(log, {1: 7, 2: 5})

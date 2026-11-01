@@ -35,6 +35,12 @@ question: how do box-counting dimensions of natural lake shorelines relate to la
 ## addendum (2026-11-01, written after the primary results in commit 9ecfa25)
 - percentile bootstrap, 2,000 resamples, seed 0. the protocol did not specify a method. BCa was considered after the primary results were reviewed and not used.
 
+## disclosures found in audit (2026-11-01, after results)
+- the primary sample was changed from >= 10 acres to >= 100 acres after the pilot, which showed the area relationship concentrated in small lakes. the 10-acre exploratory area rho (-0.28, results/primary/exploratory_10acre_rho.csv) shows this choice changes the area conclusion.
+- the kruskal-wallis test was run in the primary window only. this was set in code (src/primary_analysis.py), not in the protocol.
+- the 3 null-geometry records were removed in step 1 (not Lake or Pond: their wb_class is blank), so step 3 logs 0 (results/filter_log.csv).
+- the area measure is the DNR acres attribute.
+
 # mapping source groups (delineat_1)
 - values with 1,000+ lakes in the 10-acre sample stand alone: ORIG DLG (4,094), 2004 FSA (3,378), DNR 24k POLYS (3,182), PWI (1,461). (counts before the shoreline and outside_mn steps.)
 - all other values pool into "other".
