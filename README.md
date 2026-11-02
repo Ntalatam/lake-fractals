@@ -198,7 +198,7 @@ The outputs were byte-identical on the original computer, apart from the timing 
 CLAUDE.md                  project notes and the analysis plan
 README.md                  this file
 LICENSE                    MIT license (code)
-LICENSE-paper.md           CC BY 4.0 (paper text and figures)
+LICENSE-paper.md           CC BY 4.0 (the paper PDF, drafts and figures)
 CITATION.cff               how to cite
 requirements.txt           pinned Python packages
 pyproject.toml             pytest settings (tests import from src/)
@@ -240,7 +240,7 @@ docs/
 ## Licenses
 
 - Code: MIT (`LICENSE`).
-- Paper text and figures: CC BY 4.0 (`LICENSE-paper.md`).
+- The paper (PDF), the drafts and the figures: CC BY 4.0 (`LICENSE-paper.md`).
 - Data: not included; see the MNDNR terms above.
 
 ## Citation
