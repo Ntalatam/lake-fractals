@@ -1,0 +1,3275 @@
+objectid,source_group,n_rings,rings_dropped_25m,valid_25m,rings_dropped_50m,valid_50m,clean
+138053,other,4,0,True,0,True,True
+138087,2004 FSA,23,9,True,17,True,False
+138123,2004 FSA,42,27,True,34,True,False
+138161,2004 FSA,2,0,True,1,True,False
+138202,other,1,0,True,0,True,True
+138216,2004 FSA,1,0,True,0,True,True
+138229,PWI,3,0,True,0,True,True
+138270,other,3,0,True,0,True,True
+138288,2004 FSA,1,0,True,0,True,True
+138290,DNR 24k POLYS,1,0,True,0,True,True
+138304,2004 FSA,1,0,True,0,True,True
+138316,2004 FSA,3,0,True,0,True,True
+138439,2004 FSA,1,0,True,0,True,True
+138496,ORIG DLG,1,0,True,0,True,True
+138500,2004 FSA,1,0,True,0,True,True
+138538,DNR 24k POLYS,1,0,True,0,True,True
+138540,2004 FSA,1,0,True,0,True,True
+138550,other,1,0,True,0,True,True
+138559,2004 FSA,3,2,True,2,True,False
+138600,2004 FSA,1,0,True,0,True,True
+138603,2004 FSA,1,0,True,0,True,True
+138611,2004 FSA,2,0,True,0,True,True
+138628,2004 FSA,1,0,True,0,True,True
+138652,other,1,0,True,0,True,True
+138733,2004 FSA,2,0,True,0,True,True
+138805,ORIG DLG,1,0,True,0,True,True
+138886,2004 FSA,1,0,True,0,True,True
+138895,2004 FSA,1,0,True,0,True,True
+138918,2004 FSA,5,0,True,0,True,True
+138958,2004 FSA,1,0,True,0,True,True
+139010,2004 FSA,11,1,True,4,True,False
+139028,2004 FSA,3,0,True,0,True,True
+139067,,4,0,True,0,True,True
+139193,2004 FSA,11,5,True,6,True,False
+139240,2004 FSA,10,3,True,5,True,False
+139252,2004 FSA,1,0,True,0,True,True
+139436,2004 FSA,2,0,True,1,True,False
+139452,other,1,0,True,0,True,True
+139510,2004 FSA,1,0,True,0,True,True
+139555,2004 FSA,1,0,True,0,True,True
+139561,2004 FSA,3,0,True,0,True,True
+139593,other,3,0,True,1,True,False
+139631,other,2,0,True,1,True,False
+139743,ORIG DLG,1,0,True,0,True,True
+139856,other,207,71,True,99,True,False
+139867,2004 FSA,1,0,True,0,True,True
+139869,2004 FSA,1,0,True,0,True,True
+139873,other,1,0,True,0,True,True
+139926,2004 FSA,7,1,True,1,True,False
+139979,2004 FSA,2,0,True,0,True,True
+139989,2004 FSA,1,0,True,0,True,True
+140010,other,4,1,True,1,True,False
+140043,other,1,0,True,0,True,True
+140130,other,1,0,True,0,True,True
+140181,other,1,0,True,0,True,True
+140214,other,2,0,True,0,True,True
+140236,ORIG DLG,4,0,True,0,True,True
+140330,2004 FSA,1,0,True,0,True,True
+140341,other,1,0,True,0,True,True
+140346,other,8,3,True,3,True,False
+140386,other,3,0,True,0,True,True
+140427,2004 FSA,1,0,True,0,True,True
+140438,2004 FSA,9,3,True,6,True,False
+140493,2004 FSA,10,4,True,9,True,False
+140551,2004 FSA,1,0,True,0,True,True
+140604,2004 FSA,1,0,True,0,True,True
+140629,ORIG DLG,2,0,True,0,True,True
+140673,DNR 24k POLYS,1,0,True,0,True,True
+140759,2004 FSA,1,0,True,0,True,True
+140840,2004 FSA,3,0,True,0,True,True
+140860,2004 FSA,1,0,True,0,True,True
+140928,2004 FSA,1,0,True,0,True,True
+141016,ORIG DLG,2,0,True,0,True,True
+141107,other,1,0,True,0,True,True
+141123,2004 FSA,1,0,True,0,True,True
+141206,2004 FSA,4,0,True,1,True,False
+141219,ORIG DLG,2,0,True,0,True,True
+141244,2004 FSA,1,0,True,0,True,True
+141262,2004 FSA,1,0,True,0,True,True
+141276,2004 FSA,2,0,True,0,True,True
+141285,2004 FSA,1,0,True,0,True,True
+141352,2004 FSA,3,0,True,0,True,True
+141353,2004 FSA,1,0,True,0,True,True
+141364,2004 FSA,1,0,True,0,True,True
+141479,2004 FSA,1,0,True,0,True,True
+141547,2004 FSA,5,2,True,3,True,False
+141641,other,1,0,True,0,True,True
+141669,2004 FSA,3,0,True,0,True,True
+141726,other,2,0,True,0,True,True
+141728,other,2,0,True,1,True,False
+141751,other,1,0,True,0,True,True
+141795,2004 FSA,2,0,True,0,True,True
+141818,other,62,30,True,46,True,False
+141881,2004 FSA,2,0,True,0,True,True
+141903,PWI,3,0,True,0,True,True
+141912,other,1,0,True,0,True,True
+141925,,2,0,True,0,True,True
+141928,2004 FSA,1,0,True,0,True,True
+141955,other,5,0,True,0,True,True
+141967,2004 FSA,27,7,True,11,True,False
+141974,other,10,1,True,3,True,False
+141988,other,1,0,True,0,True,True
+142095,other,30,11,True,13,False,False
+142116,ORIG DLG,1,0,True,0,True,True
+142159,other,1,0,True,0,True,True
+142201,2004 FSA,5,1,True,2,True,False
+142230,other,1,0,True,0,True,True
+142238,ORIG DLG,1,0,True,0,True,True
+142251,ORIG DLG,1,0,True,0,True,True
+142278,2004 FSA,1,0,True,0,True,True
+142310,2004 FSA,2,0,True,1,True,False
+142314,ORIG DLG,2,0,True,0,True,True
+142332,2004 FSA,1,0,True,0,True,True
+142564,2004 FSA,3,1,True,1,True,False
+142571,2004 FSA,1,0,True,0,True,True
+142626,DNR 24k POLYS,2,0,True,0,True,True
+142639,DNR 24k POLYS,3,0,True,0,True,True
+142649,DNR 24k POLYS,1,0,True,0,True,True
+142670,other,1,0,True,0,True,True
+142699,2004 FSA,2,1,True,1,True,False
+142705,2004 FSA,1,0,True,0,True,True
+142760,ORIG DLG,2,0,True,0,True,True
+142779,2004 FSA,1,0,True,0,True,True
+142799,2004 FSA,1,0,True,0,True,True
+142876,2004 FSA,3,0,True,0,True,True
+142904,other,4,0,True,0,True,True
+142914,2004 FSA,1,0,True,0,True,True
+142924,other,4,0,True,1,True,False
+142930,2004 FSA,12,5,True,9,True,False
+142983,2004 FSA,2,0,True,0,True,True
+143032,other,17,2,True,5,True,False
+143069,other,1,0,True,0,True,True
+143078,PWI,1,0,True,0,True,True
+143101,other,1,0,True,0,True,True
+143103,DNR 24k POLYS,1,0,True,0,True,True
+143110,other,1,0,True,0,True,True
+143126,other,1,0,True,0,True,True
+143156,other,1,0,True,0,True,True
+143164,DNR 24k POLYS,1,0,True,0,True,True
+143171,DNR 24k POLYS,1,0,True,0,True,True
+143206,2004 FSA,2,0,True,0,True,True
+143207,2004 FSA,1,0,True,0,True,True
+143224,2004 FSA,21,14,True,17,False,False
+143226,DNR 24k POLYS,1,0,True,0,True,True
+143323,,1,0,True,0,True,True
+143326,other,19,7,True,13,True,False
+143353,other,3,0,True,0,True,True
+143354,other,1,0,True,0,True,True
+143507,2004 FSA,1,0,True,0,True,True
+143513,other,1,0,True,0,True,True
+143521,other,2,0,True,0,True,True
+143526,2004 FSA,1,0,True,0,True,True
+143533,other,4,0,True,1,True,False
+143569,2004 FSA,1,0,True,0,True,True
+143623,2004 FSA,1,0,True,0,True,True
+143782,DNR 24k POLYS,1,0,True,0,True,True
+143799,2004 FSA,1,0,True,0,True,True
+143884,2004 FSA,1,0,True,0,True,True
+143903,2004 FSA,1,0,True,0,True,True
+143939,2004 FSA,1,0,True,0,True,True
+143949,2004 FSA,2,0,True,0,True,True
+144013,2004 FSA,1,0,True,0,True,True
+144042,2004 FSA,2,0,True,0,True,True
+144094,DNR 24k POLYS,1,0,True,0,True,True
+144106,other,2,0,True,0,True,True
+144140,other,24,5,True,6,True,False
+144160,other,2,0,True,0,True,True
+144187,other,1,0,True,0,True,True
+144203,2004 FSA,27,9,True,19,True,False
+144232,other,3,0,True,2,True,False
+144254,2004 FSA,4,2,True,2,True,False
+144322,other,2,0,True,0,True,True
+144377,DNR 24k POLYS,1,0,True,0,True,True
+144396,other,2,0,True,0,True,True
+144483,2004 FSA,1,0,True,0,True,True
+144493,other,2,0,True,0,True,True
+144504,other,2,0,True,0,True,True
+144580,other,3,0,True,0,True,True
+144598,DNR 24k POLYS,1,0,True,0,True,True
+144603,other,1,0,True,0,True,True
+144667,other,1,0,True,0,True,True
+144682,2004 FSA,6,2,True,4,True,False
+144711,other,2,0,True,0,True,True
+144730,2004 FSA,3,0,True,0,True,True
+144742,ORIG DLG,2,0,True,0,True,True
+144749,DNR 24k POLYS,1,0,True,0,True,True
+144750,other,4,0,True,1,True,False
+144756,2004 FSA,4,0,True,2,True,False
+144762,2004 FSA,2,0,True,0,True,True
+144772,other,5,0,True,0,True,True
+144798,ORIG DLG,2,0,True,0,True,True
+144850,other,1,0,True,0,True,True
+144871,other,1,0,True,0,True,True
+144877,PWI,1,0,True,0,True,True
+144895,2004 FSA,2,0,True,0,True,True
+144912,other,1,0,True,0,True,True
+144929,other,1,0,True,0,True,True
+144931,2004 FSA,1,0,True,0,True,True
+144935,2004 FSA,32,14,True,20,False,False
+144947,ORIG DLG,1,0,True,0,True,True
+145022,2004 FSA,3,2,True,2,True,False
+145044,other,1,0,True,0,True,True
+145060,other,1,0,True,0,True,True
+145090,other,1,0,True,0,True,True
+145104,other,1,0,True,0,True,True
+145162,other,3,0,True,2,True,False
+145203,other,54,19,True,33,True,False
+145222,other,1,0,True,0,True,True
+145260,2004 FSA,2,0,True,0,True,True
+145274,2004 FSA,2,0,True,0,True,True
+145288,other,2,0,True,0,True,True
+145290,other,1,0,True,0,True,True
+145348,other,1,0,True,0,True,True
+145375,2004 FSA,4,0,True,0,True,True
+145605,ORIG DLG,2,0,True,0,True,True
+145620,other,1,0,True,0,True,True
+145709,2004 FSA,1,0,True,0,True,True
+145716,DNR 24k POLYS,1,0,True,0,True,True
+145743,other,2,1,True,1,True,False
+145745,2004 FSA,1,0,True,0,True,True
+145851,2004 FSA,1,0,True,0,True,True
+145865,2004 FSA,2,0,True,0,True,True
+145898,other,1,0,True,0,True,True
+145906,2004 FSA,2,0,True,0,True,True
+145909,2004 FSA,3,0,True,0,True,True
+145959,other,1,0,True,0,True,True
+145988,2004 FSA,3,0,True,1,True,False
+146070,ORIG DLG,1,0,True,0,True,True
+146073,other,1,0,True,0,True,True
+146176,other,3,0,True,0,True,True
+146248,2004 FSA,1,0,True,0,True,True
+146280,2004 FSA,3,0,True,0,True,True
+146284,ORIG DLG,2,0,True,0,True,True
+146355,2004 FSA,2,1,True,1,True,False
+146359,other,1,0,True,0,True,True
+146489,2004 FSA,1,0,True,0,True,True
+146547,2004 FSA,1,0,True,0,True,True
+146594,2004 FSA,1,0,True,0,True,True
+146626,2004 FSA,1,0,True,0,True,True
+146682,ORIG DLG,1,0,True,0,True,True
+146708,2004 FSA,1,0,True,0,True,True
+146752,2004 FSA,1,0,True,0,True,True
+146877,other,4,0,True,1,False,False
+146913,2004 FSA,1,0,True,0,True,True
+146929,ORIG DLG,1,0,True,0,True,True
+146995,other,1,0,True,0,True,True
+146999,2004 FSA,2,0,True,0,True,True
+147007,other,2,0,True,0,True,True
+147011,2004 FSA,1,0,True,0,True,True
+147048,other,2,0,True,0,True,True
+147054,2004 FSA,1,0,True,0,True,True
+147109,other,1,0,True,0,True,True
+147146,other,1,0,True,0,True,True
+147205,2004 FSA,4,0,True,0,True,True
+147235,2004 FSA,1,0,True,0,True,True
+147362,2004 FSA,17,3,True,7,True,False
+147377,2004 FSA,2,0,True,0,True,True
+147427,other,3,0,True,0,True,True
+147466,2004 FSA,1,0,True,0,True,True
+147517,2004 FSA,13,1,True,3,True,False
+147582,ORIG DLG,4,0,True,0,True,True
+147609,2004 FSA,1,0,True,0,True,True
+147611,2004 FSA,21,6,True,9,False,False
+147645,other,1,0,True,0,True,True
+147655,other,3,0,True,1,True,False
+147684,DNR 24k POLYS,1,0,True,0,True,True
+147713,PWI,3,0,True,0,True,True
+147890,2004 FSA,1,0,True,0,True,True
+147893,2004 FSA,7,0,True,0,True,True
+147924,ORIG DLG,1,0,True,0,True,True
+147953,other,2,0,True,0,True,True
+147956,other,2,0,True,0,True,True
+147990,,23,2,True,5,True,False
+148011,2004 FSA,1,0,True,0,True,True
+148024,other,2,0,True,0,True,True
+148033,2004 FSA,3,0,True,1,True,False
+148044,other,1,0,True,0,True,True
+148060,other,2,0,True,0,True,True
+148138,2004 FSA,1,0,True,0,True,True
+148180,other,2,0,True,0,True,True
+148198,other,2,0,True,0,True,True
+148238,2004 FSA,1,0,True,0,True,True
+148279,other,2,0,True,0,True,True
+148287,DNR 24k POLYS,1,0,True,0,True,True
+148352,2004 FSA,1,0,True,0,True,True
+148394,2004 FSA,4,1,True,2,True,False
+148424,2004 FSA,3,0,True,0,True,True
+148426,ORIG DLG,1,0,True,0,True,True
+148475,other,4,0,True,1,True,False
+148502,other,1,0,True,0,True,True
+148700,other,1,0,True,0,True,True
+148715,2004 FSA,1,0,True,0,True,True
+148750,ORIG DLG,1,0,True,0,True,True
+148763,other,1,0,True,0,True,True
+148776,PWI,2,0,True,0,True,True
+148865,2004 FSA,4,0,True,1,True,False
+148874,other,1,0,True,0,True,True
+148938,other,6,0,True,1,True,False
+148955,2004 FSA,1,0,True,0,True,True
+148970,DNR 24k POLYS,1,0,True,0,True,True
+149039,other,7,0,True,0,True,True
+149041,DNR 24k POLYS,1,0,True,0,True,True
+149053,other,1,0,True,0,True,True
+149068,PWI,1,0,True,0,True,True
+149074,other,1,0,True,0,True,True
+149077,2004 FSA,1,0,True,0,True,True
+149083,2004 FSA,1,0,True,0,True,True
+149091,other,1,0,True,0,True,True
+149093,other,1,0,True,0,True,True
+149101,2004 FSA,1,0,True,0,True,True
+149148,2004 FSA,6,4,True,4,True,False
+149155,2004 FSA,1,0,True,0,True,True
+149280,other,4,0,True,0,True,True
+149377,2004 FSA,1,0,True,0,True,True
+149381,2004 FSA,6,2,True,4,True,False
+149391,other,3,0,True,1,True,False
+149444,2004 FSA,8,0,True,0,True,True
+149477,2004 FSA,1,0,True,0,True,True
+149514,other,1,0,True,0,True,True
+149540,other,1,0,True,0,True,True
+149543,2004 FSA,2,0,True,0,True,True
+149604,other,1,0,True,0,True,True
+149617,2004 FSA,2,0,True,0,True,True
+149672,2004 FSA,1,0,True,0,True,True
+149703,other,1,0,True,0,True,True
+149707,2004 FSA,4,0,True,0,True,True
+149745,other,3,0,True,0,True,True
+149842,other,4,1,True,2,True,False
+149872,ORIG DLG,1,0,True,0,True,True
+149917,2004 FSA,1,0,True,0,True,True
+149927,other,3,0,True,0,True,True
+150007,other,1,0,True,0,True,True
+150041,2004 FSA,2,1,True,1,True,False
+150049,2004 FSA,1,0,True,0,True,True
+150066,2004 FSA,2,0,True,0,True,True
+150069,other,4,0,True,1,True,False
+150110,other,1,0,True,0,True,True
+150115,2004 FSA,1,0,True,0,True,True
+150233,other,1,0,True,0,True,True
+150248,other,2,0,True,0,True,True
+150262,other,4,0,True,2,True,False
+150498,other,6,0,True,0,False,False
+150503,other,1,0,True,0,True,True
+150516,2004 FSA,3,0,True,1,True,False
+150535,2004 FSA,2,0,True,1,True,False
+150545,DNR 24k POLYS,1,0,True,0,True,True
+150621,other,6,0,True,0,True,True
+150701,2004 FSA,6,1,True,4,False,False
+150720,ORIG DLG,2,0,True,0,True,True
+150809,other,3,0,True,0,True,True
+150844,2004 FSA,1,0,True,0,True,True
+150867,2004 FSA,4,0,True,0,True,True
+150873,other,1,0,True,0,True,True
+150879,2004 FSA,1,0,True,0,True,True
+150965,other,13,4,True,4,True,False
+150974,2004 FSA,1,0,True,0,True,True
+150983,2004 FSA,1,0,True,0,True,True
+151064,2004 FSA,3,0,True,0,True,True
+151123,other,1,0,True,0,True,True
+151124,ORIG DLG,1,0,True,0,True,True
+151142,other,5,1,True,1,True,False
+151148,2004 FSA,2,0,True,0,True,True
+151170,other,4,1,True,2,True,False
+151176,2004 FSA,1,0,True,0,True,True
+151236,other,10,6,True,8,True,False
+151341,DNR 24k POLYS,1,0,True,0,True,True
+151391,2004 FSA,1,0,True,0,True,True
+151467,other,2,0,True,1,True,False
+151474,ORIG DLG,1,0,True,0,True,True
+151529,2004 FSA,1,0,True,0,True,True
+151550,other,1,0,True,0,True,True
+151566,other,9,3,True,5,True,False
+151570,DNR 24k POLYS,1,0,True,0,True,True
+151616,2004 FSA,1,0,True,0,True,True
+151625,other,3,0,True,0,True,True
+151655,2004 FSA,187,97,True,124,True,False
+151663,other,2,0,True,0,True,True
+151722,2004 FSA,2,0,True,1,True,False
+151810,other,1,0,True,0,True,True
+151839,2004 FSA,1,0,True,0,True,True
+151915,2004 FSA,45,33,True,38,True,False
+151934,2004 FSA,1,0,True,0,True,True
+151995,DNR 24k POLYS,1,0,True,0,True,True
+152005,PWI,1,0,True,0,True,True
+152037,PWI,1,0,True,0,True,True
+152064,2004 FSA,4,0,True,1,True,False
+152071,2004 FSA,7,0,True,2,True,False
+152129,2004 FSA,1,0,True,0,True,True
+152174,other,1,0,True,0,True,True
+152209,2004 FSA,15,5,True,11,True,False
+152223,2004 FSA,5,0,True,0,True,True
+152276,2004 FSA,1,0,True,0,True,True
+152369,2004 FSA,1,0,True,0,True,True
+152372,ORIG DLG,1,0,True,0,True,True
+152380,2004 FSA,2,0,True,0,True,True
+152418,2004 FSA,1,0,True,0,True,True
+152449,2004 FSA,1,0,True,0,True,True
+152500,2004 FSA,2,0,True,1,True,False
+152511,ORIG DLG,2,0,True,0,True,True
+152542,other,1,0,True,0,True,True
+152578,other,2,0,True,0,True,True
+152603,2004 FSA,1,0,True,0,True,True
+152644,DNR 24k POLYS,1,0,True,0,True,True
+152650,PWI,1,0,True,0,True,True
+152657,2004 FSA,3,0,True,0,True,True
+152722,2004 FSA,5,2,True,2,True,False
+152764,2004 FSA,2,0,True,0,True,True
+152766,2004 FSA,1,0,True,0,True,True
+152779,2004 FSA,1,0,True,0,True,True
+152783,2004 FSA,1,0,True,0,True,True
+152845,2004 FSA,1,0,True,0,True,True
+152871,other,2,0,True,0,True,True
+152882,ORIG DLG,2,0,True,0,True,True
+152917,other,2,0,True,0,True,True
+152930,other,1,0,True,0,True,True
+153004,other,2,0,True,0,True,True
+153051,ORIG DLG,1,0,True,0,True,True
+153060,other,3,0,True,0,True,True
+153096,2004 FSA,1,0,True,0,True,True
+153113,other,1,0,True,0,True,True
+153117,other,8,1,True,6,True,False
+153177,other,1,0,True,0,True,True
+153253,other,1,0,True,0,True,True
+153285,other,1,0,True,0,True,True
+153394,2004 FSA,1,0,True,0,True,True
+153433,,2,0,True,0,True,True
+153544,other,2,0,True,0,True,True
+153609,2004 FSA,1,0,True,0,True,True
+153650,2004 FSA,1,0,True,0,True,True
+153684,2004 FSA,1,0,True,0,True,True
+153790,other,1,0,True,0,True,True
+153942,other,3,0,True,0,True,True
+154075,2004 FSA,1,0,True,0,True,True
+154078,2004 FSA,2,0,True,1,True,False
+154089,other,1,0,True,0,True,True
+154103,2004 FSA,2,0,True,0,True,True
+154127,ORIG DLG,2,0,True,0,True,True
+154168,other,1,0,True,0,True,True
+154246,other,8,0,True,0,True,True
+154270,2004 FSA,1,0,True,0,True,True
+154280,ORIG DLG,1,0,True,0,True,True
+154295,other,1,0,True,0,True,True
+154304,other,1,0,True,0,True,True
+154404,other,1,0,True,0,True,True
+154430,2004 FSA,1,0,True,0,True,True
+154502,2004 FSA,1,0,True,0,True,True
+154518,other,1,0,True,0,True,True
+154531,other,1,0,True,0,True,True
+154546,other,1,0,True,0,True,True
+154568,,4,0,True,0,False,False
+154582,2004 FSA,1,0,True,0,True,True
+154638,2004 FSA,1,0,True,0,True,True
+154674,2004 FSA,1,0,True,0,True,True
+154684,other,1,0,True,0,True,True
+154731,other,3,0,True,0,True,True
+154955,2004 FSA,1,0,True,0,True,True
+154998,other,1,0,True,0,True,True
+155013,other,2,0,True,0,True,True
+155060,2004 FSA,6,1,True,4,True,False
+155061,other,2,0,True,0,True,True
+155079,other,2,0,True,1,True,False
+155107,other,1,0,True,0,True,True
+155158,2004 FSA,1,0,True,0,True,True
+155220,2004 FSA,9,2,True,4,True,False
+155282,2004 FSA,1,0,True,0,True,True
+155289,2004 FSA,1,0,True,0,True,True
+155433,2004 FSA,1,0,True,0,True,True
+155486,other,1,0,True,0,True,True
+155503,other,1,0,True,0,True,True
+155555,2004 FSA,2,0,True,0,True,True
+155588,other,1,0,True,0,True,True
+155589,other,1,0,True,0,True,True
+155650,other,18,8,True,12,True,False
+155664,2004 FSA,4,0,True,0,True,True
+155715,DNR 24k POLYS,1,0,True,0,True,True
+155718,2004 FSA,2,0,True,0,True,True
+155763,other,1,0,True,0,True,True
+155803,other,14,1,True,2,True,False
+155812,ORIG DLG,1,0,True,0,True,True
+155859,2004 FSA,1,0,True,0,True,True
+155883,other,3,0,True,1,True,False
+155937,DNR 24k POLYS,1,0,True,0,True,True
+155955,2004 FSA,1,0,True,0,True,True
+156036,2004 FSA,40,35,True,37,True,False
+156215,2004 FSA,1,0,True,0,True,True
+156227,other,1,0,True,0,True,True
+156228,2004 FSA,1,0,True,0,True,True
+156247,ORIG DLG,5,0,True,2,True,False
+156270,DNR 24k POLYS,1,0,True,0,True,True
+156410,other,1,0,True,0,True,True
+156411,2004 FSA,5,0,True,0,True,True
+156433,other,1,0,True,0,True,True
+156442,2004 FSA,28,9,True,20,True,False
+156517,DNR 24k POLYS,1,0,True,0,True,True
+156529,2004 FSA,1,0,True,0,True,True
+156609,DNR 24k POLYS,1,0,True,0,True,True
+156621,other,1,0,True,0,True,True
+156647,2004 FSA,3,0,True,2,True,False
+156686,2004 FSA,5,1,True,2,True,False
+156766,2004 FSA,2,0,True,0,True,True
+156773,ORIG DLG,1,0,True,0,True,True
+156774,2004 FSA,1,0,True,0,True,True
+156833,ORIG DLG,4,0,True,0,True,True
+156848,ORIG DLG,2,0,True,0,True,True
+156869,ORIG DLG,1,0,True,0,True,True
+156889,other,1,0,True,0,True,True
+156907,2004 FSA,1,0,True,0,True,True
+156947,other,1,0,True,0,True,True
+156958,2004 FSA,1,0,True,0,True,True
+156965,other,6,0,True,1,True,False
+156967,other,1,0,True,0,True,True
+156982,2004 FSA,3,1,True,1,True,False
+156991,2004 FSA,1,0,True,0,True,True
+157060,DNR 24k POLYS,1,0,True,0,True,True
+157211,2004 FSA,1,0,True,0,True,True
+157227,2004 FSA,1,0,True,0,True,True
+157235,2004 FSA,4,0,True,0,True,True
+157246,2004 FSA,1,0,True,0,True,True
+157248,2004 FSA,1,0,True,0,True,True
+157401,other,1,0,True,0,True,True
+157496,other,16,0,True,4,True,False
+157536,2004 FSA,3,0,True,0,True,True
+157548,2004 FSA,1,0,True,0,True,True
+157554,2004 FSA,2,0,True,0,True,True
+157574,2004 FSA,5,1,True,2,True,False
+157597,2004 FSA,1,0,True,0,True,True
+157684,ORIG DLG,1,0,True,0,True,True
+157694,other,19,5,True,11,True,False
+157751,other,1,0,True,0,True,True
+157796,2004 FSA,1,0,True,0,True,True
+157810,other,1,0,True,0,True,True
+157829,DNR 24k POLYS,1,0,True,0,True,True
+157873,ORIG DLG,1,0,True,0,True,True
+157881,other,1,0,True,0,True,True
+157900,other,2,1,True,1,True,False
+157919,2004 FSA,1,0,True,0,True,True
+158065,other,1,0,True,0,True,True
+158120,other,1,0,True,0,True,True
+158125,PWI,2,0,True,0,True,True
+158140,ORIG DLG,4,0,True,0,True,True
+158219,other,2,0,True,0,True,True
+158236,2004 FSA,1,0,True,0,True,True
+158270,2004 FSA,5,1,True,1,True,False
+158288,2004 FSA,3,0,True,0,True,True
+158303,other,4,0,True,3,True,False
+158309,2004 FSA,2,0,True,0,True,True
+158373,2004 FSA,1,0,True,0,True,True
+158385,other,1,0,True,0,True,True
+158409,2004 FSA,1,0,True,0,True,True
+158413,DNR 24k POLYS,1,0,True,0,True,True
+158440,2004 FSA,2,0,True,0,True,True
+158461,other,1,0,True,0,True,True
+158482,ORIG DLG,3,0,True,0,True,True
+158562,2004 FSA,3,0,True,0,True,True
+158565,other,3,1,True,2,True,False
+158587,other,2,0,True,1,True,False
+158626,ORIG DLG,2,0,True,0,True,True
+158660,other,1,0,True,0,True,True
+158793,2004 FSA,2,0,True,0,True,True
+158842,ORIG DLG,2,0,True,0,True,True
+158898,2004 FSA,1,0,True,0,True,True
+158981,2004 FSA,1,0,True,0,True,True
+158988,2004 FSA,7,4,True,6,True,False
+159015,2004 FSA,1,0,True,0,True,True
+159130,2004 FSA,2,0,True,1,True,False
+159162,DNR 24k POLYS,1,0,True,0,True,True
+159174,2004 FSA,4,0,True,2,True,False
+159175,DNR 24k POLYS,1,0,True,0,True,True
+159196,other,1,0,True,0,True,True
+159254,2004 FSA,1,0,True,0,True,True
+159260,other,2,0,True,1,True,False
+159270,2004 FSA,1,0,True,0,True,True
+159290,other,3,0,True,1,True,False
+159439,2004 FSA,1,0,True,0,True,True
+159440,2004 FSA,2,0,True,0,True,True
+159522,2004 FSA,40,15,True,22,True,False
+159572,2004 FSA,1,0,True,0,True,True
+159634,ORIG DLG,1,0,True,0,True,True
+159701,2004 FSA,1,0,True,0,True,True
+159704,2004 FSA,2,0,True,0,True,True
+159785,DNR 24k POLYS,1,0,True,0,True,True
+159801,DNR 24k POLYS,4,0,True,0,True,True
+159837,2004 FSA,2,0,True,1,True,False
+159852,ORIG DLG,1,0,True,0,True,True
+159882,2004 FSA,1,0,True,0,True,True
+159905,2004 FSA,1,0,True,0,True,True
+159949,2004 FSA,5,1,True,4,True,False
+160039,other,1,0,True,0,True,True
+160091,other,5,0,True,0,True,True
+160099,other,1,0,True,0,True,True
+160101,2004 FSA,1,0,True,0,True,True
+160125,other,1,0,True,0,True,True
+160141,ORIG DLG,1,0,True,0,True,True
+160143,other,1,0,True,0,True,True
+160144,2004 FSA,2,0,True,0,True,True
+160293,other,1,0,True,0,True,True
+160385,other,1,0,True,0,True,True
+160468,other,1,0,True,0,True,True
+160508,other,1,0,True,0,True,True
+160563,2004 FSA,3,0,True,0,True,True
+160578,PWI,1,0,True,0,True,True
+160617,other,1,0,True,0,True,True
+160713,2004 FSA,3,1,True,2,True,False
+160762,other,1,0,True,0,True,True
+160771,other,2,0,True,0,True,True
+160777,DNR 24k POLYS,1,0,True,0,True,True
+160823,other,2,0,True,0,True,True
+160833,other,3,1,True,2,True,False
+160861,2004 FSA,1,0,True,0,True,True
+160929,2004 FSA,3,1,True,2,True,False
+160965,ORIG DLG,1,0,True,0,True,True
+160967,other,2,0,True,0,True,True
+161114,other,2,0,True,1,True,False
+161133,other,2,0,True,0,True,True
+161235,other,3,0,True,0,True,True
+161241,other,2,0,True,0,True,True
+161279,2004 FSA,1,0,True,0,True,True
+161333,other,2,0,True,1,True,False
+161340,other,2,0,True,0,True,True
+161421,2004 FSA,1,0,True,0,True,True
+161464,ORIG DLG,1,0,True,0,True,True
+161471,2004 FSA,1,0,True,0,True,True
+161472,DNR 24k POLYS,1,0,True,0,True,True
+161498,DNR 24k POLYS,1,0,True,0,True,True
+161508,2004 FSA,1,0,True,0,True,True
+161588,other,23,4,True,7,True,False
+161634,other,1,0,True,0,True,True
+161736,other,1,0,True,0,True,True
+161821,PWI,1,0,True,0,True,True
+161824,ORIG DLG,1,0,True,0,True,True
+161840,other,1,0,True,0,True,True
+161872,2004 FSA,3,0,True,0,True,True
+161907,PWI,3,0,True,0,True,True
+161942,2004 FSA,7,0,True,0,True,True
+162006,DNR 24k POLYS,1,0,True,0,True,True
+162013,2004 FSA,1,0,True,0,True,True
+162112,,2,0,True,0,True,True
+162115,other,1,0,True,0,True,True
+162128,other,1,0,True,0,True,True
+162157,2004 FSA,24,13,True,16,True,False
+162169,2004 FSA,1,0,True,0,True,True
+162201,other,2,0,True,0,True,True
+162304,2004 FSA,2,0,True,0,True,True
+162366,PWI,3,0,True,0,True,True
+162439,DNR 24k POLYS,1,0,True,0,True,True
+162571,2004 FSA,1,0,True,0,True,True
+162577,other,2,0,True,0,True,True
+162615,other,7,0,True,2,True,False
+162652,other,1,0,True,0,True,True
+162687,2004 FSA,11,5,True,6,True,False
+162701,other,3,1,True,1,True,False
+162704,other,413,163,True,239,True,False
+162728,other,1,0,True,0,True,True
+162769,2004 FSA,1,0,True,0,True,True
+162777,2004 FSA,3,0,True,0,True,True
+162794,2004 FSA,1,0,True,0,True,True
+162816,2004 FSA,17,2,True,5,True,False
+162853,2004 FSA,1,0,True,0,True,True
+162878,2004 FSA,1,0,True,0,True,True
+162899,2004 FSA,1,0,True,0,True,True
+162900,2004 FSA,1,0,True,0,True,True
+163069,other,18,3,True,8,True,False
+163085,2004 FSA,1,0,True,0,True,True
+163093,2004 FSA,1,0,True,0,True,True
+163120,ORIG DLG,1,0,True,0,True,True
+163143,PWI,1,0,True,0,True,True
+163151,2004 FSA,3,1,True,1,True,False
+163197,DNR 24k POLYS,1,0,True,0,True,True
+163230,2004 FSA,1,0,True,0,True,True
+163362,other,4,0,True,1,True,False
+163383,2004 FSA,1,0,True,0,True,True
+163418,ORIG DLG,3,0,True,0,True,True
+163443,other,1,0,True,0,True,True
+163543,other,3,0,True,0,True,True
+163604,2004 FSA,1,0,True,0,True,True
+163713,DNR 24k POLYS,1,0,True,0,True,True
+163716,2004 FSA,2,0,True,0,True,True
+163727,2004 FSA,1,0,True,0,True,True
+163745,2004 FSA,1,0,True,0,True,True
+163847,2004 FSA,9,7,True,7,True,False
+163893,2004 FSA,1,0,True,0,True,True
+163919,other,2,0,True,0,True,True
+163961,2004 FSA,1,0,True,0,True,True
+164003,2004 FSA,1,0,True,0,True,True
+164004,other,18,0,True,1,True,False
+164027,2004 FSA,4,0,True,1,False,False
+164089,other,10,6,True,9,True,False
+164109,2004 FSA,1,0,True,0,True,True
+164143,DNR 24k POLYS,1,0,True,0,True,True
+164188,ORIG DLG,1,0,True,0,True,True
+164200,other,8,0,True,0,True,True
+164347,other,1,0,True,0,True,True
+164357,other,1,0,True,0,True,True
+164400,ORIG DLG,1,0,True,0,True,True
+164444,2004 FSA,2,1,True,1,True,False
+164457,2004 FSA,4,0,True,0,True,True
+164526,DNR 24k POLYS,1,0,True,0,True,True
+164535,2004 FSA,3,0,True,0,True,True
+164635,2004 FSA,3,0,True,1,True,False
+164639,2004 FSA,1,0,True,0,True,True
+164651,2004 FSA,4,0,True,0,True,True
+164715,ORIG DLG,2,0,True,0,True,True
+164751,ORIG DLG,1,0,True,0,True,True
+164763,other,274,95,True,155,True,False
+164808,2004 FSA,6,0,True,0,True,True
+164820,2004 FSA,3,0,True,0,True,True
+164852,DNR 24k POLYS,1,0,True,0,True,True
+164854,other,1,0,True,0,True,True
+164856,PWI,3,0,True,0,True,True
+164906,PWI,2,0,True,0,True,True
+164982,other,1,0,True,0,True,True
+165000,2004 FSA,1,0,True,0,True,True
+165055,DNR 24k POLYS,1,0,True,0,True,True
+165066,ORIG DLG,1,0,True,0,True,True
+165089,other,1,0,True,0,True,True
+165101,other,1,0,True,0,True,True
+165138,other,1,0,True,0,True,True
+165177,,1,0,True,0,True,True
+165196,2004 FSA,2,0,True,0,True,True
+165241,other,18,4,True,10,True,False
+165270,other,2,0,True,0,True,True
+165281,2004 FSA,2,0,True,1,True,False
+165373,2004 FSA,1,0,True,0,True,True
+165391,,13,0,True,1,True,False
+165450,DNR 24k POLYS,1,0,True,0,True,True
+165519,2004 FSA,1,0,True,0,True,True
+165536,2004 FSA,1,0,True,0,True,True
+165562,2004 FSA,1,0,True,0,True,True
+165597,2004 FSA,2,0,True,0,True,True
+165898,,5,0,True,2,True,False
+165953,2004 FSA,1,0,True,0,True,True
+166097,2004 FSA,2,0,True,0,True,True
+166125,other,1,0,True,0,True,True
+166205,2004 FSA,2,0,True,0,True,True
+166302,other,7,0,True,0,True,True
+166317,2004 FSA,6,1,True,1,True,False
+166354,2004 FSA,1,0,True,0,True,True
+166369,2004 FSA,1,0,True,0,True,True
+166382,2004 FSA,1,0,True,0,True,True
+166397,2004 FSA,2,0,True,0,True,True
+166402,2004 FSA,1,0,True,0,True,True
+166435,2004 FSA,1,0,True,0,True,True
+166466,2004 FSA,6,1,True,3,True,False
+166468,2004 FSA,2,0,True,0,True,True
+166665,ORIG DLG,4,0,True,0,True,True
+166666,other,17,6,True,8,True,False
+166713,2004 FSA,1,0,True,0,True,True
+166716,ORIG DLG,1,0,True,0,True,True
+166719,2004 FSA,1,0,True,0,True,True
+166793,2004 FSA,2,0,True,0,True,True
+166946,other,1,0,True,0,True,True
+166956,2004 FSA,1,0,True,0,True,True
+167042,other,2,0,True,0,True,True
+167074,DNR 24k POLYS,1,0,True,0,True,True
+167175,ORIG DLG,1,0,True,0,True,True
+167178,2004 FSA,1,0,True,0,True,True
+167201,other,1,0,True,0,True,True
+167272,2004 FSA,1,0,True,0,True,True
+167360,2004 FSA,1,0,True,0,True,True
+167364,other,1,0,True,0,True,True
+167528,other,1,0,True,0,True,True
+167612,2004 FSA,1,0,True,0,True,True
+167641,2004 FSA,3,0,True,1,True,False
+167694,2004 FSA,2,0,True,0,True,True
+167718,other,2,0,True,0,True,True
+167744,DNR 24k POLYS,1,0,True,0,True,True
+167787,other,1,0,True,0,True,True
+167793,2004 FSA,4,0,True,1,True,False
+167949,other,7,0,True,1,True,False
+168040,DNR 24k POLYS,1,0,True,0,True,True
+168108,ORIG DLG,2,0,True,0,True,True
+168136,2004 FSA,1,0,True,0,True,True
+168202,ORIG DLG,1,0,True,0,True,True
+168217,other,1,0,True,0,True,True
+168251,other,2,0,True,1,True,False
+168271,2004 FSA,1,0,True,0,True,True
+168276,other,1,0,True,0,True,True
+168377,DNR 24k POLYS,1,0,True,0,True,True
+168391,2004 FSA,1,0,True,0,True,True
+168411,2004 FSA,9,6,True,8,True,False
+168509,other,3,0,True,0,True,True
+168642,2004 FSA,1,0,True,0,True,True
+168659,2004 FSA,5,2,True,3,True,False
+168677,2004 FSA,2,0,True,0,True,True
+168765,other,1,0,True,0,True,True
+168791,2004 FSA,1,0,True,0,True,True
+168884,2004 FSA,2,0,True,0,True,True
+168908,2004 FSA,1,0,True,0,True,True
+168941,other,11,4,True,9,True,False
+168945,other,1,0,True,0,True,True
+168961,DNR 24k POLYS,1,0,True,0,True,True
+168964,2004 FSA,1,0,True,0,True,True
+168997,ORIG DLG,1,0,True,0,True,True
+169013,ORIG DLG,1,0,True,0,True,True
+169077,2004 FSA,1,0,True,0,True,True
+169090,2004 FSA,1,0,True,0,True,True
+169102,other,1,0,True,0,True,True
+169245,other,2,0,True,0,True,True
+169278,DNR 24k POLYS,1,0,True,0,True,True
+169332,2004 FSA,1,0,True,0,True,True
+169433,other,1,0,True,0,True,True
+169449,2004 FSA,5,0,True,0,True,True
+169505,2004 FSA,2,1,True,1,True,False
+169529,2004 FSA,2,1,True,1,True,False
+169532,other,6,0,True,0,True,True
+169571,other,2,0,True,0,True,True
+169803,2004 FSA,2,0,True,0,True,True
+169831,2004 FSA,1,0,True,0,True,True
+169891,other,1,0,True,0,True,True
+169896,,1,0,True,0,True,True
+169908,other,1,0,True,0,True,True
+169911,,2,0,True,0,True,True
+169967,ORIG DLG,1,0,True,0,True,True
+170007,2004 FSA,1,0,True,0,True,True
+170070,2004 FSA,4,0,True,0,True,True
+170094,2004 FSA,3,0,True,0,True,True
+170126,ORIG DLG,3,0,True,0,True,True
+170143,2004 FSA,1,0,True,0,True,True
+170158,2004 FSA,1,0,True,0,True,True
+170171,2004 FSA,1,0,True,0,True,True
+170280,2004 FSA,2,1,True,1,True,False
+170381,2004 FSA,1,0,True,0,True,True
+170388,2004 FSA,1,0,True,0,True,True
+170450,DNR 24k POLYS,1,0,True,0,True,True
+170470,2004 FSA,5,0,True,2,True,False
+170511,2004 FSA,1,0,True,0,True,True
+170587,other,4,0,True,0,True,True
+170607,2004 FSA,1,0,True,0,True,True
+170610,other,2,0,True,0,True,True
+170646,ORIG DLG,1,0,True,0,True,True
+170739,2004 FSA,1,0,True,0,True,True
+170781,2004 FSA,1,0,True,0,True,True
+170829,2004 FSA,1,0,True,0,True,True
+170834,ORIG DLG,1,0,True,0,True,True
+170965,other,7,1,True,4,True,False
+170979,other,1,0,True,0,True,True
+170987,2004 FSA,1,0,True,0,True,True
+171044,DNR 24k POLYS,1,0,True,0,True,True
+171088,2004 FSA,2,0,True,0,True,True
+171096,other,1,0,True,0,True,True
+171132,other,1,0,True,0,True,True
+171175,2004 FSA,1,0,True,0,True,True
+171188,2004 FSA,3,0,True,0,True,True
+171259,2004 FSA,7,1,True,1,True,False
+171270,other,1,0,True,0,True,True
+171289,2004 FSA,1,0,True,0,True,True
+171327,2004 FSA,1,0,True,0,True,True
+171353,ORIG DLG,1,0,True,0,True,True
+171456,2004 FSA,1,0,True,0,True,True
+171464,ORIG DLG,1,0,True,0,True,True
+171489,2004 FSA,7,1,True,2,True,False
+171495,2004 FSA,2,0,True,0,True,True
+171561,2004 FSA,1,0,True,0,True,True
+171606,other,3,0,True,0,True,True
+171610,2004 FSA,1,0,True,0,True,True
+171650,other,2,0,True,0,True,True
+171791,other,1,0,True,0,True,True
+171957,other,1,0,True,0,True,True
+171979,ORIG DLG,1,0,True,0,True,True
+172029,2004 FSA,3,0,True,0,True,True
+172103,2004 FSA,1,0,True,0,True,True
+172221,ORIG DLG,1,0,True,0,True,True
+172283,other,4,1,True,1,True,False
+172311,DNR 24k POLYS,1,0,True,0,True,True
+172313,2004 FSA,1,0,True,0,True,True
+172401,2004 FSA,1,0,True,0,True,True
+172423,2004 FSA,1,0,True,0,True,True
+172427,2004 FSA,2,1,True,1,True,False
+172462,other,1,0,True,0,True,True
+172527,other,2,0,True,0,True,True
+172607,other,1,0,True,0,True,True
+172674,2004 FSA,1,0,True,0,True,True
+172699,2004 FSA,18,3,True,6,True,False
+172787,2004 FSA,2,0,True,0,True,True
+172879,2004 FSA,1,0,True,0,True,True
+172882,other,1,0,True,0,True,True
+172928,other,4,1,True,2,True,False
+173003,ORIG DLG,2,0,True,0,True,True
+173004,other,1,0,True,0,True,True
+173055,other,8,3,True,5,True,False
+173178,2004 FSA,1,0,True,0,True,True
+173185,ORIG DLG,1,0,True,0,True,True
+173221,2004 FSA,1,0,True,0,True,True
+173275,other,1,0,True,0,True,True
+173306,2004 FSA,34,18,True,21,True,False
+173420,2004 FSA,1,0,True,0,True,True
+173442,other,1,0,True,0,True,True
+173522,other,1,0,True,0,True,True
+173539,other,1,0,True,0,True,True
+173559,2004 FSA,1,0,True,0,True,True
+173632,PWI,1,0,True,0,True,True
+173661,ORIG DLG,1,0,True,0,True,True
+173662,2004 FSA,2,0,True,0,True,True
+173707,2004 FSA,2,0,True,0,True,True
+173823,2004 FSA,2,0,True,0,True,True
+173846,2004 FSA,1,0,True,0,True,True
+173924,2004 FSA,3,0,True,0,True,True
+173946,DNR 24k POLYS,1,0,True,0,True,True
+173952,ORIG DLG,2,1,True,1,True,False
+173957,2004 FSA,1,0,True,0,True,True
+173961,2004 FSA,6,0,True,4,True,False
+173962,2004 FSA,1,0,True,0,True,True
+173979,other,25,8,True,11,True,False
+173991,other,3,1,True,1,True,False
+173999,2004 FSA,1,0,True,0,True,True
+174003,2004 FSA,1,0,True,0,True,True
+174019,2004 FSA,1,0,True,0,True,True
+174025,ORIG DLG,1,0,True,0,True,True
+174068,other,2,0,True,0,True,True
+174093,2004 FSA,5,2,True,2,True,False
+174165,other,2,0,True,0,True,True
+174223,2004 FSA,3,0,True,1,True,False
+174253,2004 FSA,16,6,True,10,True,False
+174262,2004 FSA,3,0,True,0,True,True
+174320,other,11,3,True,8,True,False
+174330,DNR 24k POLYS,2,0,True,0,True,True
+174492,2004 FSA,3,0,True,0,True,True
+174501,2004 FSA,13,7,True,12,True,False
+174520,other,1,0,True,0,True,True
+174602,2004 FSA,3,1,True,1,True,False
+174621,2004 FSA,1,0,True,0,True,True
+174663,PWI,4,0,True,0,True,True
+174672,2004 FSA,4,0,True,0,True,True
+174733,other,1,0,True,0,True,True
+174764,DNR 24k POLYS,1,0,True,0,True,True
+174862,other,9,0,True,1,True,False
+174864,2004 FSA,1,0,True,0,True,True
+174945,other,1,0,True,0,True,True
+174976,2004 FSA,1,0,True,0,True,True
+174977,other,4,0,True,0,True,True
+175153,2004 FSA,1,0,True,0,True,True
+175165,2004 FSA,1,0,True,0,True,True
+175179,other,4,0,True,0,True,True
+175255,2004 FSA,1,0,True,0,True,True
+175295,DNR 24k POLYS,5,0,True,3,True,False
+175305,2004 FSA,1,0,True,0,True,True
+175314,2004 FSA,2,0,True,0,True,True
+175390,2004 FSA,1,0,True,0,True,True
+175400,2004 FSA,9,1,True,2,True,False
+175421,other,2,0,True,0,True,True
+175524,other,2,0,True,1,True,False
+175547,2004 FSA,1,0,True,0,True,True
+175620,other,1,0,True,0,True,True
+175635,other,5,2,False,4,True,False
+175636,2004 FSA,1,0,True,0,True,True
+175637,2004 FSA,1,0,True,0,True,True
+175699,2004 FSA,2,0,True,0,True,True
+175736,2004 FSA,1,0,True,0,True,True
+175765,2004 FSA,1,0,True,0,True,True
+175896,2004 FSA,1,0,True,0,True,True
+175952,2004 FSA,1,0,True,0,True,True
+176067,2004 FSA,2,0,True,0,True,True
+176093,2004 FSA,1,0,True,0,True,True
+176108,2004 FSA,1,0,True,0,True,True
+176135,2004 FSA,1,0,True,0,True,True
+176143,other,1,0,True,0,True,True
+176204,2004 FSA,4,2,True,2,True,False
+176314,2004 FSA,1,0,True,0,True,True
+176338,2004 FSA,1,0,True,0,True,True
+176378,ORIG DLG,1,0,True,0,True,True
+176381,other,1,0,True,0,True,True
+176385,2004 FSA,1,0,True,0,True,True
+176458,other,1,0,True,0,True,True
+176465,DNR 24k POLYS,1,0,True,0,True,True
+176481,2004 FSA,1,0,True,0,True,True
+176633,other,2,0,True,0,True,True
+176710,other,2,0,True,0,True,True
+176729,2004 FSA,1,0,True,0,True,True
+176843,other,1,0,True,0,True,True
+176891,other,1,0,True,0,True,True
+176951,2004 FSA,1,0,True,0,True,True
+177011,2004 FSA,2,0,True,0,True,True
+177025,2004 FSA,1,0,True,0,True,True
+177035,other,1,0,True,0,True,True
+177079,other,3,0,True,2,True,False
+177089,other,44,20,True,26,True,False
+177098,2004 FSA,16,4,True,7,True,False
+177136,other,1,0,True,0,True,True
+177239,other,1,0,True,0,True,True
+177282,,1,0,True,0,True,True
+177288,2004 FSA,2,0,True,0,True,True
+177306,other,1,0,True,0,True,True
+177350,2004 FSA,18,6,True,9,True,False
+177383,2004 FSA,1,0,True,0,True,True
+177397,DNR 24k POLYS,3,0,True,0,True,True
+177409,2004 FSA,2,1,True,1,True,False
+177434,2004 FSA,1,0,True,0,True,True
+177445,ORIG DLG,1,0,True,0,True,True
+177489,ORIG DLG,1,0,True,0,True,True
+177666,2004 FSA,1,0,True,0,False,False
+177686,DNR 24k POLYS,1,0,True,0,True,True
+177719,DNR 24k POLYS,1,0,True,0,True,True
+177854,2004 FSA,1,0,True,0,True,True
+177879,2004 FSA,1,0,True,0,True,True
+177924,2004 FSA,3,0,True,0,True,True
+178017,ORIG DLG,1,0,True,0,True,True
+178112,2004 FSA,1,0,True,0,True,True
+178166,other,2,0,True,0,True,True
+178181,2004 FSA,1,0,True,0,True,True
+178185,2004 FSA,1,0,True,0,True,True
+178213,other,1,0,True,0,True,True
+178267,2004 FSA,1,0,True,0,True,True
+178272,2004 FSA,2,0,True,0,True,True
+178304,2004 FSA,1,0,True,0,True,True
+178350,ORIG DLG,2,0,True,0,True,True
+178401,other,3,0,True,1,True,False
+178509,2004 FSA,8,2,True,3,True,False
+178565,other,1,0,True,0,True,True
+178590,other,2,0,True,0,True,True
+178704,2004 FSA,2,0,True,1,True,False
+178709,other,1,0,True,0,True,True
+178731,2004 FSA,1,0,True,0,True,True
+178736,2004 FSA,2,1,True,1,True,False
+178753,other,3,0,True,0,True,True
+178826,2004 FSA,1,0,True,0,True,True
+178860,2004 FSA,1,0,True,0,True,True
+179005,DNR 24k POLYS,1,0,True,0,True,True
+179036,other,1,0,True,0,True,True
+179105,2004 FSA,1,0,True,0,True,True
+179151,other,10,0,True,4,True,False
+179178,2004 FSA,1,0,True,0,True,True
+179186,2004 FSA,1,0,True,0,True,True
+179209,2004 FSA,2,0,True,0,True,True
+179269,,5,0,True,2,True,False
+179278,other,11,0,True,1,True,False
+179297,2004 FSA,1,0,True,0,True,True
+179338,other,1,0,True,0,True,True
+179360,2004 FSA,3,0,True,0,True,True
+179383,2004 FSA,1,0,True,0,True,True
+179393,2004 FSA,1,0,True,0,True,True
+179400,2004 FSA,1,0,True,0,True,True
+179449,2004 FSA,3,0,True,0,True,True
+179458,other,3,0,False,1,True,False
+179486,2004 FSA,1,0,True,0,True,True
+179531,2004 FSA,1,0,True,0,True,True
+179545,ORIG DLG,1,0,True,0,True,True
+179556,other,6,0,True,2,True,False
+179618,other,1,0,True,0,True,True
+179735,ORIG DLG,2,0,True,0,True,True
+179786,,4,0,True,1,True,False
+179828,2004 FSA,1,0,True,0,True,True
+179852,other,1,0,True,0,True,True
+179899,2004 FSA,1,0,True,0,True,True
+179965,other,1,0,True,0,True,True
+180022,2004 FSA,2,0,True,1,True,False
+180064,other,1,0,True,0,True,True
+180202,other,1,0,True,0,True,True
+180273,2004 FSA,1,0,True,0,True,True
+180277,ORIG DLG,1,0,True,0,True,True
+180341,ORIG DLG,1,0,True,0,True,True
+180353,other,1,0,True,0,True,True
+180392,other,2,0,True,0,True,True
+180451,other,1,0,True,0,True,True
+180483,2004 FSA,1,0,True,0,True,True
+180518,other,1,0,True,0,True,True
+180580,2004 FSA,1,0,True,0,True,True
+180598,2004 FSA,1,0,True,0,True,True
+180657,2004 FSA,2,0,True,0,True,True
+180671,2004 FSA,7,1,True,3,True,False
+180687,2004 FSA,2,0,True,0,True,True
+180690,2004 FSA,1,0,True,0,True,True
+180728,other,1,0,True,0,True,True
+180736,DNR 24k POLYS,1,0,True,0,True,True
+180795,2004 FSA,1,0,True,0,True,True
+180796,ORIG DLG,1,0,True,0,True,True
+180819,other,1,0,True,0,True,True
+180826,ORIG DLG,5,0,True,0,True,True
+180925,2004 FSA,2,0,True,1,True,False
+180972,other,5,0,True,0,True,True
+180989,2004 FSA,2,0,True,0,True,True
+181015,2004 FSA,1,0,True,0,True,True
+181062,other,132,65,True,79,True,False
+181087,DNR 24k POLYS,4,0,True,0,True,True
+181100,other,2,0,True,0,True,True
+181115,2004 FSA,1,0,True,0,True,True
+181258,PWI,1,0,True,0,True,True
+181262,DNR 24k POLYS,1,0,True,0,True,True
+181295,other,4,0,True,0,True,True
+181316,2004 FSA,1,0,True,0,True,True
+181327,2004 FSA,4,3,True,3,True,False
+181354,2004 FSA,1,0,True,0,True,True
+181375,other,2,0,True,0,True,True
+181385,other,1,0,True,0,True,True
+181417,other,5,0,True,0,True,True
+181571,other,1,0,True,0,True,True
+181616,other,2,0,True,0,True,True
+181657,2004 FSA,1,0,True,0,True,True
+181833,2004 FSA,1,0,True,0,True,True
+181873,other,1,0,True,0,True,True
+181882,2004 FSA,1,0,True,0,True,True
+181884,other,2,0,True,0,True,True
+181907,DNR 24k POLYS,1,0,True,0,True,True
+181964,other,1,0,True,0,True,True
+181977,2004 FSA,1,0,True,0,True,True
+182107,other,1,0,True,0,True,True
+182122,2004 FSA,1,0,True,0,True,True
+182124,2004 FSA,1,0,True,0,True,True
+182206,DNR 24k POLYS,1,0,True,0,True,True
+182288,2004 FSA,1,0,True,0,True,True
+182404,ORIG DLG,1,0,True,0,True,True
+182423,2004 FSA,1,0,True,0,True,True
+182507,other,6,0,False,4,True,False
+182573,other,1,0,True,0,True,True
+182699,2004 FSA,2,0,True,0,True,True
+182705,ORIG DLG,2,0,True,0,True,True
+182706,ORIG DLG,1,0,True,0,True,True
+182770,other,1,0,True,0,True,True
+182774,other,4,2,True,2,False,False
+182830,,1,0,True,0,True,True
+182847,other,6,0,True,1,True,False
+182878,2004 FSA,1,0,True,0,True,True
+182924,other,1,0,True,0,True,True
+182928,2004 FSA,4,1,True,3,True,False
+182986,other,39,16,True,21,True,False
+182989,other,10,9,True,9,True,False
+183023,2004 FSA,3,0,True,0,True,True
+183034,other,1,0,True,0,True,True
+183140,2004 FSA,1,0,True,0,True,True
+183142,DNR 24k POLYS,1,0,True,0,True,True
+183181,2004 FSA,1,0,True,0,True,True
+183197,other,2,0,True,0,True,True
+183215,2004 FSA,7,1,True,4,True,False
+183280,2004 FSA,4,0,True,0,True,True
+183351,2004 FSA,2,0,True,0,True,True
+183360,2004 FSA,1,0,True,0,True,True
+183397,2004 FSA,3,2,True,2,True,False
+183411,PWI,2,0,True,0,True,True
+183440,2004 FSA,13,0,True,0,True,True
+183458,DNR 24k POLYS,1,0,True,0,True,True
+183492,DNR 24k POLYS,1,0,True,0,True,True
+183538,DNR 24k POLYS,1,0,True,0,True,True
+183606,other,7,0,True,2,True,False
+183661,other,2,0,True,0,True,True
+183701,2004 FSA,1,0,True,0,True,True
+183797,2004 FSA,1,0,True,0,True,True
+183884,2004 FSA,1,0,True,0,True,True
+183888,other,1,0,True,0,True,True
+184113,other,1,0,True,0,True,True
+184146,other,1,0,True,0,True,True
+184161,ORIG DLG,1,0,True,0,True,True
+184207,ORIG DLG,1,0,True,0,True,True
+184214,2004 FSA,1,0,True,0,True,True
+184215,2004 FSA,1,0,True,0,True,True
+184225,2004 FSA,1,0,True,0,True,True
+184304,2004 FSA,2,0,True,0,True,True
+184315,2004 FSA,1,0,True,0,True,True
+184319,2004 FSA,1,0,True,0,True,True
+184356,2004 FSA,3,0,True,0,True,True
+184419,ORIG DLG,1,0,True,0,True,True
+184451,2004 FSA,4,1,True,2,True,False
+184465,2004 FSA,1,0,True,0,True,True
+184509,2004 FSA,48,31,True,39,True,False
+184548,2004 FSA,1,0,True,0,True,True
+184564,2004 FSA,1,0,True,0,True,True
+184751,2004 FSA,1,0,True,0,True,True
+184756,other,5,0,True,3,True,False
+184771,2004 FSA,1,0,True,0,True,True
+184831,ORIG DLG,1,0,True,0,True,True
+184860,2004 FSA,1,0,True,0,True,True
+184902,other,7,0,True,0,True,True
+184904,DNR 24k POLYS,1,0,True,0,True,True
+184954,PWI,1,0,True,0,True,True
+184963,ORIG DLG,3,0,True,0,True,True
+185005,2004 FSA,1,0,True,0,True,True
+185126,other,1,0,True,0,True,True
+185172,2004 FSA,1,0,True,0,True,True
+185175,other,1,0,True,0,True,True
+185232,2004 FSA,1,0,True,0,True,True
+185238,other,1,0,True,0,True,True
+185243,2004 FSA,1,0,True,0,True,True
+185259,ORIG DLG,1,0,True,0,True,True
+185286,2004 FSA,9,0,True,2,True,False
+185302,2004 FSA,1,0,True,0,True,True
+185333,DNR 24k POLYS,1,0,True,0,True,True
+185343,other,7,0,True,3,True,False
+185349,DNR 24k POLYS,1,0,True,0,True,True
+185439,other,3,0,True,0,True,True
+185458,other,7,0,True,1,True,False
+185460,2004 FSA,1,0,True,0,True,True
+185521,2004 FSA,3,0,True,0,True,True
+185621,ORIG DLG,1,0,True,0,True,True
+185654,2004 FSA,17,8,True,14,True,False
+185661,2004 FSA,5,0,True,0,True,True
+185669,DNR 24k POLYS,1,0,True,0,True,True
+185691,,1,0,True,0,True,True
+185794,ORIG DLG,1,0,True,0,True,True
+185849,2004 FSA,6,1,True,1,True,False
+185877,DNR 24k POLYS,2,0,True,0,True,True
+185959,other,7,2,True,4,True,False
+185965,,5,0,True,0,True,True
+186009,other,7,2,True,2,True,False
+186010,other,29,7,True,15,True,False
+186082,2004 FSA,2,0,True,0,True,True
+186083,other,1,0,True,0,True,True
+186134,other,3,0,True,0,True,True
+186138,other,2,0,True,0,True,True
+186174,other,1,0,True,0,True,True
+186290,other,1,0,True,0,True,True
+186318,ORIG DLG,2,0,True,0,True,True
+186360,DNR 24k POLYS,1,0,True,0,True,True
+186400,other,3,0,True,0,True,True
+186449,other,2,0,True,0,True,True
+186486,ORIG DLG,2,0,True,0,True,True
+186492,other,1,0,True,0,True,True
+186500,2004 FSA,1,0,True,0,True,True
+186558,2004 FSA,1,0,True,0,True,True
+186596,2004 FSA,1,0,True,0,True,True
+186675,2004 FSA,1,0,True,0,True,True
+186705,2004 FSA,2,0,True,0,True,True
+186761,2004 FSA,1,0,True,0,True,True
+186774,other,5,0,True,4,True,False
+186792,other,1,0,True,0,True,True
+186813,2004 FSA,6,1,True,2,True,False
+186817,2004 FSA,3,0,True,0,True,True
+186833,DNR 24k POLYS,1,0,True,0,True,True
+186850,DNR 24k POLYS,1,0,True,0,True,True
+186906,2004 FSA,1,0,True,0,True,True
+186921,,2,0,True,1,True,False
+187029,other,1,0,True,0,True,True
+187062,other,1,0,True,0,True,True
+187074,ORIG DLG,3,0,True,0,True,True
+187108,other,1,0,True,0,True,True
+187160,other,5,0,True,0,True,True
+187190,2004 FSA,4,0,True,0,True,True
+187209,other,1,0,True,0,True,True
+187277,other,1,0,True,0,True,True
+187294,other,1,0,True,0,True,True
+187303,other,1,0,True,0,True,True
+187304,other,1,0,True,0,True,True
+187361,2004 FSA,1,0,True,0,True,True
+187402,other,2,0,True,0,True,True
+187440,2004 FSA,1,0,True,0,True,True
+187458,other,1,0,True,0,True,True
+187535,2004 FSA,1,0,True,0,True,True
+187540,2004 FSA,1,0,True,0,True,True
+187574,other,9,2,True,4,True,False
+187576,2004 FSA,1,0,True,0,True,True
+187591,ORIG DLG,1,0,True,0,True,True
+187642,other,2,0,True,0,True,True
+187658,other,3,0,True,0,True,True
+187671,2004 FSA,1,0,True,0,True,True
+187722,ORIG DLG,2,0,True,0,True,True
+187760,other,3,0,True,0,True,True
+187783,other,4,1,True,1,True,False
+187825,2004 FSA,1,0,True,0,True,True
+187842,2004 FSA,1,0,True,0,True,True
+187858,ORIG DLG,2,0,True,0,True,True
+187896,ORIG DLG,1,0,True,0,True,True
+187927,2004 FSA,1,0,True,0,True,True
+187947,other,1,0,True,0,True,True
+187948,2004 FSA,4,0,True,0,True,True
+188063,2004 FSA,3,0,True,0,True,True
+188065,2004 FSA,1,0,True,0,True,True
+188118,2004 FSA,1,0,True,0,True,True
+188124,other,1,0,True,0,True,True
+188167,2004 FSA,1,0,True,0,True,True
+188259,,1,0,True,0,True,True
+188301,DNR 24k POLYS,1,0,True,0,True,True
+188347,2004 FSA,1,0,True,0,True,True
+188385,DNR 24k POLYS,1,0,True,0,True,True
+188464,2004 FSA,7,0,True,2,True,False
+188552,2004 FSA,1,0,True,0,True,True
+188566,2004 FSA,1,0,True,0,True,True
+188573,2004 FSA,1,0,True,0,True,True
+188610,2004 FSA,9,0,True,2,True,False
+188616,other,1,0,True,0,True,True
+188649,2004 FSA,6,0,True,0,True,True
+188661,other,3,0,True,1,True,False
+188697,other,2,0,True,0,True,True
+188704,DNR 24k POLYS,1,0,True,0,True,True
+188714,other,1,0,True,0,True,True
+188716,other,1,0,True,0,True,True
+188717,2004 FSA,2,0,True,1,True,False
+188800,2004 FSA,3,0,True,1,True,False
+188811,2004 FSA,17,10,True,11,True,False
+188909,ORIG DLG,2,1,True,1,True,False
+188911,2004 FSA,1,0,True,0,True,True
+188916,other,1,0,True,0,True,True
+188927,ORIG DLG,2,0,True,0,True,True
+188976,ORIG DLG,1,0,True,0,True,True
+189021,other,1,0,True,0,True,True
+189045,PWI,2,0,True,0,True,True
+189046,other,1,0,True,0,True,True
+189063,2004 FSA,5,2,True,3,True,False
+189136,other,5,0,True,0,True,True
+189172,other,1,0,True,0,True,True
+189176,ORIG DLG,1,0,True,0,True,True
+189186,2004 FSA,1,0,True,0,True,True
+189212,other,2,0,True,0,True,True
+189228,other,1,0,True,0,True,True
+189280,other,3,0,True,1,True,False
+189305,other,1,0,True,0,True,True
+189306,other,1,0,True,0,True,True
+189393,2004 FSA,2,0,True,0,True,True
+189416,2004 FSA,1,0,True,0,True,True
+189480,other,3,0,True,0,False,False
+189537,2004 FSA,2,0,True,1,True,False
+189612,ORIG DLG,1,0,True,0,True,True
+189693,2004 FSA,1,0,True,0,True,True
+189696,2004 FSA,2,0,True,1,True,False
+189705,other,5,0,True,2,True,False
+189707,other,2,0,True,0,True,True
+189728,other,1,0,True,0,True,True
+189789,other,2,0,True,0,True,True
+190043,2004 FSA,1,0,True,0,True,True
+190046,other,3,0,True,0,True,True
+190052,2004 FSA,2,0,True,0,True,True
+190054,2004 FSA,15,6,True,11,True,False
+190095,2004 FSA,1,0,True,0,True,True
+190115,2004 FSA,1,0,True,0,True,True
+190142,other,2,0,True,0,True,True
+190193,other,1,0,True,0,True,True
+190397,DNR 24k POLYS,1,0,True,0,True,True
+190414,,1,0,True,0,True,True
+190438,2004 FSA,1,0,True,0,True,True
+190494,2004 FSA,1,0,True,0,True,True
+190592,2004 FSA,30,1,True,7,True,False
+190802,DNR 24k POLYS,1,0,True,0,True,True
+190808,other,1,0,True,0,True,True
+190897,DNR 24k POLYS,1,0,True,0,True,True
+190934,2004 FSA,1,0,True,0,True,True
+190977,ORIG DLG,3,0,True,0,True,True
+191024,2004 FSA,3,0,True,1,True,False
+191051,other,2,0,True,0,True,True
+191084,DNR 24k POLYS,1,0,True,0,True,True
+191085,other,1,0,True,0,True,True
+191128,other,4,0,True,0,True,True
+191219,ORIG DLG,1,0,True,0,True,True
+191255,other,1,0,True,0,True,True
+191292,2004 FSA,1,0,True,0,True,True
+191349,ORIG DLG,2,0,True,0,True,True
+191393,DNR 24k POLYS,1,0,True,0,True,True
+191456,other,2,0,True,0,True,True
+191496,ORIG DLG,2,0,True,0,True,True
+191582,other,1,0,True,0,True,True
+191599,other,1,0,True,0,True,True
+191678,2004 FSA,2,0,True,0,True,True
+191732,other,1,0,True,0,True,True
+191804,2004 FSA,1,0,True,0,True,True
+191826,other,1,0,True,0,True,True
+191923,other,3,0,True,1,True,False
+192006,2004 FSA,1,0,True,0,True,True
+192008,DNR 24k POLYS,1,0,True,0,True,True
+192073,2004 FSA,2,0,True,0,True,True
+192103,DNR 24k POLYS,1,0,True,0,True,True
+192211,other,1,0,True,0,True,True
+192242,other,1,0,True,0,True,True
+192252,other,1,0,True,0,True,True
+192253,PWI,4,0,True,1,True,False
+192453,DNR 24k POLYS,1,0,True,0,True,True
+192464,DNR 24k POLYS,1,0,True,0,True,True
+192466,other,7,0,True,4,True,False
+192480,other,2,0,True,0,True,True
+192513,other,1,0,True,0,True,True
+192560,other,3,0,True,0,True,True
+192570,2004 FSA,2,0,True,0,True,True
+192590,ORIG DLG,1,0,True,0,True,True
+192595,other,1,0,True,0,True,True
+192621,2004 FSA,6,1,True,3,True,False
+192622,other,2,0,True,0,True,True
+192761,other,1,0,True,0,True,True
+192793,DNR 24k POLYS,1,0,True,0,True,True
+192811,other,5,0,True,1,True,False
+192900,DNR 24k POLYS,1,0,True,0,True,True
+192908,other,2,0,True,0,True,True
+192944,other,1,0,True,0,True,True
+192949,2004 FSA,2,1,True,1,True,False
+192995,ORIG DLG,1,0,True,0,True,True
+193060,2004 FSA,1,0,True,0,True,True
+193066,ORIG DLG,1,0,True,0,True,True
+193084,other,2,0,True,0,True,True
+193087,2004 FSA,1,0,True,0,True,True
+193113,2004 FSA,4,0,True,0,True,True
+193169,2004 FSA,7,4,True,5,True,False
+193182,2004 FSA,2,0,True,0,True,True
+193191,other,1,0,True,0,True,True
+193203,2004 FSA,1,0,True,0,True,True
+193240,ORIG DLG,4,0,True,0,True,True
+193279,other,1,0,True,0,True,True
+193280,other,11,0,True,0,True,True
+193288,other,1,0,True,0,True,True
+193386,2004 FSA,1,0,True,0,True,True
+193423,other,40,14,True,20,True,False
+193435,2004 FSA,1,0,True,0,True,True
+193473,2004 FSA,1,0,True,0,True,True
+193494,ORIG DLG,2,0,True,0,True,True
+193542,ORIG DLG,1,0,True,0,True,True
+193584,other,1,0,True,0,True,True
+193596,ORIG DLG,1,0,True,0,True,True
+193619,other,4,0,True,0,True,True
+193649,other,7,4,True,5,True,False
+193681,2004 FSA,1,0,True,0,True,True
+193690,2004 FSA,1,0,True,0,True,True
+193693,ORIG DLG,1,0,True,0,True,True
+193737,other,5,1,True,1,True,False
+193755,2004 FSA,1,0,True,0,True,True
+193759,other,3,1,True,1,True,False
+193770,ORIG DLG,1,0,True,0,True,True
+193773,DNR 24k POLYS,1,0,True,0,True,True
+193881,other,2,0,True,0,True,True
+193913,2004 FSA,4,1,True,2,True,False
+193951,other,2,0,True,0,True,True
+193953,2004 FSA,1,0,True,0,True,True
+193955,other,5,0,True,1,True,False
+193982,other,1,0,True,0,True,True
+194019,2004 FSA,2,0,True,0,True,True
+194022,other,2,0,True,0,True,True
+194121,other,1,0,True,0,True,True
+194132,2004 FSA,3,0,True,0,True,True
+194148,other,1,0,True,0,True,True
+194174,2004 FSA,1,0,True,0,True,True
+194195,2004 FSA,1,0,True,0,True,True
+194202,2004 FSA,1,0,True,0,True,True
+194216,ORIG DLG,2,0,True,0,True,True
+194246,DNR 24k POLYS,1,0,True,0,True,True
+194253,other,1,0,True,0,True,True
+194291,2004 FSA,1,0,True,0,True,True
+194431,other,3,0,True,0,True,True
+194468,2004 FSA,1,0,True,0,True,True
+194497,2004 FSA,7,4,True,4,True,False
+194548,2004 FSA,1,0,True,0,True,True
+194550,2004 FSA,8,0,True,0,True,True
+194619,2004 FSA,1,0,True,0,True,True
+194644,2004 FSA,3,0,True,2,True,False
+194645,other,1,0,True,0,True,True
+194657,2004 FSA,4,0,True,1,True,False
+194663,2004 FSA,1,0,True,0,True,True
+194686,other,1,0,True,0,True,True
+194690,2004 FSA,1,0,True,0,True,True
+194708,other,1,0,True,0,True,True
+194777,2004 FSA,1,0,True,0,True,True
+194826,other,7,1,True,1,True,False
+194831,DNR 24k POLYS,1,0,True,0,True,True
+194864,ORIG DLG,2,0,True,0,True,True
+194900,other,1,0,True,0,True,True
+194922,other,1,0,True,0,True,True
+194925,2004 FSA,1,0,True,0,True,True
+194987,other,1,0,True,0,True,True
+194988,2004 FSA,1,0,True,0,True,True
+194989,other,1,0,True,0,True,True
+194995,2004 FSA,1,0,True,0,True,True
+195014,other,3,0,True,2,True,False
+195050,PWI,1,0,True,0,True,True
+195112,other,1,0,True,0,True,True
+195121,2004 FSA,3,0,True,2,True,False
+195136,,3,0,True,0,True,True
+195233,ORIG DLG,1,0,True,0,True,True
+195239,ORIG DLG,1,0,True,0,True,True
+195268,2004 FSA,2,0,True,0,True,True
+195307,other,4,1,True,1,True,False
+195380,2004 FSA,1,0,True,0,True,True
+195397,2004 FSA,1,0,True,0,True,True
+195422,2004 FSA,4,0,True,1,True,False
+195433,2004 FSA,1,0,True,0,True,True
+195455,other,7,1,True,2,True,False
+195510,2004 FSA,1,0,True,0,True,True
+195519,other,1,0,True,0,True,True
+195552,2004 FSA,4,1,True,2,True,False
+195628,PWI,3,0,True,0,True,True
+195647,2004 FSA,2,0,True,0,True,True
+195727,DNR 24k POLYS,1,0,True,0,True,True
+195769,other,2,0,True,0,True,True
+195787,DNR 24k POLYS,1,0,True,0,True,True
+195843,other,2,0,True,0,True,True
+195965,2004 FSA,4,0,True,1,True,False
+195971,ORIG DLG,1,0,True,0,True,True
+196031,other,2,0,True,0,True,True
+196065,ORIG DLG,1,0,True,0,True,True
+196178,ORIG DLG,1,0,True,0,True,True
+196202,2004 FSA,5,1,True,2,True,False
+196206,2004 FSA,1,0,True,0,True,True
+196230,2004 FSA,8,2,True,5,True,False
+196242,ORIG DLG,1,0,True,0,True,True
+196289,2004 FSA,5,0,True,1,True,False
+196304,other,1,0,True,0,True,True
+196319,other,2,0,True,0,True,True
+196393,2004 FSA,1,0,True,0,True,True
+196428,2004 FSA,1,0,True,0,True,True
+196456,other,1,0,True,0,True,True
+196461,2004 FSA,1,0,True,0,True,True
+196494,other,1,0,True,0,True,True
+196520,2004 FSA,1,0,True,0,True,True
+196603,2004 FSA,1,0,True,0,True,True
+196702,2004 FSA,13,1,True,2,True,False
+196714,,1,0,True,0,True,True
+196752,2004 FSA,25,17,False,20,False,False
+196761,2004 FSA,17,4,True,10,True,False
+196770,other,1,0,True,0,True,True
+196814,2004 FSA,1,0,True,0,True,True
+196815,ORIG DLG,1,0,True,0,True,True
+196880,other,3,2,True,2,True,False
+196914,2004 FSA,6,0,True,0,True,True
+196916,ORIG DLG,2,0,True,0,True,True
+196996,ORIG DLG,1,0,True,0,True,True
+197027,2004 FSA,1,0,True,0,True,True
+197039,ORIG DLG,1,0,True,0,True,True
+197071,DNR 24k POLYS,1,0,True,0,True,True
+197125,other,2,0,True,0,True,True
+197174,2004 FSA,35,6,True,13,True,False
+197192,ORIG DLG,1,0,True,0,True,True
+197212,ORIG DLG,2,0,True,0,True,True
+197277,2004 FSA,1,0,True,0,True,True
+197352,DNR 24k POLYS,1,0,True,0,True,True
+197452,other,4,0,True,0,True,True
+197473,other,1,0,True,0,True,True
+197500,other,2,0,True,0,True,True
+197517,2004 FSA,1,0,True,0,True,True
+197552,other,1,0,True,0,True,True
+197712,2004 FSA,1,0,True,0,True,True
+197772,ORIG DLG,2,0,True,0,True,True
+197878,DNR 24k POLYS,1,0,True,0,True,True
+197904,ORIG DLG,3,0,True,1,True,False
+197959,2004 FSA,2,0,True,1,True,False
+197965,other,1,0,True,0,True,True
+197966,other,4,1,True,1,True,False
+197981,2004 FSA,1,0,True,0,True,True
+198014,2004 FSA,1,0,True,0,True,True
+198071,other,1,0,True,0,True,True
+198148,2004 FSA,1,0,True,0,True,True
+198276,2004 FSA,1,0,True,0,True,True
+198314,2004 FSA,1,0,True,0,True,True
+198384,2004 FSA,13,4,True,7,True,False
+198403,ORIG DLG,1,0,True,0,True,True
+198463,2004 FSA,1,0,True,0,True,True
+198477,2004 FSA,1,0,True,0,True,True
+198534,2004 FSA,1,0,True,0,True,True
+198670,DNR 24k POLYS,3,0,True,1,True,False
+198678,2004 FSA,9,0,True,3,True,False
+198765,other,1,0,True,0,True,True
+198767,other,1,0,True,0,True,True
+198814,2004 FSA,1,0,True,0,True,True
+198828,,1,0,True,0,True,True
+198895,2004 FSA,26,5,True,13,True,False
+198905,DNR 24k POLYS,1,0,True,0,True,True
+198966,ORIG DLG,1,0,True,0,True,True
+199078,ORIG DLG,1,0,True,0,True,True
+199085,ORIG DLG,1,0,True,0,True,True
+199119,other,1,0,True,0,True,True
+199154,2004 FSA,3,0,True,0,True,True
+199208,other,3,0,True,1,True,False
+199228,ORIG DLG,1,0,True,0,True,True
+199240,2004 FSA,2,0,True,0,True,True
+199243,2004 FSA,4,0,True,2,True,False
+199246,2004 FSA,1,0,True,0,True,True
+199283,DNR 24k POLYS,1,0,True,0,True,True
+199314,2004 FSA,1,0,True,0,True,True
+199374,2004 FSA,4,0,True,2,True,False
+199389,ORIG DLG,1,0,True,0,True,True
+199490,2004 FSA,1,0,True,0,True,True
+199513,other,1,0,True,0,True,True
+199522,DNR 24k POLYS,1,0,True,0,True,True
+199597,other,2,0,True,0,True,True
+199647,other,1,0,True,0,True,True
+199673,other,1,0,True,0,True,True
+199740,2004 FSA,3,0,True,1,True,False
+199762,other,2,0,True,0,True,True
+199774,other,1,0,True,0,True,True
+199775,2004 FSA,1,0,True,0,True,True
+199888,2004 FSA,2,0,True,0,True,True
+199932,2004 FSA,3,1,True,1,True,False
+199950,other,81,32,True,46,True,False
+199987,DNR 24k POLYS,1,0,True,0,True,True
+200215,2004 FSA,1,0,True,0,True,True
+200247,DNR 24k POLYS,1,0,True,0,True,True
+200281,DNR 24k POLYS,1,0,True,0,True,True
+200339,other,1,0,True,0,True,True
+200343,2004 FSA,1,0,True,0,True,True
+200395,other,1,0,True,0,True,True
+200446,other,3,0,True,0,True,True
+200507,2004 FSA,1,0,True,0,True,True
+200575,2004 FSA,1,0,True,0,True,True
+200724,2004 FSA,1,0,True,0,True,True
+200793,2004 FSA,1,0,True,0,True,True
+200849,2004 FSA,1,0,True,0,True,True
+200859,other,1,0,True,0,True,True
+200964,other,1,0,True,0,True,True
+200996,2004 FSA,2,0,True,0,True,True
+201006,2004 FSA,1,0,True,0,True,True
+201028,DNR 24k POLYS,1,0,True,0,True,True
+201047,2004 FSA,22,8,True,16,False,False
+201162,other,8,1,True,2,True,False
+201169,other,2,0,True,0,True,True
+201256,2004 FSA,5,0,True,0,True,True
+201276,DNR 24k POLYS,1,0,True,0,True,True
+201290,DNR 24k POLYS,1,0,True,0,True,True
+201326,2004 FSA,1,0,True,0,True,True
+201349,,1,0,True,0,True,True
+201361,2004 FSA,1,0,True,0,True,True
+201477,2004 FSA,4,0,True,1,True,False
+201500,other,6,0,True,1,True,False
+201506,2004 FSA,3,0,True,0,True,True
+201559,2004 FSA,2,0,True,0,True,True
+201614,2004 FSA,2,0,True,1,True,False
+201643,2004 FSA,1,0,True,0,True,True
+201658,2004 FSA,4,0,True,1,True,False
+201663,ORIG DLG,1,0,True,0,True,True
+201685,2004 FSA,3,2,True,2,True,False
+201745,2004 FSA,1,0,True,0,True,True
+201795,ORIG DLG,1,0,True,0,True,True
+201834,2004 FSA,1,0,True,0,True,True
+201890,other,3,0,True,0,True,True
+201934,DNR 24k POLYS,1,0,True,0,True,True
+201957,other,1,0,True,0,True,True
+201997,2004 FSA,1,0,True,0,True,True
+202097,2004 FSA,9,5,True,7,True,False
+202120,other,2,0,True,0,True,True
+202187,2004 FSA,4,0,True,0,True,True
+202245,2004 FSA,1,0,True,0,True,True
+202259,2004 FSA,4,0,True,1,True,False
+202265,,3,0,True,0,True,True
+202311,2004 FSA,3,0,True,0,True,True
+202338,other,1,0,True,0,True,True
+202390,other,2,0,True,0,True,True
+202432,2004 FSA,10,5,True,7,True,False
+202443,other,1,0,True,0,True,True
+202458,other,2,0,True,0,True,True
+202460,2004 FSA,4,2,True,3,True,False
+202474,2004 FSA,2,0,True,0,True,True
+202485,other,1,0,True,0,True,True
+202558,ORIG DLG,2,0,True,0,True,True
+202582,other,1,0,True,0,True,True
+202609,DNR 24k POLYS,1,0,True,0,True,True
+202634,other,7,4,True,4,True,False
+202635,2004 FSA,1,0,True,0,True,True
+202668,2004 FSA,1,0,True,0,True,True
+202685,2004 FSA,3,0,True,1,True,False
+202688,other,2,0,True,0,True,True
+202694,2004 FSA,6,3,True,3,False,False
+202696,2004 FSA,3,0,True,1,True,False
+202728,2004 FSA,11,1,True,8,True,False
+202729,2004 FSA,1,0,True,0,True,True
+202806,2004 FSA,1,0,True,0,True,True
+202877,2004 FSA,2,0,True,0,True,True
+202926,other,1,0,True,0,True,True
+202945,other,1,0,True,0,True,True
+203045,2004 FSA,9,5,True,5,True,False
+203117,other,46,24,True,29,True,False
+203138,2004 FSA,2,0,True,0,True,True
+203179,ORIG DLG,1,0,True,0,True,True
+203192,ORIG DLG,1,0,True,0,True,True
+203272,other,1,0,True,0,True,True
+203287,2004 FSA,1,0,True,0,True,True
+203316,ORIG DLG,2,0,True,0,True,True
+203327,other,1,0,True,0,True,True
+203401,,7,0,True,0,True,True
+203427,ORIG DLG,1,0,True,0,True,True
+203443,2004 FSA,1,0,True,0,True,True
+203508,2004 FSA,2,0,True,0,True,True
+203519,other,1,0,True,0,True,True
+203547,2004 FSA,1,0,True,0,True,True
+203608,other,1,0,True,0,True,True
+203669,2004 FSA,3,0,True,0,True,True
+203703,2004 FSA,1,0,True,0,True,True
+203704,DNR 24k POLYS,1,0,True,0,True,True
+203716,2004 FSA,1,0,True,0,True,True
+203717,2004 FSA,1,0,True,0,True,True
+203794,other,1,0,True,0,True,True
+203892,2004 FSA,1,0,True,0,True,True
+203898,other,2,0,True,0,True,True
+203899,other,1,0,True,0,True,True
+203969,2004 FSA,1,0,True,0,True,True
+203983,other,2,0,True,0,True,True
+203990,2004 FSA,1,0,True,0,True,True
+204013,2004 FSA,5,0,True,0,True,True
+204042,2004 FSA,1,0,True,0,True,True
+204046,2004 FSA,1,0,True,0,True,True
+204142,other,1,0,True,0,True,True
+204210,2004 FSA,1,0,True,0,True,True
+204212,2004 FSA,4,0,True,0,True,True
+204239,2004 FSA,1,0,True,0,True,True
+204274,DNR 24k POLYS,1,0,True,0,True,True
+204390,other,1,0,True,0,True,True
+204485,other,1,0,True,0,True,True
+204495,other,3,0,True,2,True,False
+204504,2004 FSA,1,0,True,0,True,True
+204557,other,1,0,True,0,True,True
+204590,other,1,0,True,0,True,True
+204627,other,5,0,True,0,True,True
+204637,2004 FSA,1,0,True,0,True,True
+204643,other,1,0,True,0,True,True
+204679,other,2,0,True,1,True,False
+204762,other,1,0,True,0,True,True
+204774,other,1,0,True,0,True,True
+204806,other,3,0,True,0,True,True
+204846,2004 FSA,1,0,True,0,True,True
+204853,other,4,1,True,2,True,False
+204867,2004 FSA,2,0,True,0,True,True
+204884,2004 FSA,46,2,True,9,True,False
+204891,2004 FSA,4,0,True,2,True,False
+204922,DNR 24k POLYS,1,0,True,0,True,True
+204965,other,2,0,True,0,True,True
+204997,other,4,0,True,0,True,True
+205032,2004 FSA,1,0,True,0,True,True
+205088,2004 FSA,1,0,True,0,True,True
+205096,other,2,0,True,0,True,True
+205198,2004 FSA,1,0,True,0,True,True
+205234,2004 FSA,3,0,True,0,True,True
+205247,DNR 24k POLYS,1,0,True,0,True,True
+205296,ORIG DLG,3,0,True,0,True,True
+205310,other,2,0,True,0,True,True
+205426,2004 FSA,3,0,True,1,True,False
+205605,,1,0,True,0,True,True
+205607,other,1,0,True,0,True,True
+205719,ORIG DLG,1,0,True,0,True,True
+205723,2004 FSA,1,0,True,0,True,True
+205848,other,1,0,True,0,True,True
+205952,other,8,0,True,0,True,True
+205988,2004 FSA,1,0,True,0,True,True
+206006,2004 FSA,2,0,True,0,True,True
+206036,ORIG DLG,3,0,True,0,True,True
+206078,other,17,4,True,8,True,False
+206087,DNR 24k POLYS,1,0,True,0,True,True
+206093,2004 FSA,30,12,True,13,True,False
+206114,other,1,0,True,0,True,True
+206167,2004 FSA,1,0,True,0,True,True
+206207,2004 FSA,1,0,True,0,True,True
+206208,2004 FSA,1,0,True,0,True,True
+206288,2004 FSA,1,0,True,0,True,True
+206302,2004 FSA,1,0,True,0,True,True
+206317,2004 FSA,1,0,True,0,True,True
+206358,other,1,0,True,0,True,True
+206412,other,2,0,True,0,True,True
+206426,other,10,0,True,1,True,False
+206438,2004 FSA,1,0,True,0,True,True
+206473,other,4,0,True,2,True,False
+206491,ORIG DLG,1,0,True,0,True,True
+206492,2004 FSA,1,0,True,0,True,True
+206532,DNR 24k POLYS,1,0,True,0,True,True
+206563,ORIG DLG,1,0,True,0,True,True
+206793,2004 FSA,4,3,True,3,True,False
+206856,ORIG DLG,1,0,True,0,True,True
+206864,DNR 24k POLYS,1,0,True,0,True,True
+206872,2004 FSA,1,0,True,0,True,True
+206878,DNR 24k POLYS,1,0,True,0,True,True
+206890,2004 FSA,1,0,True,0,True,True
+206932,2004 FSA,1,0,True,0,True,True
+206989,2004 FSA,2,0,True,1,True,False
+207043,ORIG DLG,1,0,True,0,True,True
+207131,other,2,0,True,0,True,True
+207179,2004 FSA,1,0,True,0,True,True
+207272,other,1,0,True,0,True,True
+207454,other,5,1,True,1,True,False
+207505,ORIG DLG,3,0,True,0,True,True
+207546,other,1,0,True,0,True,True
+207612,2004 FSA,1,0,True,0,True,True
+207615,2004 FSA,2,0,True,0,True,True
+207618,ORIG DLG,2,0,True,0,True,True
+207624,2004 FSA,1,0,True,0,False,False
+207637,other,1,0,True,0,True,True
+207643,other,1,0,True,0,True,True
+207677,ORIG DLG,1,0,True,0,True,True
+207730,2004 FSA,1,0,True,0,True,True
+207753,2004 FSA,3,1,True,1,True,False
+207813,2004 FSA,2,0,True,0,True,True
+207831,other,1,0,True,0,True,True
+207884,2004 FSA,4,1,True,2,True,False
+207977,other,3,0,True,0,True,True
+207978,2004 FSA,39,4,True,7,True,False
+208067,other,1,0,True,0,True,True
+208075,other,1,0,True,0,True,True
+208102,2004 FSA,1,0,True,0,True,True
+208126,2004 FSA,1,0,True,0,True,True
+208203,ORIG DLG,2,0,True,0,True,True
+208220,other,3,0,True,0,True,True
+208241,2004 FSA,1,0,True,0,True,True
+208293,other,1,0,True,0,True,True
+208294,2004 FSA,1,0,True,0,True,True
+208383,other,1,0,True,0,True,True
+208392,other,6,0,True,1,True,False
+208414,other,3,0,True,0,True,True
+208466,other,1,0,True,0,True,True
+208522,,8,1,True,4,True,False
+208529,2004 FSA,1,0,True,0,True,True
+208559,PWI,1,0,True,0,True,True
+208568,PWI,1,0,True,0,True,True
+208609,DNR 24k POLYS,1,0,True,0,True,True
+208611,ORIG DLG,2,0,True,0,True,True
+208643,other,16,13,True,13,True,False
+208682,other,1,0,True,0,True,True
+208748,ORIG DLG,1,0,True,0,True,True
+208755,2004 FSA,2,0,True,0,True,True
+208774,2004 FSA,3,0,True,0,True,True
+208839,other,2,0,True,1,True,False
+208894,2004 FSA,1,0,True,0,True,True
+208916,2004 FSA,1,0,True,0,True,True
+208943,other,1,0,True,0,True,True
+208946,2004 FSA,1,0,True,0,True,True
+208959,other,1,0,True,0,True,True
+208960,other,2,0,True,0,True,True
+209162,other,3,1,True,2,True,False
+209220,2004 FSA,1,0,True,0,True,True
+209283,DNR 24k POLYS,1,0,True,0,True,True
+209359,2004 FSA,1,0,True,0,True,True
+209417,other,1,0,True,0,True,True
+209431,other,1,0,True,0,True,True
+209531,DNR 24k POLYS,1,0,True,0,True,True
+209547,2004 FSA,24,4,True,13,True,False
+209558,2004 FSA,2,1,True,1,True,False
+209643,2004 FSA,1,0,True,0,True,True
+209681,2004 FSA,1,0,True,0,True,True
+209693,other,1,0,True,0,True,True
+209696,2004 FSA,1,0,True,0,True,True
+209703,PWI,1,0,True,0,True,True
+209736,PWI,1,0,True,0,True,True
+209768,2004 FSA,1,0,True,0,True,True
+209775,2004 FSA,1,0,True,0,True,True
+209780,other,1,0,True,0,True,True
+209804,other,1,0,True,0,True,True
+209811,2004 FSA,4,0,True,1,True,False
+209829,other,1,0,True,0,True,True
+209882,2004 FSA,1,0,True,0,True,True
+209921,ORIG DLG,2,0,True,0,True,True
+209958,2004 FSA,1,0,True,0,True,True
+209980,other,3,1,True,1,True,False
+210022,2004 FSA,1,0,True,0,True,True
+210030,2004 FSA,1,0,True,0,True,True
+210055,other,1,0,True,0,True,True
+210083,other,1,0,True,0,True,True
+210090,2004 FSA,2,0,True,0,True,True
+210095,other,1,0,True,0,True,True
+210101,DNR 24k POLYS,1,0,True,0,True,True
+210116,ORIG DLG,1,0,True,0,True,True
+210132,2004 FSA,3,0,True,2,True,False
+210147,2004 FSA,2,0,True,0,True,True
+210149,2004 FSA,1,0,True,0,True,True
+210214,other,1,0,True,0,True,True
+210258,other,1,0,True,0,True,True
+210287,2004 FSA,1,0,True,0,True,True
+210302,2004 FSA,1,0,True,0,True,True
+210305,2004 FSA,1,0,True,0,True,True
+210306,other,1,0,True,0,True,True
+210405,other,1,0,True,0,True,True
+210422,other,1,0,True,0,True,True
+210516,other,1,0,True,0,True,True
+210538,2004 FSA,5,2,True,4,True,False
+210570,other,1,0,True,0,True,True
+210576,2004 FSA,1,0,True,0,True,True
+210610,2004 FSA,2,0,True,0,True,True
+210739,other,8,0,True,0,True,True
+210882,2004 FSA,1,0,True,0,True,True
+211005,2004 FSA,1,0,True,0,True,True
+211031,2004 FSA,2,0,True,0,True,True
+211079,other,1,0,True,0,True,True
+211153,2004 FSA,2,0,True,0,True,True
+211195,2004 FSA,24,9,True,11,True,False
+211257,other,4,0,True,1,True,False
+211275,2004 FSA,1,0,True,0,True,True
+211329,DNR 24k POLYS,1,0,True,0,True,True
+211340,ORIG DLG,1,0,True,0,True,True
+211353,other,1,0,True,0,True,True
+211400,other,2,0,True,0,True,True
+211454,2004 FSA,1,0,True,0,True,True
+211512,DNR 24k POLYS,1,0,True,0,True,True
+211554,2004 FSA,1,0,True,0,True,True
+211560,DNR 24k POLYS,1,0,True,0,True,True
+211606,ORIG DLG,1,0,True,0,True,True
+211699,2004 FSA,16,5,True,10,True,False
+211755,2004 FSA,7,2,True,3,True,False
+211847,ORIG DLG,3,0,True,0,True,True
+211863,ORIG DLG,1,0,True,0,True,True
+211900,2004 FSA,1,0,True,0,True,True
+211915,other,1,0,True,0,True,True
+211922,ORIG DLG,2,0,True,0,True,True
+211926,2004 FSA,2,0,True,0,True,True
+211986,2004 FSA,3,0,True,2,True,False
+211999,other,1,0,True,0,True,True
+212025,ORIG DLG,2,0,True,0,True,True
+212032,other,2,0,True,0,True,True
+212046,2004 FSA,3,0,True,1,True,False
+212054,2004 FSA,1,0,True,0,True,True
+212101,other,1,0,True,0,True,True
+212148,2004 FSA,2,0,True,0,True,True
+212171,ORIG DLG,1,0,True,0,True,True
+212175,other,1,0,True,0,True,True
+212192,other,1,0,True,0,True,True
+212210,other,1,0,True,0,True,True
+212224,DNR 24k POLYS,1,0,True,0,True,True
+212245,2004 FSA,1,0,True,0,True,True
+212246,other,3,0,True,1,True,False
+212334,other,1,0,True,0,True,True
+212365,2004 FSA,1,0,True,0,True,True
+212454,2004 FSA,51,31,True,41,True,False
+212478,other,13,1,True,4,True,False
+212532,2004 FSA,1,0,True,0,True,True
+212696,other,1,0,True,0,True,True
+212724,2004 FSA,1,0,True,0,True,True
+212727,other,62,10,True,18,True,False
+212762,ORIG DLG,3,0,True,0,True,True
+212880,2004 FSA,5,3,True,4,True,False
+212887,2004 FSA,2,0,True,0,True,True
+212900,2004 FSA,1,0,True,0,True,True
+212910,PWI,1,0,True,0,True,True
+212921,other,1,0,True,0,True,True
+212987,other,2,0,True,0,True,True
+213014,PWI,3,0,True,1,True,False
+213054,2004 FSA,1,0,True,0,True,True
+213110,other,1,0,True,0,True,True
+213130,DNR 24k POLYS,1,0,True,0,True,True
+213134,other,1,0,True,0,True,True
+213142,2004 FSA,1,0,True,0,True,True
+213190,DNR 24k POLYS,1,0,True,0,True,True
+213255,other,1,0,True,0,True,True
+213392,ORIG DLG,2,0,True,0,True,True
+213413,2004 FSA,1,0,True,0,True,True
+213424,2004 FSA,5,2,True,2,True,False
+213435,,10,0,True,2,True,False
+213469,2004 FSA,2,0,True,0,True,True
+213556,2004 FSA,8,2,True,3,True,False
+213559,2004 FSA,4,1,True,2,True,False
+213583,DNR 24k POLYS,1,0,True,0,True,True
+213584,2004 FSA,3,1,True,2,True,False
+213617,PWI,1,0,True,0,True,True
+213710,other,1,0,True,0,True,True
+213715,DNR 24k POLYS,1,0,True,0,True,True
+213755,2004 FSA,6,1,True,4,True,False
+213803,2004 FSA,2,0,True,0,True,True
+213855,2004 FSA,3,0,True,0,True,True
+213868,2004 FSA,8,0,True,3,True,False
+213902,ORIG DLG,1,0,True,0,True,True
+213918,2004 FSA,17,2,True,6,True,False
+213942,2004 FSA,41,4,True,7,True,False
+213964,other,1,0,True,0,True,True
+214026,2004 FSA,1,0,True,0,True,True
+214038,2004 FSA,1,0,True,0,True,True
+214039,2004 FSA,1,0,True,0,True,True
+214078,other,1,0,True,0,True,True
+214125,ORIG DLG,1,0,True,0,True,True
+214145,2004 FSA,1,0,True,0,True,True
+214160,ORIG DLG,1,0,True,0,True,True
+214221,2004 FSA,1,0,True,0,True,True
+214244,ORIG DLG,1,0,True,0,True,True
+214275,DNR 24k POLYS,1,0,True,0,True,True
+214279,other,3,1,True,1,True,False
+214327,2004 FSA,4,0,True,0,True,True
+214427,DNR 24k POLYS,2,0,True,0,True,True
+214451,2004 FSA,2,0,True,0,True,True
+214453,ORIG DLG,2,0,True,0,True,True
+214481,2004 FSA,1,0,True,0,True,True
+214493,other,1,0,True,0,True,True
+214566,other,1,0,True,0,True,True
+214571,ORIG DLG,2,0,True,0,True,True
+214596,ORIG DLG,2,0,True,0,True,True
+214625,2004 FSA,2,0,True,0,True,True
+214714,other,2,0,True,0,True,True
+214805,DNR 24k POLYS,1,0,True,0,True,True
+214807,2004 FSA,2,0,True,0,True,True
+214824,ORIG DLG,1,0,True,0,True,True
+215011,other,1,0,True,0,True,True
+215013,2004 FSA,1,0,True,0,True,True
+215026,2004 FSA,1,0,True,0,True,True
+215051,2004 FSA,1,0,True,0,True,True
+215121,other,1,0,True,0,True,True
+215145,2004 FSA,1,0,True,0,True,True
+215167,DNR 24k POLYS,1,0,True,0,True,True
+215199,other,4,0,True,0,True,True
+215207,2004 FSA,48,2,True,9,True,False
+215418,2004 FSA,1,0,True,0,True,True
+215429,2004 FSA,1,0,True,0,True,True
+215433,ORIG DLG,1,0,True,0,True,True
+215461,2004 FSA,1,0,True,0,True,True
+215470,2004 FSA,3,0,True,1,True,False
+215521,2004 FSA,1,0,True,0,True,True
+215539,ORIG DLG,1,0,True,0,True,True
+215613,2004 FSA,1,0,True,0,True,True
+215620,2004 FSA,1,0,True,0,True,True
+215649,2004 FSA,1,0,True,0,True,True
+215651,2004 FSA,1,0,True,0,True,True
+215688,2004 FSA,1,0,True,0,True,True
+215795,other,10,0,True,0,True,True
+215817,2004 FSA,18,13,True,15,True,False
+215832,2004 FSA,1,0,True,0,True,True
+215924,other,2,1,True,1,True,False
+215951,ORIG DLG,1,0,True,0,True,True
+215989,other,1,0,True,0,True,True
+216020,2004 FSA,1,0,True,0,True,True
+216117,2004 FSA,1,0,True,0,True,True
+216155,2004 FSA,1,0,True,0,True,True
+216169,2004 FSA,1,0,True,0,True,True
+216213,other,4,0,True,0,True,True
+216247,other,1,0,True,0,True,True
+216257,ORIG DLG,5,0,True,0,True,True
+216274,2004 FSA,1,0,True,0,True,True
+216311,DNR 24k POLYS,1,0,True,0,True,True
+216315,,1,0,True,0,True,True
+216345,2004 FSA,1,0,True,0,True,True
+216438,DNR 24k POLYS,1,0,True,0,True,True
+216469,2004 FSA,1,0,True,0,True,True
+216565,2004 FSA,1,0,True,0,True,True
+216662,2004 FSA,1,0,True,0,True,True
+216690,2004 FSA,1,0,True,0,True,True
+216729,other,1,0,True,0,True,True
+216796,other,1,0,True,0,True,True
+217016,2004 FSA,5,1,True,2,True,False
+217092,other,1,0,True,0,True,True
+217119,PWI,1,0,True,0,True,True
+217191,other,1,0,True,0,True,True
+217265,2004 FSA,9,2,True,3,True,False
+217266,other,1,0,True,0,True,True
+217269,other,1,0,True,0,True,True
+217276,2004 FSA,22,7,True,12,True,False
+217282,2004 FSA,3,0,True,1,True,False
+217286,2004 FSA,6,1,True,1,True,False
+217389,2004 FSA,3,1,True,2,True,False
+217415,2004 FSA,1,0,True,0,True,True
+217472,other,1,0,True,0,True,True
+217554,2004 FSA,3,0,True,0,True,True
+217656,2004 FSA,4,0,True,0,True,True
+217704,2004 FSA,1,0,True,0,True,True
+217763,other,1,0,True,0,True,True
+217803,2004 FSA,2,0,True,0,True,True
+217825,2004 FSA,3,0,True,0,True,True
+217860,ORIG DLG,1,0,True,0,True,True
+217920,ORIG DLG,1,0,True,0,True,True
+217960,2004 FSA,1,0,True,0,True,True
+218016,other,2,0,True,1,True,False
+218029,2004 FSA,1,0,True,0,True,True
+218032,other,6,0,True,0,True,True
+218057,other,1,0,True,0,True,True
+218092,other,1,0,True,0,True,True
+218120,2004 FSA,2,0,True,1,True,False
+218182,2004 FSA,1,0,True,0,True,True
+218306,2004 FSA,2,0,True,0,True,True
+218345,other,1,0,True,0,True,True
+218377,DNR 24k POLYS,1,0,True,0,True,True
+218438,other,1,0,True,0,True,True
+218468,2004 FSA,1,0,True,0,True,True
+218502,DNR 24k POLYS,1,0,True,0,True,True
+218558,other,1,0,True,0,True,True
+218641,PWI,5,0,True,0,True,True
+218683,2004 FSA,5,1,True,2,True,False
+218743,2004 FSA,1,0,True,0,True,True
+218833,other,1,0,True,0,True,True
+218845,other,1,0,True,0,True,True
+218853,other,1,0,True,0,True,True
+218930,2004 FSA,11,5,True,6,False,False
+218978,DNR 24k POLYS,1,0,True,0,True,True
+219060,2004 FSA,1,0,True,0,True,True
+219066,DNR 24k POLYS,1,0,True,0,True,True
+219078,other,1,0,True,0,True,True
+219114,2004 FSA,1,0,True,0,True,True
+219120,other,4,0,True,1,True,False
+219191,2004 FSA,1,0,True,0,True,True
+219192,2004 FSA,2,0,True,0,True,True
+219239,2004 FSA,4,0,True,1,True,False
+219244,2004 FSA,2,0,True,0,True,True
+219260,other,3,0,True,0,True,True
+219287,2004 FSA,4,0,True,1,True,False
+219290,ORIG DLG,2,0,True,0,True,True
+219299,DNR 24k POLYS,1,0,True,0,True,True
+219318,other,1,0,True,0,True,True
+219350,PWI,2,0,True,1,True,False
+219353,other,1,0,True,0,True,True
+219397,ORIG DLG,1,0,True,0,True,True
+219450,DNR 24k POLYS,1,0,True,0,True,True
+219467,other,2,0,True,0,True,True
+219498,DNR 24k POLYS,1,0,True,0,True,True
+219522,DNR 24k POLYS,1,0,True,0,True,True
+219547,ORIG DLG,2,0,True,0,True,True
+219580,other,1,0,True,0,True,True
+219610,2004 FSA,9,2,True,3,True,False
+219633,2004 FSA,3,0,True,1,True,False
+219638,DNR 24k POLYS,1,0,True,0,True,True
+219667,2004 FSA,5,0,True,0,True,True
+219679,other,1,0,True,0,True,True
+219689,2004 FSA,10,0,True,1,True,False
+219810,2004 FSA,7,0,True,0,True,True
+219840,2004 FSA,1,0,True,0,True,True
+219876,other,2,0,True,0,True,True
+219880,other,1,0,True,0,True,True
+219895,2004 FSA,1,0,True,0,True,True
+219907,other,1,0,True,0,True,True
+219919,2004 FSA,1,0,True,0,True,True
+219934,other,1,0,True,0,True,True
+220053,2004 FSA,1,0,True,0,True,True
+220090,2004 FSA,8,0,True,1,True,False
+220121,2004 FSA,1,0,True,0,True,True
+220149,2004 FSA,3,0,True,1,True,False
+220172,other,9,0,True,3,True,False
+220197,other,2,0,True,0,True,True
+220207,2004 FSA,1,0,True,0,True,True
+220227,other,2,0,True,0,True,True
+220303,2004 FSA,1,0,True,0,True,True
+220327,other,5,0,True,1,True,False
+220373,other,4,0,True,0,True,True
+220412,DNR 24k POLYS,1,0,True,0,True,True
+220512,2004 FSA,1,0,True,0,True,True
+220582,other,3,0,True,0,True,True
+220613,2004 FSA,1,0,True,0,True,True
+220615,2004 FSA,1,0,True,0,True,True
+220692,2004 FSA,1,0,True,0,True,True
+220740,2004 FSA,1,0,True,0,True,True
+220763,ORIG DLG,1,0,True,0,True,True
+220782,2004 FSA,1,0,True,0,True,True
+220848,other,1,0,True,0,True,True
+220919,2004 FSA,1,0,True,0,True,True
+220920,2004 FSA,1,0,True,0,True,True
+220950,ORIG DLG,1,0,True,0,True,True
+220997,2004 FSA,1,0,True,0,True,True
+221050,other,1,0,True,0,True,True
+221140,2004 FSA,1,0,True,0,True,True
+221185,2004 FSA,11,2,True,2,True,False
+221201,ORIG DLG,1,0,True,0,True,True
+221236,2004 FSA,2,0,True,0,True,True
+221246,2004 FSA,1,0,True,0,True,True
+221296,2004 FSA,2,0,True,0,True,True
+221310,other,1,0,False,0,True,False
+221328,2004 FSA,1,0,True,0,True,True
+221344,2004 FSA,8,0,True,3,True,False
+221395,other,1,0,True,0,True,True
+221410,ORIG DLG,1,0,True,0,True,True
+221440,DNR 24k POLYS,1,0,True,0,True,True
+221459,ORIG DLG,1,0,True,0,True,True
+221501,other,1,0,True,0,True,True
+221513,2004 FSA,1,0,True,0,True,True
+221515,2004 FSA,1,0,True,0,True,True
+221581,ORIG DLG,1,0,True,0,True,True
+221616,2004 FSA,3,1,True,1,True,False
+221628,other,1,0,True,0,True,True
+221688,2004 FSA,2,0,True,0,True,True
+221692,ORIG DLG,5,0,True,0,True,True
+221736,2004 FSA,1,0,True,0,True,True
+221744,other,1,0,True,0,True,True
+221798,other,1,0,True,0,True,True
+221907,2004 FSA,2,0,True,0,True,True
+221930,2004 FSA,1,0,True,0,True,True
+222008,2004 FSA,2,0,True,0,True,True
+222068,2004 FSA,1,0,True,0,True,True
+222092,2004 FSA,5,0,True,0,True,True
+222105,other,1,0,True,0,True,True
+222171,2004 FSA,5,0,True,3,True,False
+222239,other,1,0,True,0,True,True
+222279,,2,0,True,0,True,True
+222292,2004 FSA,2,0,True,0,True,True
+222298,2004 FSA,1,0,True,0,True,True
+222299,other,4,0,True,0,True,True
+222352,other,1,0,True,0,True,True
+222368,2004 FSA,4,1,True,1,True,False
+222375,other,1,0,True,0,True,True
+222383,other,2,0,True,0,True,True
+222433,other,8,0,True,2,True,False
+222503,2004 FSA,1,0,True,0,True,True
+222589,2004 FSA,2,0,True,0,True,True
+222636,2004 FSA,1,0,True,0,True,True
+222686,2004 FSA,3,1,True,2,True,False
+222721,2004 FSA,2,0,True,0,True,True
+222741,2004 FSA,1,0,True,0,True,True
+222795,2004 FSA,1,0,True,0,True,True
+222796,other,3,1,True,1,True,False
+222798,ORIG DLG,1,0,True,0,True,True
+222887,2004 FSA,1,0,True,0,True,True
+222967,2004 FSA,3,0,True,2,True,False
+223003,2004 FSA,1,0,True,0,True,True
+223018,2004 FSA,1,0,True,0,True,True
+223019,DNR 24k POLYS,1,0,True,0,True,True
+223065,other,1,0,True,0,True,True
+223131,2004 FSA,1,0,True,0,True,True
+223200,other,4,0,True,1,True,False
+223316,other,1,0,True,0,True,True
+223391,other,1,0,True,0,True,True
+223402,,1,0,True,0,True,True
+223524,2004 FSA,1,0,True,0,True,True
+223548,DNR 24k POLYS,1,0,True,0,True,True
+223578,2004 FSA,1,0,True,0,True,True
+223678,2004 FSA,1,0,True,0,True,True
+223685,2004 FSA,52,27,True,38,True,False
+223699,2004 FSA,2,0,True,0,True,True
+223706,other,4,3,True,3,True,False
+223731,PWI,1,0,True,0,True,True
+223751,ORIG DLG,1,0,True,0,True,True
+223762,2004 FSA,1,0,True,0,True,True
+223776,2004 FSA,1,0,True,0,True,True
+223939,2004 FSA,1,0,True,0,True,True
+223971,2004 FSA,1,0,True,0,True,True
+223988,2004 FSA,1,0,True,0,True,True
+224009,2004 FSA,1,0,True,0,True,True
+224048,2004 FSA,1,0,True,0,True,True
+224131,2004 FSA,1,0,True,0,True,True
+224164,other,2,0,True,1,True,False
+224216,other,7,0,True,4,True,False
+224302,other,1,0,True,0,True,True
+224401,other,1,0,True,0,True,True
+224414,other,1,0,True,0,True,True
+224416,other,1,0,True,0,True,True
+224431,2004 FSA,1,0,True,0,True,True
+224445,other,6,0,True,0,True,True
+224460,other,1,0,True,0,True,True
+224544,other,1,0,True,0,True,True
+224648,DNR 24k POLYS,1,0,True,0,True,True
+224658,other,1,0,True,0,True,True
+224715,other,1,0,True,0,True,True
+224775,2004 FSA,2,0,True,0,True,True
+224859,other,2,0,True,1,True,False
+224909,2004 FSA,1,0,True,0,True,True
+224935,2004 FSA,2,0,True,0,True,True
+224937,ORIG DLG,1,0,True,0,True,True
+224954,2004 FSA,6,1,True,3,True,False
+225079,other,2,0,True,0,True,True
+225091,other,1,0,True,0,True,True
+225102,2004 FSA,4,0,True,0,True,True
+225135,ORIG DLG,1,0,True,0,True,True
+225148,2004 FSA,1,0,True,0,True,True
+225217,2004 FSA,1,0,True,0,True,True
+225234,2004 FSA,3,0,True,0,True,True
+225250,other,1,0,True,0,True,True
+225275,other,1,0,True,0,True,True
+225280,2004 FSA,1,0,True,0,True,True
+225309,2004 FSA,1,0,True,0,True,True
+225318,ORIG DLG,1,0,True,0,True,True
+225319,2004 FSA,1,0,True,0,True,True
+225341,2004 FSA,3,0,True,1,True,False
+225364,2004 FSA,1,0,True,0,True,True
+225390,other,3,0,True,1,True,False
+225415,other,1,0,True,0,True,True
+225425,2004 FSA,3,0,True,0,True,True
+225452,ORIG DLG,1,0,True,0,True,True
+225485,2004 FSA,1,0,True,0,True,True
+225789,2004 FSA,1,0,True,0,True,True
+225821,2004 FSA,1,0,True,0,True,True
+225869,2004 FSA,2,0,True,0,True,True
+225914,other,1,0,True,0,True,True
+225924,other,2,0,True,0,True,True
+225937,ORIG DLG,2,0,True,0,True,True
+225998,2004 FSA,1,0,True,0,True,True
+226049,ORIG DLG,2,0,True,0,True,True
+226137,,3,0,True,0,True,True
+226146,other,1,0,True,0,True,True
+226158,2004 FSA,1,0,True,0,True,True
+226219,DNR 24k POLYS,1,0,True,0,True,True
+226257,2004 FSA,1,0,True,0,True,True
+226334,2004 FSA,3,0,True,0,True,True
+226388,ORIG DLG,2,0,True,0,True,True
+226403,2004 FSA,1,0,True,0,True,True
+226408,DNR 24k POLYS,1,0,True,0,True,True
+226420,2004 FSA,1,0,True,0,True,True
+226492,2004 FSA,1,0,True,0,True,True
+226510,other,1,0,True,0,True,True
+226527,other,1,0,True,0,True,True
+226538,2004 FSA,4,0,True,0,True,True
+226573,2004 FSA,1,0,True,0,True,True
+226610,other,1,0,True,0,True,True
+226716,other,1,0,True,0,True,True
+226727,2004 FSA,3,2,True,2,True,False
+226744,2004 FSA,1,0,True,0,True,True
+226930,other,1,0,True,0,True,True
+226932,DNR 24k POLYS,1,0,True,0,True,True
+226960,other,2,0,True,0,True,True
+226972,other,2,0,True,0,True,True
+227048,other,1,0,True,0,True,True
+227049,2004 FSA,1,0,True,0,True,True
+227090,2004 FSA,5,2,True,4,True,False
+227133,DNR 24k POLYS,1,0,True,0,True,True
+227190,other,1,0,True,0,True,True
+227210,2004 FSA,2,0,True,0,True,True
+227254,2004 FSA,9,3,True,5,True,False
+227285,2004 FSA,1,0,True,0,True,True
+227329,DNR 24k POLYS,1,0,True,0,True,True
+227337,other,1,0,True,0,True,True
+227359,other,2,0,True,1,True,False
+227363,2004 FSA,2,0,True,0,True,True
+227426,other,3,0,True,1,True,False
+227446,other,1,0,True,0,True,True
+227541,2004 FSA,1,0,True,0,True,True
+227613,ORIG DLG,1,0,True,0,True,True
+227646,2004 FSA,1,0,True,0,True,True
+227724,2004 FSA,1,0,True,0,True,True
+227743,2004 FSA,1,0,True,0,True,True
+227756,DNR 24k POLYS,1,0,True,0,True,True
+227758,other,2,0,True,0,True,True
+227856,2004 FSA,1,0,True,0,True,True
+227867,ORIG DLG,1,0,True,0,True,True
+227873,2004 FSA,1,0,True,0,True,True
+227893,2004 FSA,1,0,True,0,True,True
+228001,other,4,0,True,0,True,True
+228059,2004 FSA,1,0,True,0,True,True
+228111,2004 FSA,1,0,True,0,True,True
+228124,other,1,0,True,0,True,True
+228155,other,1,0,True,0,True,True
+228158,other,8,0,True,0,True,True
+228211,2004 FSA,2,0,True,0,True,True
+228228,other,2,0,True,0,True,True
+228246,2004 FSA,2,1,True,1,True,False
+228290,2004 FSA,1,0,True,0,True,True
+228436,other,1,0,True,0,True,True
+228472,DNR 24k POLYS,1,0,True,0,True,True
+228512,2004 FSA,2,0,True,0,True,True
+228524,2004 FSA,1,0,True,0,True,True
+228570,other,1,0,True,0,True,True
+228590,other,2,0,True,1,True,False
+228692,other,2,0,True,0,True,True
+228784,ORIG DLG,1,0,True,0,True,True
+228802,2004 FSA,1,0,True,0,True,True
+228823,other,1,0,True,0,True,True
+228829,2004 FSA,2,0,True,0,True,True
+228876,other,1,0,True,0,True,True
+228879,2004 FSA,1,0,True,0,True,True
+228899,,29,1,True,12,True,False
+228929,2004 FSA,1,0,True,0,True,True
+229017,2004 FSA,2,0,True,0,True,True
+229018,other,3,1,True,1,True,False
+229031,2004 FSA,1,0,True,0,True,True
+229050,other,9,0,True,1,True,False
+229061,other,2,0,True,0,True,True
+229079,2004 FSA,5,1,True,2,True,False
+229156,2004 FSA,1,0,True,0,True,True
+229278,2004 FSA,1,0,True,0,True,True
+229354,2004 FSA,1,0,True,0,True,True
+229417,2004 FSA,2,0,True,0,True,True
+229444,2004 FSA,2,0,True,1,True,False
+229481,2004 FSA,3,0,True,0,True,True
+229536,ORIG DLG,1,0,True,0,True,True
+229606,2004 FSA,1,0,True,0,True,True
+229609,2004 FSA,1,0,True,0,True,True
+229693,2004 FSA,1,0,True,0,True,True
+229707,other,1,0,True,0,True,True
+229708,2004 FSA,1,0,True,0,True,True
+229759,other,1,0,True,0,True,True
+229785,other,1,0,True,0,True,True
+229811,2004 FSA,7,2,True,5,True,False
+230086,other,10,1,True,4,True,False
+230115,2004 FSA,2,0,True,1,True,False
+230148,,11,0,True,0,True,True
+230155,other,1,0,True,0,True,True
+230231,2004 FSA,1,0,True,0,True,True
+230235,other,5,0,True,0,True,True
+230246,other,3,0,True,0,True,True
+230248,2004 FSA,1,0,True,0,True,True
+230316,2004 FSA,2,0,True,0,True,True
+230326,ORIG DLG,2,0,True,0,True,True
+230330,2004 FSA,1,0,True,0,True,True
+230398,other,12,0,False,0,False,False
+230403,2004 FSA,1,0,True,0,True,True
+230451,2004 FSA,1,0,True,0,True,True
+230495,other,1,0,True,0,True,True
+230514,2004 FSA,1,0,True,0,True,True
+230582,other,2,0,True,0,True,True
+230589,2004 FSA,5,0,True,3,True,False
+230667,other,2,0,True,0,True,True
+230681,other,1,0,True,0,True,True
+230711,ORIG DLG,1,0,True,0,True,True
+230720,DNR 24k POLYS,1,0,True,0,True,True
+230750,PWI,2,0,True,0,True,True
+230778,other,1,0,True,0,True,True
+230800,2004 FSA,1,0,True,0,True,True
+230803,ORIG DLG,1,0,True,0,True,True
+230858,2004 FSA,1,0,True,0,True,True
+230917,2004 FSA,16,4,True,9,True,False
+230920,other,1,0,True,0,True,True
+230981,2004 FSA,7,1,True,2,True,False
+231055,other,1,0,True,0,True,True
+231125,DNR 24k POLYS,1,0,True,0,True,True
+231127,other,2,0,True,0,True,True
+231155,other,1,0,True,0,True,True
+231173,2004 FSA,12,4,True,7,True,False
+231252,other,3,1,True,2,True,False
+231267,ORIG DLG,1,0,True,0,True,True
+231292,other,1,0,True,0,True,True
+231320,2004 FSA,1,0,True,0,True,True
+231358,other,1,0,True,0,True,True
+231361,ORIG DLG,3,0,True,0,True,True
+231475,other,1,0,True,0,True,True
+231574,2004 FSA,1,0,True,0,True,True
+231585,2004 FSA,3,0,True,0,True,True
+231650,2004 FSA,1,0,True,0,True,True
+231675,DNR 24k POLYS,1,0,True,0,True,True
+231689,2004 FSA,1,0,True,0,True,True
+231721,2004 FSA,1,0,True,0,True,True
+231749,2004 FSA,1,0,True,0,True,True
+231773,2004 FSA,27,8,True,11,True,False
+231873,2004 FSA,2,0,True,0,True,True
+231956,DNR 24k POLYS,1,0,True,0,True,True
+231971,PWI,1,0,True,0,True,True
+231979,2004 FSA,4,0,True,2,True,False
+232021,2004 FSA,14,4,True,6,True,False
+232156,2004 FSA,1,0,True,0,True,True
+232158,other,2,0,True,1,True,False
+232176,other,1,0,True,0,True,True
+232192,other,4,0,True,1,True,False
+232219,2004 FSA,4,0,True,0,True,True
+232239,other,2,0,True,0,True,True
+232246,PWI,5,0,True,1,True,False
+232342,2004 FSA,2,0,True,0,True,True
+232384,2004 FSA,1,0,True,0,True,True
+232398,2004 FSA,2,0,True,1,True,False
+232411,other,1,0,True,0,True,True
+232460,2004 FSA,1,0,True,0,True,True
+232479,2004 FSA,4,0,True,1,True,False
+232518,2004 FSA,2,0,True,0,True,True
+232607,2004 FSA,56,0,True,15,True,False
+232613,2004 FSA,6,0,True,0,True,True
+232662,2004 FSA,4,0,True,1,True,False
+232664,other,6,1,True,1,True,False
+232710,ORIG DLG,1,0,True,0,True,True
+232713,2004 FSA,1,0,True,0,True,True
+232714,other,5,1,True,2,True,False
+232763,2004 FSA,15,8,True,8,True,False
+232764,DNR 24k POLYS,1,0,True,0,True,True
+232829,2004 FSA,1,0,True,0,True,True
+232849,2004 FSA,2,0,True,0,True,True
+232881,other,1,0,True,0,True,True
+232914,ORIG DLG,1,0,True,0,True,True
+232948,other,4,0,True,0,True,True
+232949,2004 FSA,1,0,True,0,True,True
+232957,ORIG DLG,1,0,True,0,True,True
+232959,ORIG DLG,1,0,True,0,True,True
+233092,2004 FSA,1,0,True,0,True,True
+233099,2004 FSA,4,0,True,0,True,True
+233125,other,5,0,True,0,True,True
+233138,other,1,0,True,0,True,True
+233148,other,5,0,True,0,True,True
+233163,2004 FSA,2,0,True,0,True,True
+233208,ORIG DLG,1,0,True,0,True,True
+233251,2004 FSA,3,1,True,1,True,False
+233331,2004 FSA,1,0,True,0,True,True
+233365,other,2,0,True,0,True,True
+233603,ORIG DLG,1,0,True,0,True,True
+233636,other,1,0,True,0,True,True
+233638,other,1,0,True,0,True,True
+233643,other,2,0,True,0,True,True
+233730,ORIG DLG,2,0,True,0,True,True
+233799,other,1,0,True,0,True,True
+233886,2004 FSA,3,0,True,1,True,False
+233890,2004 FSA,1,0,True,0,True,True
+233929,other,6,2,True,3,True,False
+233974,other,1,0,True,0,True,True
+234002,2004 FSA,1,0,True,0,True,True
+234052,DNR 24k POLYS,1,0,True,0,True,True
+234070,DNR 24k POLYS,1,0,True,0,True,True
+234163,2004 FSA,1,0,True,0,True,True
+234169,2004 FSA,1,0,True,0,True,True
+234198,2004 FSA,1,0,True,0,True,True
+234199,DNR 24k POLYS,1,0,True,0,True,True
+234239,ORIG DLG,1,0,True,0,True,True
+234296,other,2,0,True,0,True,True
+234298,2004 FSA,2,0,True,0,True,True
+234311,2004 FSA,1,0,True,0,True,True
+234342,other,1,0,True,0,True,True
+234352,2004 FSA,4,0,True,0,True,True
+234394,2004 FSA,2,0,True,0,True,True
+234537,2004 FSA,7,5,True,5,True,False
+234545,2004 FSA,1,0,True,0,True,True
+234548,2004 FSA,1,0,True,0,True,True
+234571,2004 FSA,1,0,True,0,True,True
+234739,2004 FSA,1,0,True,0,True,True
+234779,other,1,0,True,0,True,True
+234836,2004 FSA,1,0,True,0,True,True
+234932,other,2,0,True,0,True,True
+234991,2004 FSA,1,0,True,0,True,True
+235146,2004 FSA,1,0,True,0,True,True
+235369,2004 FSA,1,0,True,0,True,True
+235409,2004 FSA,1,0,True,0,True,True
+235421,other,1,0,True,0,True,True
+235422,2004 FSA,1,0,True,0,True,True
+235424,2004 FSA,6,1,True,3,True,False
+235457,other,1,0,True,0,True,True
+235469,,1,0,True,0,True,True
+235510,other,4,0,True,1,True,False
+235561,2004 FSA,1,0,True,0,True,True
+235573,2004 FSA,1,0,True,0,True,True
+235598,2004 FSA,35,0,True,0,True,True
+235604,2004 FSA,4,2,True,3,True,False
+235655,ORIG DLG,1,0,True,0,True,True
+235663,other,8,4,True,7,True,False
+235704,2004 FSA,1,0,True,0,True,True
+235742,2004 FSA,15,1,True,2,True,False
+235780,other,3,0,True,0,True,True
+235787,2004 FSA,1,0,True,0,True,True
+235868,other,1,0,True,0,True,True
+235888,ORIG DLG,1,0,True,0,True,True
+235890,,3,0,True,0,True,True
+235967,other,1,0,True,0,True,True
+236044,2004 FSA,1,0,True,0,True,True
+236056,ORIG DLG,1,0,True,0,True,True
+236146,other,1,0,True,0,True,True
+236181,2004 FSA,32,0,True,12,True,False
+236190,other,1,0,True,0,True,True
+236204,2004 FSA,1,0,True,0,True,True
+236218,DNR 24k POLYS,1,0,True,0,True,True
+236315,ORIG DLG,1,0,True,0,True,True
+236420,2004 FSA,1,0,True,0,True,True
+236462,2004 FSA,1,0,True,0,True,True
+236525,2004 FSA,2,0,True,0,True,True
+236565,other,1,0,True,0,True,True
+236585,other,1,0,True,0,True,True
+236685,DNR 24k POLYS,1,0,True,0,True,True
+236690,2004 FSA,1,0,True,0,True,True
+236700,other,1,0,True,0,True,True
+236712,other,2,0,True,0,True,True
+236731,other,1,0,True,0,True,True
+236733,other,1,0,True,0,True,True
+236765,other,1,0,True,0,True,True
+236850,ORIG DLG,2,0,True,0,True,True
+236962,2004 FSA,2,0,True,0,True,True
+236994,2004 FSA,3,0,True,0,True,True
+237010,other,6,0,True,0,True,True
+237014,2004 FSA,6,4,True,4,True,False
+237028,2004 FSA,2,0,True,0,True,True
+237041,other,5,1,True,2,True,False
+237086,2004 FSA,1,0,True,0,False,False
+237126,other,13,7,True,9,True,False
+237215,ORIG DLG,4,0,True,0,True,True
+237236,other,1,0,True,0,True,True
+237245,other,2,0,True,0,True,True
+237262,other,1,0,True,0,True,True
+237270,2004 FSA,1,0,True,0,True,True
+237284,2004 FSA,3,0,True,0,True,True
+237296,other,1,0,True,0,True,True
+237380,2004 FSA,1,0,True,0,True,True
+237384,2004 FSA,1,0,True,0,True,True
+237449,2004 FSA,2,0,True,0,True,True
+237463,2004 FSA,1,0,True,0,True,True
+237474,2004 FSA,18,5,True,9,True,False
+237556,2004 FSA,1,0,True,0,True,True
+237568,ORIG DLG,3,0,True,0,True,True
+237653,DNR 24k POLYS,1,0,True,0,True,True
+237741,2004 FSA,2,0,True,1,True,False
+237746,other,6,0,True,1,True,False
+237767,2004 FSA,3,0,True,0,True,True
+237788,2004 FSA,2,0,True,1,True,False
+237803,ORIG DLG,1,0,True,0,True,True
+237836,other,1,0,True,0,True,True
+237886,2004 FSA,9,1,True,4,True,False
+237936,2004 FSA,1,0,True,0,True,True
+238007,other,2,0,True,0,True,True
+238013,other,3,0,True,1,True,False
+238124,other,3,0,True,1,True,False
+238128,ORIG DLG,1,0,True,0,True,True
+238146,2004 FSA,36,13,True,21,True,False
+238172,ORIG DLG,2,0,True,0,True,True
+238222,other,4,1,True,2,True,False
+238225,2004 FSA,22,13,True,17,True,False
+238266,DNR 24k POLYS,1,0,True,0,True,True
+238293,2004 FSA,6,0,True,2,True,False
+238304,other,1,0,True,0,True,True
+238305,2004 FSA,1,0,True,0,True,True
+238477,other,1,0,True,0,True,True
+238508,other,1,0,True,0,True,True
+238715,2004 FSA,1,0,True,0,True,True
+238759,2004 FSA,6,3,True,5,True,False
+238760,other,1,0,True,0,True,True
+238869,other,14,4,True,6,True,False
+238871,other,1,0,True,0,True,True
+238891,2004 FSA,16,8,True,11,True,False
+238906,DNR 24k POLYS,1,0,True,0,True,True
+238944,other,1,0,True,0,True,True
+238973,other,17,3,True,4,True,False
+239002,other,1,0,True,0,True,True
+239052,PWI,1,0,True,0,True,True
+239065,other,1,0,True,0,True,True
+239079,other,1,0,True,0,True,True
+239091,other,2,0,True,0,True,True
+239112,other,1,0,True,0,True,True
+239143,other,1,0,True,0,True,True
+239173,PWI,2,0,True,0,True,True
+239264,2004 FSA,24,12,True,18,True,False
+239302,2004 FSA,2,0,True,0,True,True
+239321,2004 FSA,1,0,True,0,True,True
+239364,2004 FSA,2,0,True,0,True,True
+239371,ORIG DLG,1,0,True,0,True,True
+239385,2004 FSA,1,0,True,0,True,True
+239484,other,1,0,True,0,True,True
+239553,2004 FSA,1,0,True,0,True,True
+239568,2004 FSA,1,0,True,0,True,True
+239618,other,1,0,True,0,True,True
+239643,2004 FSA,2,1,True,1,True,False
+239700,2004 FSA,29,12,False,18,True,False
+239716,ORIG DLG,1,0,True,0,True,True
+239748,other,1,0,True,0,True,True
+239784,other,2,0,True,0,True,True
+239814,2004 FSA,1,0,True,0,True,True
+239820,other,3,0,True,0,True,True
+239915,2004 FSA,1,0,True,0,True,True
+239935,other,2,0,True,1,True,False
+240046,other,1,0,True,0,True,True
+240111,2004 FSA,5,0,True,1,True,False
+240153,2004 FSA,8,1,True,1,True,False
+240206,other,1,0,True,0,True,True
+240227,other,8,0,True,2,True,False
+240229,ORIG DLG,2,0,True,0,True,True
+240237,2004 FSA,2,1,True,1,True,False
+240326,DNR 24k POLYS,1,0,True,0,True,True
+240414,2004 FSA,1,0,True,0,True,True
+240444,2004 FSA,1,0,True,0,True,True
+240447,other,1,0,True,0,True,True
+240474,other,1,0,True,0,True,True
+240493,2004 FSA,3,0,True,1,True,False
+240528,2004 FSA,3,0,True,2,True,False
+240581,other,11,4,True,9,True,False
+240593,ORIG DLG,2,0,True,0,True,True
+240615,2004 FSA,4,0,True,1,True,False
+240662,other,1,0,True,0,True,True
+240717,ORIG DLG,2,0,True,0,True,True
+240727,ORIG DLG,2,0,True,0,True,True
+240786,other,1,0,True,0,True,True
+240790,ORIG DLG,2,0,True,0,True,True
+240883,other,4,2,True,2,True,False
+241110,2004 FSA,1,0,True,0,True,True
+241145,other,1,0,True,0,True,True
+241178,other,1,0,True,0,True,True
+241186,other,1,0,True,0,True,True
+241267,2004 FSA,1,0,True,0,True,True
+241277,2004 FSA,5,2,True,2,True,False
+241334,other,1,0,True,0,True,True
+241344,other,1,0,True,0,True,True
+241364,2004 FSA,2,0,True,0,True,True
+241374,other,5,1,True,1,True,False
+241381,other,1,0,True,0,True,True
+241428,2004 FSA,1,0,True,0,True,True
+241455,2004 FSA,3,1,True,2,True,False
+241474,other,58,5,True,12,True,False
+241487,2004 FSA,1,0,True,0,True,True
+241555,2004 FSA,3,0,True,1,True,False
+241574,2004 FSA,4,0,True,0,True,True
+241585,2004 FSA,1,0,True,0,True,True
+241594,2004 FSA,1,0,True,0,True,True
+241601,2004 FSA,1,0,True,0,True,True
+241684,2004 FSA,5,1,True,3,True,False
+241691,2004 FSA,1,0,True,0,True,True
+241774,2004 FSA,1,0,True,0,True,True
+241782,other,1,0,True,0,True,True
+241824,2004 FSA,7,1,True,2,True,False
+241827,2004 FSA,1,0,True,0,True,True
+241837,2004 FSA,1,0,True,0,True,True
+241873,2004 FSA,1,0,True,0,True,True
+241922,2004 FSA,1,0,True,0,True,True
+241941,2004 FSA,1,0,True,0,True,True
+241978,2004 FSA,1,0,True,0,True,True
+241988,DNR 24k POLYS,1,0,True,0,True,True
+242021,2004 FSA,1,0,True,0,True,True
+242029,2004 FSA,1,0,True,0,True,True
+242133,other,4,0,True,0,True,True
+242143,2004 FSA,2,0,True,0,True,True
+242151,2004 FSA,1,0,True,0,True,True
+242200,2004 FSA,2,0,True,0,True,True
+242223,other,2,0,True,1,True,False
+242256,other,6,1,True,3,True,False
+242266,2004 FSA,1,0,True,0,True,True
+242273,other,6,0,True,2,True,False
+242312,other,17,2,True,4,True,False
+242321,DNR 24k POLYS,1,0,True,0,True,True
+242364,ORIG DLG,2,0,True,0,True,True
+242377,2004 FSA,1,0,True,0,True,True
+242443,2004 FSA,1,0,True,0,True,True
+242469,other,1,0,True,0,True,True
+242515,2004 FSA,2,1,True,1,True,False
+242600,other,4,0,True,0,True,True
+242624,2004 FSA,4,2,True,2,True,False
+242671,2004 FSA,1,0,True,0,True,True
+242673,2004 FSA,1,0,True,0,True,True
+242702,other,1,0,True,0,True,True
+242794,2004 FSA,1,0,True,0,True,True
+242851,other,9,4,True,6,True,False
+242945,other,4,0,True,0,True,True
+242956,other,1,0,True,0,True,True
+242981,ORIG DLG,1,0,True,0,True,True
+243041,other,1,0,True,0,True,True
+243060,DNR 24k POLYS,1,0,True,0,True,True
+243077,2004 FSA,1,0,True,0,True,True
+243125,,4,0,True,0,True,True
+243132,other,10,0,True,0,True,True
+243134,other,3,0,True,0,True,True
+243227,other,2,0,True,0,True,True
+243286,2004 FSA,3,0,True,0,True,True
+243344,other,2,0,True,0,True,True
+243358,2004 FSA,1,0,True,0,True,True
+243364,2004 FSA,1,0,True,0,True,True
+243371,2004 FSA,4,1,True,3,True,False
+243388,2004 FSA,1,0,True,0,True,True
+243398,2004 FSA,1,0,True,0,True,True
+243407,other,1,0,True,0,True,True
+243449,2004 FSA,1,0,True,0,True,True
+243478,other,1,0,True,0,True,True
+243522,other,2,0,True,0,True,True
+243559,2004 FSA,1,0,True,0,True,True
+243589,,5,0,True,2,True,False
+243603,2004 FSA,4,0,True,0,True,True
+243641,other,11,1,False,5,False,False
+243816,other,1,0,True,0,True,True
+243867,other,15,0,False,3,True,False
+243868,other,1,0,True,0,True,True
+243891,,3,0,True,0,True,True
+244023,2004 FSA,1,0,True,0,True,True
+244085,2004 FSA,2,0,True,0,True,True
+244137,other,1,0,True,0,True,True
+244154,2004 FSA,1,0,True,0,True,True
+244175,other,1,0,True,0,True,True
+244209,2004 FSA,1,0,True,0,True,True
+244386,2004 FSA,1,0,True,0,True,True
+244398,2004 FSA,1,0,True,0,True,True
+244417,2004 FSA,2,0,True,1,True,False
+244469,2004 FSA,2,0,True,1,True,False
+244489,2004 FSA,2,0,True,1,True,False
+244500,2004 FSA,3,0,True,1,True,False
+244576,2004 FSA,1,0,True,0,True,True
+244594,ORIG DLG,2,0,True,0,True,True
+244602,2004 FSA,1,0,True,0,True,True
+244619,other,2,0,True,0,True,True
+244647,other,1,0,True,0,True,True
+244651,2004 FSA,1,0,True,0,True,True
+244686,2004 FSA,2,0,True,0,True,True
+244689,other,1,0,True,0,True,True
+244827,2004 FSA,6,0,True,0,True,True
+244931,2004 FSA,1,0,True,0,True,True
+245029,other,1,0,True,0,True,True
+245123,2004 FSA,1,0,True,0,True,True
+245173,other,1,0,True,0,True,True
+245193,other,3,0,True,2,True,False
+245234,2004 FSA,1,0,True,0,True,True
+245260,2004 FSA,1,0,True,0,True,True
+245302,2004 FSA,5,0,True,2,True,False
+245336,DNR 24k POLYS,1,0,True,0,True,True
+245404,2004 FSA,1,0,True,0,True,True
+245478,2004 FSA,1,0,True,0,True,True
+245487,2004 FSA,1,0,True,0,True,True
+245489,ORIG DLG,1,0,True,0,True,True
+245502,2004 FSA,1,0,True,0,True,True
+245511,2004 FSA,2,0,True,0,True,True
+245623,,1,0,True,0,True,True
+245632,ORIG DLG,1,0,True,0,True,True
+245667,2004 FSA,3,1,True,1,True,False
+245698,DNR 24k POLYS,1,0,True,0,True,True
+245747,PWI,1,0,True,0,True,True
+245760,other,1,0,True,0,True,True
+245798,2004 FSA,2,0,True,0,True,True
+245856,other,1,0,True,0,True,True
+245874,2004 FSA,1,0,True,0,True,True
+246118,2004 FSA,1,0,True,0,True,True
+246229,other,1,0,True,0,True,True
+246269,other,1,0,True,0,True,True
+246278,other,2,0,True,0,True,True
+246376,2004 FSA,1,0,True,0,True,True
+246400,other,3,0,True,0,True,True
+246410,other,13,1,True,1,False,False
+246557,2004 FSA,1,0,True,0,True,True
+246573,other,1,0,True,0,True,True
+246575,DNR 24k POLYS,1,0,True,0,True,True
+246599,other,1,0,True,0,True,True
+246689,other,10,3,True,5,True,False
+246748,other,3,0,True,1,True,False
+246762,other,1,0,True,0,True,True
+246814,2004 FSA,2,0,True,1,True,False
+246845,other,1,0,True,0,True,True
+246948,2004 FSA,1,0,True,0,True,True
+246956,2004 FSA,3,0,True,1,True,False
+246997,2004 FSA,2,0,True,1,True,False
+247035,2004 FSA,1,0,True,0,True,True
+247111,2004 FSA,1,0,True,0,True,True
+247135,2004 FSA,1,0,True,0,True,True
+247224,other,1,0,True,0,True,True
+247232,2004 FSA,1,0,True,0,True,True
+247275,ORIG DLG,1,0,True,0,True,True
+247279,ORIG DLG,4,0,True,0,True,True
+247357,ORIG DLG,2,0,True,0,True,True
+247387,2004 FSA,7,2,True,4,True,False
+247396,2004 FSA,1,0,True,0,True,True
+247400,2004 FSA,5,1,True,1,True,False
+247448,2004 FSA,1,0,True,0,True,True
+247519,2004 FSA,1,0,True,0,True,True
+247566,other,1,0,True,0,True,True
+247641,2004 FSA,1,0,True,0,True,True
+247657,other,1,0,True,0,True,True
+247745,other,1,0,True,0,True,True
+247848,2004 FSA,4,2,True,3,True,False
+247899,2004 FSA,1,0,True,0,True,True
+247986,2004 FSA,2,0,True,0,True,True
+247988,2004 FSA,6,0,True,0,True,True
+248058,other,199,26,True,61,True,False
+248091,other,3,0,True,0,True,True
+248102,other,2,0,True,0,True,True
+248123,ORIG DLG,1,0,True,0,True,True
+248157,2004 FSA,1,0,True,0,True,True
+248163,2004 FSA,1,0,True,0,True,True
+248201,2004 FSA,6,2,True,4,True,False
+248207,DNR 24k POLYS,1,0,True,0,True,True
+248223,2004 FSA,1,0,True,0,True,True
+248227,2004 FSA,2,0,True,0,True,True
+248272,other,1,0,True,0,True,True
+248356,other,1,0,True,0,True,True
+248357,2004 FSA,5,0,True,3,True,False
+248360,2004 FSA,1,0,True,0,True,True
+248364,other,2,0,True,0,True,True
+248497,DNR 24k POLYS,1,0,True,0,True,True
+248577,other,1,0,True,0,True,True
+248583,other,1,0,True,0,True,True
+248683,other,1,0,True,0,True,True
+248704,other,1,0,True,0,True,True
+248717,other,1,0,True,0,True,True
+248734,2004 FSA,1,0,True,0,True,True
+248775,2004 FSA,1,0,True,0,True,True
+248821,other,3,0,True,0,True,True
+248845,DNR 24k POLYS,1,0,True,0,True,True
+248867,2004 FSA,1,0,True,0,True,True
+248905,other,1,0,True,0,True,True
+248924,2004 FSA,1,0,True,0,True,True
+248949,2004 FSA,2,0,True,0,True,True
+249176,DNR 24k POLYS,1,0,True,0,True,True
+249191,other,7,0,True,0,True,True
+249192,other,2,1,True,1,True,False
+249195,other,2,1,True,1,True,False
+249220,2004 FSA,1,0,True,0,True,True
+249262,other,1,0,True,0,True,True
+249290,2004 FSA,1,0,True,0,True,True
+249312,other,2,0,True,0,True,True
+249348,other,1,0,True,0,True,True
+249436,2004 FSA,1,0,True,0,True,True
+249507,DNR 24k POLYS,1,0,True,0,True,True
+249726,2004 FSA,2,0,True,0,True,True
+249739,other,1,0,True,0,True,True
+249803,other,1,0,True,0,True,True
+249903,2004 FSA,1,0,True,0,True,True
+249918,2004 FSA,2,0,True,0,True,True
+249938,2004 FSA,1,0,True,0,True,True
+249954,2004 FSA,11,5,True,7,True,False
+249956,other,7,1,True,4,True,False
+249990,2004 FSA,1,0,True,0,True,True
+250004,2004 FSA,10,5,True,6,True,False
+250023,2004 FSA,2,0,True,1,True,False
+250058,2004 FSA,1,0,True,0,True,True
+250114,other,2,0,True,0,True,True
+250116,2004 FSA,6,1,True,2,True,False
+250121,other,1,0,True,0,True,True
+250163,2004 FSA,1,0,True,0,True,True
+250201,2004 FSA,1,0,True,0,True,True
+250220,ORIG DLG,1,0,True,0,True,True
+250257,DNR 24k POLYS,1,0,True,0,True,True
+250263,PWI,1,0,True,0,True,True
+250329,2004 FSA,2,0,True,1,True,False
+250379,2004 FSA,10,5,True,8,False,False
+250388,2004 FSA,6,4,True,5,True,False
+250464,2004 FSA,4,0,True,2,True,False
+250473,other,1,0,True,0,True,True
+250607,other,1,0,True,0,True,True
+250609,2004 FSA,1,0,True,0,True,True
+250626,other,1,0,True,0,True,True
+250681,2004 FSA,13,7,True,9,True,False
+250729,2004 FSA,3,0,True,1,True,False
+250797,ORIG DLG,2,0,True,0,True,True
+250842,other,87,35,True,51,True,False
+250843,other,1,0,True,0,True,True
+250866,other,1,0,True,0,True,True
+250879,2004 FSA,1,0,True,0,True,True
+250912,ORIG DLG,1,0,True,0,True,True
+250949,2004 FSA,2,0,True,0,True,True
+250979,DNR 24k POLYS,1,0,True,0,True,True
+251040,other,3,0,True,0,True,True
+251047,other,1,0,True,0,True,True
+251069,DNR 24k POLYS,1,0,True,0,True,True
+251078,2004 FSA,1,0,True,0,True,True
+251116,2004 FSA,1,0,True,0,True,True
+251139,2004 FSA,1,0,True,0,True,True
+251143,2004 FSA,8,2,True,5,True,False
+251144,2004 FSA,1,0,True,0,True,True
+251192,2004 FSA,1,0,True,0,True,True
+251447,other,1,0,True,0,True,True
+251572,2004 FSA,15,7,True,8,True,False
+251603,2004 FSA,1,0,True,0,True,True
+251618,2004 FSA,2,1,True,1,True,False
+251670,other,1,0,True,0,True,True
+251691,ORIG DLG,1,0,True,0,True,True
+251736,other,1,0,True,0,True,True
+251745,ORIG DLG,1,0,True,0,True,True
+251850,2004 FSA,1,0,True,0,True,True
+251852,2004 FSA,1,0,True,0,True,True
+251911,2004 FSA,2,0,True,0,True,True
+251937,DNR 24k POLYS,1,0,True,0,True,True
+252049,ORIG DLG,2,0,True,0,True,True
+252053,other,1,0,True,0,True,True
+252065,DNR 24k POLYS,1,0,True,0,True,True
+252127,2004 FSA,2,0,True,0,True,True
+252206,2004 FSA,1,0,True,0,True,True
+252252,2004 FSA,1,0,True,0,True,True
+252254,2004 FSA,1,0,True,0,True,True
+252371,other,2,0,True,0,True,True
+252383,2004 FSA,6,1,True,3,True,False
+252384,2004 FSA,2,0,True,0,True,True
+252390,2004 FSA,1,0,True,0,True,True
+252395,ORIG DLG,1,0,True,0,True,True
+252486,2004 FSA,1,0,True,0,True,True
+252519,DNR 24k POLYS,1,0,True,0,True,True
+252520,other,1,0,True,0,True,True
+252558,DNR 24k POLYS,1,0,True,0,True,True
+252634,2004 FSA,3,1,True,2,True,False
+252708,other,1,0,True,0,True,True
+252711,2004 FSA,1,0,True,0,True,True
+252734,other,1,0,True,0,True,True
+252746,2004 FSA,8,1,True,2,True,False
+252779,2004 FSA,1,0,True,0,True,True
+252809,2004 FSA,1,0,True,0,True,True
+252815,2004 FSA,1,0,True,0,True,True
+252856,2004 FSA,3,0,True,0,True,True
+252864,2004 FSA,2,0,True,0,True,True
+252865,other,3,0,True,1,True,False
+252926,2004 FSA,16,3,True,6,True,False
+253011,ORIG DLG,1,0,True,0,True,True
+253012,ORIG DLG,3,0,True,0,True,True
+253071,DNR 24k POLYS,2,0,True,0,True,True
+253072,2004 FSA,1,0,True,0,True,True
+253107,DNR 24k POLYS,1,0,True,0,True,True
+253172,ORIG DLG,3,1,True,1,True,False
+253190,2004 FSA,5,0,True,0,True,True
+253223,other,1,0,True,0,True,True
+253254,2004 FSA,1,0,True,0,True,True
+253286,other,3,0,True,0,True,True
+253293,other,2,0,True,0,True,True
+253324,other,2,0,True,0,True,True
+253334,other,1,0,True,0,True,True
+253337,2004 FSA,15,4,True,5,True,False
+253373,other,2,0,True,1,True,False
+253377,other,1,0,True,0,True,True
+253416,other,14,1,True,4,True,False
+253441,2004 FSA,4,0,True,0,True,True
+253458,PWI,2,0,True,0,True,True
+253460,2004 FSA,1,0,True,0,True,True
+253547,2004 FSA,4,0,True,1,True,False
+253554,other,1,0,True,0,True,True
+253573,other,1,0,True,0,True,True
+253609,2004 FSA,1,0,True,0,True,True
+253613,2004 FSA,4,0,True,1,True,False
+253625,2004 FSA,4,0,True,1,True,False
+253724,other,3,1,True,1,True,False
+253769,ORIG DLG,1,0,True,0,True,True
+253814,ORIG DLG,2,0,True,0,True,True
+253822,2004 FSA,1,0,True,0,True,True
+253912,2004 FSA,3,1,True,1,True,False
+253964,2004 FSA,1,0,True,0,True,True
+253975,other,2,0,True,1,True,False
+253986,other,2,0,True,1,True,False
+254037,2004 FSA,3,0,True,0,True,True
+254039,,1,0,True,0,True,True
+254049,2004 FSA,1,0,True,0,True,True
+254074,2004 FSA,2,0,True,0,True,True
+254109,other,1,0,True,0,True,True
+254185,DNR 24k POLYS,1,0,True,0,True,True
+254221,other,1,0,True,0,True,True
+254289,2004 FSA,1,0,True,0,True,True
+254399,2004 FSA,2,0,True,0,True,True
+254440,other,1,0,True,0,True,True
+254617,2004 FSA,1,0,True,0,True,True
+254667,other,1,0,True,0,True,True
+254670,2004 FSA,1,0,True,0,True,True
+254779,2004 FSA,1,0,True,0,True,True
+254787,DNR 24k POLYS,1,0,True,0,True,True
+254921,other,1,0,True,0,True,True
+254928,other,1,0,True,0,True,True
+255045,2004 FSA,1,0,True,0,True,True
+255087,ORIG DLG,1,0,True,0,True,True
+255109,2004 FSA,4,0,True,3,True,False
+255151,other,3,0,True,1,True,False
+255221,other,2,0,True,0,True,True
+255241,,4,0,True,1,True,False
+255250,ORIG DLG,1,0,True,0,True,True
+255271,other,1,0,True,0,True,True
+255372,2004 FSA,1,0,True,0,True,True
+255490,DNR 24k POLYS,1,0,True,0,True,True
+255496,2004 FSA,1,0,True,0,True,True
+255563,2004 FSA,1,0,True,0,True,True
+255651,other,1,0,True,0,True,True
+255677,other,2,0,True,0,True,True
+255840,2004 FSA,1,0,True,0,True,True
+255870,other,1,0,True,0,True,True
+255895,,1,0,True,0,True,True
+255897,2004 FSA,4,0,True,1,True,False
+255903,other,1,0,True,0,True,True
+255929,ORIG DLG,2,0,True,0,True,True
+255995,2004 FSA,1,0,True,0,True,True
+256006,ORIG DLG,2,0,True,0,True,True
+256086,DNR 24k POLYS,1,0,True,0,True,True
+256127,other,2,0,True,0,True,True
+256145,other,1,0,True,0,True,True
+256156,,1,0,True,0,True,True
+256163,ORIG DLG,1,0,True,0,True,True
+256176,ORIG DLG,3,0,True,0,True,True
+256181,2004 FSA,1,0,True,0,True,True
+256213,other,1,0,True,0,True,True
+256296,2004 FSA,3,0,True,2,True,False
+256379,2004 FSA,1,0,True,0,True,True
+256404,2004 FSA,2,0,True,0,True,True
+256453,2004 FSA,1,0,True,0,True,True
+256496,other,1,0,True,0,True,True
+256524,other,2,0,True,0,True,True
+256527,2004 FSA,13,6,True,9,True,False
+256591,2004 FSA,1,0,True,0,True,True
+256599,2004 FSA,2,0,True,0,True,True
+256671,2004 FSA,1,0,True,0,True,True
+256788,DNR 24k POLYS,1,0,True,0,True,True
+256851,PWI,1,0,True,0,True,True
+256889,other,1,0,True,0,True,True
+256923,2004 FSA,1,0,True,0,True,True
+256982,other,8,0,True,2,True,False
+257007,other,2,0,True,0,True,True
+257052,DNR 24k POLYS,1,0,True,0,True,True
+257058,2004 FSA,1,0,True,0,True,True
+257263,other,1,0,True,0,True,True
+257278,2004 FSA,4,0,True,2,True,False
+257317,other,1,0,True,0,True,True
+257344,other,1,0,True,0,True,True
+257351,2004 FSA,1,0,True,0,True,True
+257362,other,1,0,True,0,True,True
+257376,other,3,1,True,1,True,False
+257381,2004 FSA,2,0,True,0,True,True
+257382,2004 FSA,1,0,True,0,True,True
+257412,DNR 24k POLYS,1,0,True,0,True,True
+257418,PWI,1,0,True,0,True,True
+257464,2004 FSA,1,0,True,0,True,True
+257506,other,1,0,True,0,True,True
+257527,2004 FSA,5,0,True,1,True,False
+257534,2004 FSA,4,0,True,1,True,False
+257544,2004 FSA,1,0,True,0,True,True
+257552,DNR 24k POLYS,1,0,True,0,True,True
+257566,ORIG DLG,2,0,True,0,True,True
+257592,2004 FSA,2,0,True,0,True,True
+257718,other,1,0,True,0,True,True
+257740,2004 FSA,1,0,True,0,True,True
+257749,2004 FSA,1,0,True,0,True,True
+257799,other,2,0,True,1,True,False
+257822,2004 FSA,1,0,True,0,True,True
+257868,2004 FSA,1,0,True,0,True,True
+257963,2004 FSA,1,0,True,0,True,True
+257970,,1,0,True,0,True,True
+257993,ORIG DLG,2,0,True,0,True,True
+258022,DNR 24k POLYS,1,0,True,0,True,True
+258047,other,6,2,True,2,True,False
+258078,other,1,0,True,0,True,True
+258119,2004 FSA,2,0,True,0,True,True
+258132,other,1,0,True,0,True,True
+258143,2004 FSA,1,0,True,0,True,True
+258280,2004 FSA,1,0,True,0,True,True
+258285,2004 FSA,1,0,True,0,True,True
+258292,2004 FSA,5,0,True,1,True,False
+258332,2004 FSA,1,0,True,0,True,True
+258393,2004 FSA,2,0,True,0,True,True
+258394,2004 FSA,11,1,True,5,True,False
+258408,DNR 24k POLYS,2,0,True,0,True,True
+258418,other,1,0,True,0,True,True
+258425,other,1,0,True,0,True,True
+258493,other,3,0,True,1,True,False
+258505,ORIG DLG,2,0,True,0,True,True
+258508,other,1,0,True,0,True,True
+258652,other,5,0,True,2,True,False
+258709,2004 FSA,1,0,True,0,True,True
+258754,2004 FSA,1,0,True,0,True,True
+258876,other,8,0,True,3,True,False
+258907,ORIG DLG,1,0,True,0,True,True
+259009,2004 FSA,4,0,True,0,True,True
+259034,other,3,0,True,1,True,False
+259132,other,1,0,True,0,True,True
+259152,2004 FSA,1,0,True,0,True,True
+259160,2004 FSA,1,0,True,0,True,True
+259181,other,1,0,True,0,True,True
+259198,2004 FSA,13,1,True,2,True,False
+259207,other,1,0,True,0,True,True
+259292,2004 FSA,1,0,True,0,True,True
+259309,other,2,0,True,1,True,False
+259315,other,5,3,True,3,True,False
+259345,other,1,0,True,0,True,True
+259349,2004 FSA,8,1,True,4,True,False
+259374,2004 FSA,2,0,True,0,True,True
+259382,DNR 24k POLYS,1,0,True,0,True,True
+259383,2004 FSA,3,0,True,0,True,True
+259390,2004 FSA,1,0,True,0,True,True
+259398,other,6,1,True,3,True,False
+259411,other,1,0,True,0,True,True
+259442,other,2,0,True,0,True,True
+259482,2004 FSA,1,0,True,0,True,True
+259487,,1,0,True,0,True,True
+259541,other,5,2,True,3,True,False
+259572,other,4,1,True,2,True,False
+259577,2004 FSA,2,0,True,0,True,True
+259624,2004 FSA,1,0,True,0,True,True
+259659,ORIG DLG,2,0,True,0,True,True
+259665,PWI,2,0,True,0,True,True
+259698,other,2,0,True,1,True,False
+259739,DNR 24k POLYS,1,0,True,0,True,True
+259820,2004 FSA,5,0,True,0,True,True
+259835,other,1,0,True,0,True,True
+259882,2004 FSA,1,0,True,0,True,True
+259893,ORIG DLG,2,1,True,1,True,False
+259925,,10,0,True,1,True,False
+259952,2004 FSA,1,0,True,0,True,True
+259955,other,1,0,True,0,True,True
+260049,other,21,0,True,8,True,False
+260063,other,1,0,True,0,True,True
+260096,2004 FSA,3,0,True,0,True,True
+260106,2004 FSA,10,0,True,1,True,False
+260147,2004 FSA,3,1,True,2,True,False
+260153,other,1,0,True,0,True,True
+260270,2004 FSA,1,0,True,0,True,True
+260279,,1,0,True,0,True,True
+260388,other,1,0,True,0,True,True
+260425,PWI,1,0,True,0,True,True
+260485,2004 FSA,3,0,True,1,True,False
+260489,2004 FSA,17,5,True,9,True,False
+260534,ORIG DLG,1,0,True,0,True,True
+260598,other,2,0,True,0,True,True
+260624,2004 FSA,1,0,True,0,True,True
+260700,2004 FSA,4,1,True,1,True,False
+260713,2004 FSA,7,0,True,2,True,False
+260724,PWI,3,0,True,0,True,True
+260739,other,1,0,True,0,True,True
+260884,2004 FSA,1,0,True,0,True,True
+260890,2004 FSA,2,0,True,0,True,True
+260902,2004 FSA,1,0,True,0,True,True
+261178,2004 FSA,1,0,True,0,True,True
+261291,2004 FSA,1,0,True,0,True,True
+261324,2004 FSA,1,0,True,0,True,True
+261355,2004 FSA,1,0,True,0,True,True
+261358,other,2,0,True,0,True,True
+261367,2004 FSA,46,19,True,29,True,False
+261378,other,2,0,True,0,True,True
+261434,other,1,0,True,0,True,True
+261448,other,1,0,True,0,True,True
+261594,DNR 24k POLYS,1,0,True,0,True,True
+261702,other,1,0,True,0,True,True
+261725,other,3,0,True,1,True,False
+261735,2004 FSA,2,0,True,0,True,True
+261743,DNR 24k POLYS,1,0,True,0,True,True
+261805,2004 FSA,24,13,True,17,True,False
+261846,2004 FSA,8,1,True,3,True,False
+261865,other,2,0,True,0,True,True
+261877,2004 FSA,1,0,True,0,True,True
+261959,other,5,0,True,0,True,True
+261965,2004 FSA,1,0,True,0,True,True
+262072,2004 FSA,1,0,True,0,True,True
+262113,2004 FSA,1,0,True,0,True,True
+262133,ORIG DLG,5,0,True,0,True,True
+262234,2004 FSA,147,21,True,57,True,False
+262333,2004 FSA,3,0,True,0,True,True
+262338,2004 FSA,1,0,True,0,True,True
+262362,other,1,0,True,0,True,True
+262457,2004 FSA,1,0,True,0,True,True
+262464,2004 FSA,1,0,True,0,True,True
+262604,other,1,0,True,0,True,True
+262614,ORIG DLG,1,0,True,0,True,True
+262623,other,21,9,True,13,True,False
+262637,DNR 24k POLYS,1,0,True,0,True,True
+262643,2004 FSA,2,0,True,0,True,True
+262657,2004 FSA,3,0,True,0,True,True
+262667,other,1,0,True,0,True,True
+262686,2004 FSA,1,0,True,0,True,True
+262717,other,11,3,True,4,True,False
+262750,2004 FSA,2,0,True,0,True,True
+262808,ORIG DLG,2,0,True,0,True,True
+262842,2004 FSA,1,0,True,0,True,True
+262849,ORIG DLG,1,0,True,0,True,True
+262891,other,1,0,True,0,True,True
+262936,2004 FSA,1,0,True,0,True,True
+263016,2004 FSA,17,3,True,7,True,False
+263037,2004 FSA,1,0,True,0,True,True
+263063,other,1,0,True,0,True,True
+263201,2004 FSA,1,0,True,0,True,True
+263344,2004 FSA,5,1,True,2,True,False
+263353,other,7,0,True,1,True,False
+263388,2004 FSA,19,10,True,13,True,False
+263559,other,1,0,True,0,True,True
+263661,other,2,0,True,0,True,True
+263678,2004 FSA,1,0,True,0,True,True
+263772,2004 FSA,1,0,True,0,True,True
+263782,DNR 24k POLYS,1,0,True,0,True,True
+263873,ORIG DLG,1,0,True,0,True,True
+263887,2004 FSA,4,0,True,0,True,True
+263907,other,1,0,True,0,True,True
+263945,other,3,0,True,1,True,False
+263982,,19,1,True,9,True,False
+264016,2004 FSA,2,0,True,0,True,True
+264025,2004 FSA,1,0,True,0,True,True
+264028,ORIG DLG,2,0,True,0,True,True
+264031,DNR 24k POLYS,1,0,True,0,True,True
+264058,2004 FSA,2,0,True,1,True,False
+264082,2004 FSA,1,0,True,0,True,True
+264129,ORIG DLG,1,0,True,0,True,True
+264177,PWI,3,0,True,0,True,True
+264252,DNR 24k POLYS,1,0,True,0,True,True
+264287,other,2,0,True,0,True,True
+264318,2004 FSA,3,0,True,0,True,True
+264360,2004 FSA,1,0,True,0,True,True
+264373,ORIG DLG,2,0,True,0,True,True
+264380,other,1,0,True,0,True,True
+264440,other,2,1,True,1,True,False
+264526,PWI,1,0,True,0,True,True
+264528,2004 FSA,1,0,True,0,True,True
+264592,2004 FSA,24,16,True,19,True,False
+264696,2004 FSA,1,0,True,0,True,True
+264747,other,1,0,True,0,True,True
+264798,other,1,0,True,0,True,True
+264818,ORIG DLG,1,0,True,0,True,True
+264839,2004 FSA,4,1,True,1,True,False
+264885,other,6,1,True,3,True,False
+264892,2004 FSA,1,0,True,0,True,True
+265044,other,3,0,True,1,True,False
+265078,2004 FSA,3,0,True,1,True,False
+265096,2004 FSA,16,6,True,8,True,False
+265117,DNR 24k POLYS,1,0,True,0,True,True
+265124,2004 FSA,2,0,True,0,True,True
+265182,2004 FSA,4,0,True,2,True,False
+265184,other,3,0,True,0,True,True
+265185,2004 FSA,1,0,True,0,True,True
+265381,2004 FSA,1,0,True,0,True,True
+265420,2004 FSA,1,0,True,0,True,True
+265428,2004 FSA,2,0,True,0,True,True
+265434,other,1,0,True,0,True,True
+265460,2004 FSA,1,0,True,0,True,True
+265484,other,3,0,True,0,True,True
+265530,2004 FSA,1,0,True,0,True,True
+265545,other,4,1,True,1,True,False
+265550,DNR 24k POLYS,1,0,True,0,True,True
+265636,other,48,6,True,10,False,False
+265691,other,1,0,True,0,True,True
+265699,2004 FSA,3,0,True,0,True,True
+265727,ORIG DLG,1,0,True,0,True,True
+265735,2004 FSA,12,5,True,6,True,False
+265785,ORIG DLG,2,0,True,0,True,True
+265826,2004 FSA,2,0,True,0,True,True
+265856,DNR 24k POLYS,1,0,True,0,True,True
+265857,other,1,0,True,0,True,True
+265891,other,4,0,True,0,False,False
+265925,2004 FSA,1,0,True,0,True,True
+266160,other,1,0,True,0,True,True
+266166,2004 FSA,5,0,True,1,True,False
+266217,other,1,0,True,0,True,True
+266218,2004 FSA,4,0,True,0,True,True
+266293,2004 FSA,3,0,True,0,True,True
+266296,other,1,0,True,0,True,True
+266412,other,3,0,True,1,True,False
+266414,2004 FSA,2,0,True,0,True,True
+266502,other,1,0,True,0,True,True
+266568,2004 FSA,2,0,True,0,True,True
+266584,2004 FSA,1,0,True,0,True,True
+266640,ORIG DLG,1,0,True,0,True,True
+266715,other,1,0,True,0,True,True
+266789,other,1,0,True,0,True,True
+266815,2004 FSA,3,0,True,0,True,True
+267056,other,1,0,True,0,True,True
+267102,other,1,0,True,0,True,True
+267133,2004 FSA,1,0,True,0,True,True
+267212,2004 FSA,2,0,True,0,True,True
+267319,other,2,0,True,0,True,True
+267322,DNR 24k POLYS,1,0,True,0,True,True
+267388,PWI,4,0,True,0,True,True
+267415,other,1,0,True,0,True,True
+267582,DNR 24k POLYS,1,0,True,0,True,True
+267630,2004 FSA,1,0,True,0,True,True
+267649,2004 FSA,1,0,True,0,True,True
+267674,other,1,0,True,0,True,True
+267675,other,4,0,True,0,True,True
+267743,other,5,0,True,0,True,True
+267765,2004 FSA,1,0,True,0,True,True
+267848,other,3,0,True,0,True,True
+267930,2004 FSA,1,0,True,0,True,True
+267999,2004 FSA,3,0,True,1,True,False
+268070,other,2,0,True,0,True,True
+268173,2004 FSA,1,0,True,0,True,True
+268177,other,1,0,True,0,True,True
+268184,other,2,0,True,0,True,True
+268244,2004 FSA,1,0,True,0,True,True
+268325,2004 FSA,1,0,True,0,True,True
+268368,2004 FSA,1,0,True,0,True,True
+268422,2004 FSA,1,0,True,0,True,True
+268550,ORIG DLG,1,0,True,0,True,True
+268659,other,3,0,True,0,True,True
+268675,other,2,0,True,0,True,True
+268677,DNR 24k POLYS,1,0,True,0,True,True
+268728,2004 FSA,1,0,True,0,True,True
+268746,2004 FSA,1,0,True,0,True,True
+268750,2004 FSA,1,0,True,0,True,True
+268814,other,1,0,True,0,True,True
+268898,other,3,1,True,1,True,False
+268955,other,1,0,True,0,True,True
+268956,other,1,0,True,0,True,True
+268958,other,2,0,True,0,True,True
+268959,other,1,0,True,0,True,True
+268960,other,1,0,True,0,True,True
+269002,2004 FSA,7,0,True,1,True,False
+269004,2004 FSA,1,0,True,0,True,True
+269006,other,1,0,True,0,True,True
+269072,other,3,0,True,0,True,True

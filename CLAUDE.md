@@ -1,5 +1,5 @@
 # project
-title: Fractal Geometry of Minnesota Lake Shorelines: Area, Length, and Mapping Source
+title: Box-Counting Analysis of Minnesota Lake Shorelines: Lake Size, Shoreline Length, and Mapping Source
 question: how do box-counting dimensions of natural lake shorelines relate to lake area and shoreline length, and how much does the mapping source change them?
 
 # data

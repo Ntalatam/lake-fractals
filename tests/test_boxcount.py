@@ -13,9 +13,11 @@ import math
 from pathlib import Path
 
 import numpy as np
+import pytest
 from shapely.geometry import MultiPolygon, Point, Polygon
 
 from boxcount import DEFAULT_BOX_SIZES, DENSIFY_FRACTION, box_count_dimension
+from conftest import assert_close
 from primary_analysis import WINDOWS
 from validation import circle, koch_snowflake, sierpinski_triangle
 
@@ -140,6 +142,18 @@ def result_record(result):
     }
 
 
+def from_hex(value):
+    return np.array([float.fromhex(v) for v in value]) if isinstance(value, list) else float.fromhex(value)
+
+
+def assert_same_result(actual, expected, label=""):
+    """Two result records: box counts and dtypes exactly, floating values within the tolerance in conftest.py."""
+    for key in ["counts", "counts_dtype", "offset_dimensions_dtype"]:
+        assert actual[key] == expected[key], (label, key)
+    for key in ["dimension", "r_squared", "box_sizes", "offset_dimensions"]:
+        assert_close(from_hex(actual[key]), from_hex(expected[key]), (label, key))
+
+
 def write_golden():
     """Write GOLDEN with the box_count_dimension currently importable.
 
@@ -155,9 +169,22 @@ def write_golden():
     GOLDEN.write_text(json.dumps({"source": "src/boxcount.py at commit 3b85cc7", "cases": cases}, indent=1) + "\n")
 
 
-def test_default_output_is_byte_identical_to_3b85cc7():
+def test_default_output_matches_3b85cc7():
     # the planned analysis calls box_count_dimension without densify_fraction,
-    # so its results must not change now that the spacing is an argument
+    # so its results must not change now that the spacing is an argument. box
+    # counts must match exactly; floating values may differ in the last digits
+    # on other systems
+    golden = json.loads(GOLDEN.read_text())["cases"]
+    shapes = golden_shapes()
+    assert len(golden) == len(shapes) * len(WINDOWS)
+    for name, shape in shapes.items():
+        for window, sizes in WINDOWS.items():
+            assert_same_result(result_record(box_count_dimension(shape, sizes)), golden[f"{name}/{window}"], (name, window))
+
+
+@pytest.mark.exact
+def test_default_output_is_byte_identical_to_3b85cc7():
+    # on the computer that wrote the golden file, every field matches bit for bit
     golden = json.loads(GOLDEN.read_text())["cases"]
     shapes = golden_shapes()
     assert len(golden) == len(shapes) * len(WINDOWS)
@@ -174,6 +201,13 @@ def test_golden_shapes_are_valid():
 
 def test_densify_fraction_defaults_to_the_planned_0_1():
     assert DENSIFY_FRACTION == 0.1
+    shape = golden_shapes()["polygon"]
+    explicit = box_count_dimension(shape, densify_fraction=0.1)
+    assert_same_result(result_record(explicit), result_record(box_count_dimension(shape)))
+
+
+@pytest.mark.exact
+def test_densify_fraction_default_is_byte_identical_to_0_1():
     shape = golden_shapes()["polygon"]
     explicit = box_count_dimension(shape, densify_fraction=0.1)
     assert result_record(explicit) == result_record(box_count_dimension(shape))

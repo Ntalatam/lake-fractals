@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code or its results, please cite it as below."
 type: software
-title: "Fractal Geometry of Minnesota Lake Shorelines: Area, Length, and Mapping Source"
+title: "Box-Counting Analysis of Minnesota Lake Shorelines: Lake Size, Shoreline Length, and Mapping Source"
 authors:
   - family-names: Talatam
     given-names: Nikhil

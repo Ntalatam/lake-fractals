@@ -1,3 +1,5 @@
+_Working draft, with a source comment for every number; the final paper will be the PDF in `paper/`._
+
 # Limitations
 
 <!--

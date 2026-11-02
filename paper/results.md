@@ -1,3 +1,5 @@
+_Working draft, with a source comment for every number; the final paper will be the PDF in `paper/`._
+
 # Results
 
 <!--
@@ -329,6 +331,62 @@ With the planned decision rule applied to the kept lakes, both relationships are
 | 20–100 m (primary) | -0.2689 | -0.3001 to -0.2370 | -0.2726 | -0.3036 to -0.2405 <!-- results/validation/width_exclusion_diameter_rho.csv: 20_100 --> |
 | 10–100 m | -0.2441 | -0.2764 to -0.2125 | -0.2433 | -0.2752 to -0.2120 <!-- results/validation/width_exclusion_diameter_rho.csv: 10_100 --> |
 | 20–200 m | -0.3735 | -0.4029 to -0.3434 | -0.3748 | -0.4047 to -0.3446 <!-- results/validation/width_exclusion_diameter_rho.csv: 20_200 --> |
+
+### Equalized resampling on lakes it left whole
+
+Added after a second review, with settings from the author; not in the analysis plan. Besides the vertex spacing, the equalized resampling (Table 22) dropped rings, 1,959 at 25 m and 3,373 at 50 m, and left 9 and 24 lakes invalid <!-- results/validation/equalized_rings.csv: n_rings_dropped, n_lakes_invalid_after_resampling -->. Each primary lake was flagged for whether rebuilding its rings at 25 m and at 50 m <!-- results/validation/equalized_clean_parameters.csv: interval_m_1, interval_m_2 --> dropped any ring and whether the result is a valid polygon (results/validation/equalized_flags.csv). The clean subset is the lakes with no dropped ring and a valid polygon at both intervals: 2,662 of the 3,274 primary lakes (81.3%) <!-- results/validation/equalized_clean_counts.csv: all lakes, n_clean, n_lakes, percent_clean -->. The estimates are the existing ones: the planned estimates, the spacing 0.01 estimates and the rebuilt-ring estimates of Table 22. Only the rebuilt geometries were recomputed, for the flags. Lakes with no delineat_1 are left out of the source comparison, as planned, so it uses 2,625 clean lakes <!-- results/validation/equalized_clean_kruskal_wallis.csv: subset clean, n_lakes -->.
+
+**Table 25. Clean subset by source group.** <!-- results/validation/equalized_clean_counts.csv: columns group, n_lakes, n_clean, percent_clean -->
+
+| group | lakes | clean | percent clean |
+|---|---|---|---|
+| 2004 FSA | 1,543 | 1,190 | 77.1 <!-- results/validation/equalized_clean_counts.csv: 2004 FSA --> |
+| ORIG DLG | 293 | 287 | 98.0 <!-- results/validation/equalized_clean_counts.csv: ORIG DLG --> |
+| DNR 24k POLYS | 223 | 221 | 99.1 <!-- results/validation/equalized_clean_counts.csv: DNR 24k POLYS --> |
+| PWI | 54 | 50 | 92.6 <!-- results/validation/equalized_clean_counts.csv: PWI --> |
+| other | 1,110 | 877 | 79.0 <!-- results/validation/equalized_clean_counts.csv: other --> |
+| no delineat_1 | 51 | 37 | 72.5 <!-- results/validation/equalized_clean_counts.csv: no delineat_1 --> |
+| all lakes | 3,274 | 2,662 | 81.3 <!-- results/validation/equalized_clean_counts.csv: all lakes --> |
+
+**Table 26. Median primary-window dimension by source group, the spread (largest group median minus smallest) and the Kruskal–Wallis H: clean subset and all lakes, with vertices as digitized and rebuilt every 25 m and every 50 m.** <!-- results/validation/equalized_clean_medians.csv: columns subset, densify_fraction, vertices, group, median_dim; results/validation/equalized_clean_spread.csv: spread; results/validation/equalized_clean_kruskal_wallis.csv: H -->
+
+| point spacing | group | clean: as digitized | clean: every 25 m | clean: every 50 m | all lakes: as digitized | all lakes: every 25 m | all lakes: every 50 m |
+|---|---|---|---|---|---|---|---|
+| 0.1 (planned) | 2004 FSA | 1.0207 | 1.0153 | 1.0108 | 1.0289 | 1.0216 | 1.0159 <!-- results/validation/equalized_clean_medians.csv: 0.1, 2004 FSA --> |
+| 0.1 (planned) | ORIG DLG | 1.0121 | 1.0089 | 1.0064 | 1.0122 | 1.0092 | 1.0068 <!-- results/validation/equalized_clean_medians.csv: 0.1, ORIG DLG --> |
+| 0.1 (planned) | DNR 24k POLYS | 1.0100 | 1.0051 | 1.0028 | 1.0100 | 1.0053 | 1.0032 <!-- results/validation/equalized_clean_medians.csv: 0.1, DNR 24k POLYS --> |
+| 0.1 (planned) | PWI | 1.0407 | 1.0349 | 1.0264 | 1.0444 | 1.0372 | 1.0279 <!-- results/validation/equalized_clean_medians.csv: 0.1, PWI --> |
+| 0.1 (planned) | other | 1.0192 | 1.0140 | 1.0092 | 1.0242 | 1.0181 | 1.0127 <!-- results/validation/equalized_clean_medians.csv: 0.1, other --> |
+| 0.1 (planned) | spread | 0.0308 | 0.0298 | 0.0235 | 0.0344 | 0.0319 | 0.0247 <!-- results/validation/equalized_clean_spread.csv: 0.1, spread --> |
+| 0.1 (planned) | Kruskal–Wallis H | 88.72 | 69.50 | 56.49 | 170.90 | 138.52 | 114.27 <!-- results/validation/equalized_clean_kruskal_wallis.csv: 0.1, H --> |
+| 0.01 | 2004 FSA | 1.0312 | 1.0260 | 1.0215 | 1.0388 | 1.0320 | 1.0267 <!-- results/validation/equalized_clean_medians.csv: 0.01, 2004 FSA --> |
+| 0.01 | ORIG DLG | 1.0217 | 1.0196 | 1.0177 | 1.0218 | 1.0196 | 1.0177 <!-- results/validation/equalized_clean_medians.csv: 0.01, ORIG DLG --> |
+| 0.01 | DNR 24k POLYS | 1.0191 | 1.0153 | 1.0129 | 1.0198 | 1.0155 | 1.0143 <!-- results/validation/equalized_clean_medians.csv: 0.01, DNR 24k POLYS --> |
+| 0.01 | PWI | 1.0512 | 1.0453 | 1.0354 | 1.0529 | 1.0479 | 1.0392 <!-- results/validation/equalized_clean_medians.csv: 0.01, PWI --> |
+| 0.01 | other | 1.0292 | 1.0245 | 1.0195 | 1.0337 | 1.0286 | 1.0235 <!-- results/validation/equalized_clean_medians.csv: 0.01, other --> |
+| 0.01 | spread | 0.0321 | 0.0301 | 0.0225 | 0.0331 | 0.0324 | 0.0249 <!-- results/validation/equalized_clean_spread.csv: 0.01, spread --> |
+| 0.01 | Kruskal–Wallis H | 85.35 | 66.79 | 51.59 | 164.98 | 133.73 | 108.25 <!-- results/validation/equalized_clean_kruskal_wallis.csv: 0.01, H --> |
+
+H is the Kruskal–Wallis test statistic. The largest p-value of these twelve tests is 1.68e-10 <!-- results/validation/equalized_clean_kruskal_wallis.csv: p_value -->.
+
+**Table 27. Gaps between group medians, with 95% intervals from resampling lakes within each group.** <!-- results/validation/equalized_clean_gaps.csv: columns subset, densify_fraction, vertices, first, second, gap, ci_low, ci_high; resamples and seed: results/validation/equalized_clean_parameters.csv, gap_resamples, gap_seed -->
+
+| gap | point spacing | vertices | clean: gap | clean: 95% CI | all lakes: gap | all lakes: 95% CI |
+|---|---|---|---|---|---|---|
+| 2004 FSA minus ORIG DLG | 0.1 (planned) | as digitized | 0.0087 | 0.0050 to 0.0118 | 0.0167 | 0.0127 to 0.0201 <!-- results/validation/equalized_clean_gaps.csv: ORIG DLG, 0.1, as digitized --> |
+| 2004 FSA minus ORIG DLG | 0.1 (planned) | every 25 m | 0.0063 | 0.0021 to 0.0100 | 0.0124 | 0.0082 to 0.0163 <!-- results/validation/equalized_clean_gaps.csv: ORIG DLG, 0.1, every 25 m --> |
+| 2004 FSA minus ORIG DLG | 0.1 (planned) | every 50 m | 0.0044 | 0.0018 to 0.0067 | 0.0091 | 0.0062 to 0.0117 <!-- results/validation/equalized_clean_gaps.csv: ORIG DLG, 0.1, every 50 m --> |
+| 2004 FSA minus ORIG DLG | 0.01 | as digitized | 0.0095 | 0.0057 to 0.0125 | 0.0170 | 0.0126 to 0.0197 <!-- results/validation/equalized_clean_gaps.csv: ORIG DLG, 0.01, as digitized --> |
+| 2004 FSA minus ORIG DLG | 0.01 | every 25 m | 0.0064 | 0.0028 to 0.0092 | 0.0124 | 0.0087 to 0.0154 <!-- results/validation/equalized_clean_gaps.csv: ORIG DLG, 0.01, every 25 m --> |
+| 2004 FSA minus ORIG DLG | 0.01 | every 50 m | 0.0038 | 0.0013 to 0.0063 | 0.0090 | 0.0062 to 0.0114 <!-- results/validation/equalized_clean_gaps.csv: ORIG DLG, 0.01, every 50 m --> |
+| 2004 FSA minus DNR 24k POLYS | 0.1 (planned) | as digitized | 0.0108 | 0.0078 to 0.0160 | 0.0189 | 0.0152 to 0.0241 <!-- results/validation/equalized_clean_gaps.csv: DNR 24k POLYS, 0.1, as digitized --> |
+| 2004 FSA minus DNR 24k POLYS | 0.1 (planned) | every 25 m | 0.0102 | 0.0074 to 0.0138 | 0.0164 | 0.0133 to 0.0203 <!-- results/validation/equalized_clean_gaps.csv: DNR 24k POLYS, 0.1, every 25 m --> |
+| 2004 FSA minus DNR 24k POLYS | 0.1 (planned) | every 50 m | 0.0080 | 0.0058 to 0.0122 | 0.0127 | 0.0106 to 0.0170 <!-- results/validation/equalized_clean_gaps.csv: DNR 24k POLYS, 0.1, every 50 m --> |
+| 2004 FSA minus DNR 24k POLYS | 0.01 | as digitized | 0.0121 | 0.0073 to 0.0161 | 0.0190 | 0.0141 to 0.0238 <!-- results/validation/equalized_clean_gaps.csv: DNR 24k POLYS, 0.01, as digitized --> |
+| 2004 FSA minus DNR 24k POLYS | 0.01 | every 25 m | 0.0107 | 0.0055 to 0.0150 | 0.0165 | 0.0111 to 0.0213 <!-- results/validation/equalized_clean_gaps.csv: DNR 24k POLYS, 0.01, every 25 m --> |
+| 2004 FSA minus DNR 24k POLYS | 0.01 | every 50 m | 0.0086 | 0.0031 to 0.0117 | 0.0124 | 0.0079 to 0.0168 <!-- results/validation/equalized_clean_gaps.csv: DNR 24k POLYS, 0.01, every 50 m --> |
+
+Each interval resamples the lakes within each group, 2,000 times with seed 0 <!-- results/validation/equalized_clean_parameters.csv: gap_resamples, gap_seed -->; every gap of one subset uses the same resampled lakes.
 
 ## Figures
 

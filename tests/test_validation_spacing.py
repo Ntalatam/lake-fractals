@@ -2,7 +2,9 @@
 
 import numpy as np
 import pandas as pd
+import pytest
 
+from conftest import assert_close
 from primary_analysis import BOOTSTRAP_RESAMPLES, OUT_DIR, ROOT, decision_rule, source_comparison
 from validation_spacing import (
     DENSIFY_FRACTION_USED,
@@ -66,9 +68,29 @@ def test_planned_statistics_on_synthetic_dims():
     assert (tables["rho_sensitivity_no_pilot.csv"]["n"] == (~dims["in_pilot"]).sum()).all()
 
 
-def test_planned_statistics_reproduce_the_planned_files_byte_for_byte(tmp_path):
+def test_planned_statistics_reproduce_the_planned_files(tmp_path):
     # the rerun's statistics code, given the planned dims.csv, must write the
-    # same files as src/primary_analysis.py did
+    # files src/primary_analysis.py wrote: the same columns, rows and types,
+    # every value that is not a float exactly, and floats within the tolerance
+    # in conftest.py, since they can differ in the last digits on other systems
+    dims = pd.read_csv(OUT_DIR / "dims.csv")
+    tables = planned_statistics(dims, n_resamples=BOOTSTRAP_RESAMPLES)
+    for name, table in tables.items():
+        table.to_csv(tmp_path / name, index=False)
+        written, planned = pd.read_csv(tmp_path / name), pd.read_csv(OUT_DIR / name)
+        assert list(written.columns) == list(planned.columns), name
+        assert written.dtypes.tolist() == planned.dtypes.tolist(), name
+        assert len(written) == len(planned), name
+        for column in planned.columns:
+            if pd.api.types.is_float_dtype(planned[column]):
+                assert_close(written[column], planned[column], (name, column))
+            else:
+                assert written[column].tolist() == planned[column].tolist(), (name, column)
+
+
+@pytest.mark.exact
+def test_planned_statistics_reproduce_the_planned_files_byte_for_byte(tmp_path):
+    # on the computer that wrote results/primary/, the files match byte for byte
     dims = pd.read_csv(OUT_DIR / "dims.csv")
     tables = planned_statistics(dims, n_resamples=BOOTSTRAP_RESAMPLES)
     for name, table in tables.items():
