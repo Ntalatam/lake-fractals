@@ -1,0 +1,21 @@
+{
+  "title": "Code and results for: Box-Counting Analysis of Minnesota Lake Shorelines: Lake Size, Shoreline Length, and Mapping Source",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Talatam, Nikhil",
+      "affiliation": "Inver Hills Community College",
+      "orcid": "0009-0006-3251-637X"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "box-counting dimension",
+    "lake shorelines",
+    "Minnesota",
+    "hydrography"
+  ],
+  "description": "<p>This repository holds the code, tests, results files and preprint PDF for a box-counting analysis of Minnesota lake shorelines. The lake data (Minnesota DNR Hydrography Dataset) are not included; the README gives their source. The paper PDF, drafts and figures are licensed CC BY 4.0 (LICENSE-paper.md), and the code is licensed MIT.</p>"
+}
