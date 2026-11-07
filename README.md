@@ -1,10 +1,14 @@
 # Box-Counting Analysis of Minnesota Lake Shorelines: Lake Size, Shoreline Length, and Mapping Source
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23997837.svg)](https://doi.org/10.5281/zenodo.23997837)
+
 Code, results and paper drafts for a study of Minnesota lake shorelines. It asks how a box-counting exponent of each lake's shoreline relates to lake area and shoreline length, and how much it changes with the source the shoreline was mapped from.
 
 ## Paper
 
-The preprint is `paper/talatam_2026_minnesota_lake_shorelines.pdf` (November 2, 2026, not peer reviewed). The `paper/*.md` files are working drafts that name the file behind each number; where they differ from the PDF, the PDF is the paper.
+The paper is `paper/talatam_2026_minnesota_lake_shorelines.pdf` (November 6, 2026), a non-peer-reviewed preprint submitted to EarthArXiv. The `paper/*.md` files are working drafts that name the file behind each number; where they differ from the PDF, the PDF is the paper.
+
+**Archive:** archived on Zenodo, all versions https://doi.org/10.5281/zenodo.23997837; version 1.0.0, which holds every result in the paper, https://doi.org/10.5281/zenodo.23997838.
 
 ## What is measured
 
@@ -200,6 +204,7 @@ README.md                  this file
 LICENSE                    MIT license (code)
 LICENSE-paper.md           CC BY 4.0 (the paper PDF, drafts and figures)
 CITATION.cff               how to cite
+.zenodo.json               Zenodo release metadata
 requirements.txt           pinned Python packages
 pyproject.toml             pytest settings (tests import from src/)
 .claude/settings.json      Claude Code project setting: no attribution lines in commits
@@ -228,7 +233,7 @@ results/
   exploratory/outer_shore/ step 8
   validation/              steps 10-18 (README.md lists every file)
 paper/
-  talatam_2026_minnesota_lake_shorelines.pdf   the paper (preprint, November 2, 2026)
+  talatam_2026_minnesota_lake_shorelines.pdf   the paper (preprint, November 6, 2026)
   methods.md, results.md, limitations.md   drafts
   figures/                 step 9
 docs/
